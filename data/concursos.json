@@ -130,7 +130,8 @@
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-09",
    "tambien_en": [
-    "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213"
+    "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213",
+    "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679"
    ],
    "titulo_requerido": null,
    "req": {
@@ -193,19 +194,10 @@
     ],
     "suman": [],
     "otros": [
-     "Acreditar experiencia en manejo informático y conocimiento sobre tecnologías de la comunicación",
-     "Actitud de pertenencia y compromiso ético con la Institución",
-     "Predisposición para el trabajo en equipo",
-     "Comunicación cordial y efectiva",
-     "Rapidez y eficiencia en la ejecución de las tareas",
-     "Personalidad proactiva y motivación por la calidad",
-     "Habilidades en las relaciones interpersonales",
-     "Capacidad de gestión de la información",
-     "Creatividad, iniciativa y espíritu emprendedor",
-     "Interés y predisposición en formación y actualización constante"
+     "Acreditar experiencia en manejo informático y conocimiento sobre tecnologías de la comunicación"
     ],
     "lugar": "Radio Universidad de Comodoro Rivadavia, ubicada en Km 3",
-    "horario": "35 horas semanales con flexibilidad, de acuerdo a las necesidades de la dependencia. PERFIL:",
+    "horario": "35 horas semanales con flexibilidad, de acuerdo a las necesidades de la dependencia",
     "remite": null
    },
    "inscripcion": "abierta",
@@ -523,52 +515,6 @@
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Técnico Profesional \"B\"",
    "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:4c5bba0e-4680-4cd7-b639-e89ef8c44679",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrativo, Planta Permanente, para desempeñarse como Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretaría de Ciencia y Técnica, en el marco del Decreto PEN Nº 366/06 - Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza Digital Consejo Superior N° 210, y avalar el siguiente cronograma y demás especificaciones a tener en cuenta en todos los llamados.",
-   "url": "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679",
-   "instancia": "interno",
-   "dependencia": "rectorado",
-   "resolucion": "625/2026",
-   "publicado": "2026-09-28",
-   "detalle": "Resoluciones digitales R/11",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Título del Nivel Secundario"
-    ],
-    "suman": [
-     "Título en Tecnicatura Universitaria en Gestión y Administración de Universidades"
-    ],
-    "otros": [],
-    "lugar": "Sede Comodoro Rivadavia en el Horario de 8.00 a 15.00 hs",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretarí…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
   },
   {
    "id": "judicial:976",
@@ -1055,17 +1001,7 @@
      "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
     ],
     "suman": [],
-    "otros": [
-     "Actitud de pertenencia y compromiso con la Institución",
-     "Capacidad y predisposición para el trabajo en equipo",
-     "Buena predisposición y trato cordial en atención al público",
-     "Habilidades de comunicación interpersonal y buen trato con la Comunidad Universitaria",
-     "Disponibilidad horaria, incluidos los fines de semana (35 hs semanales)",
-     "Conocimiento de los Sistema Operativo Windows o Linux, procesador de texto, planilla de cálculo y base de datos (MS Office, Open Office o similar)",
-     "Redacción propia",
-     "Conocimiento de la normativa que rige al personal Nodocente",
-     "Conocimientos básicos en electricidad, albañilería, plomería, carpintería y otras disciplinas que hacen al mantenimiento general edificios y mobiliario en la Universidad"
-    ],
+    "otros": [],
     "lugar": "Sede Esquel",
     "horario": "08 a 15 hs. (35hs semanales)",
     "remite": null
@@ -1637,18 +1573,7 @@
      "Tener flexibilidad horaria de acuerdo a las necesidades de la Editorial",
      "Estar disponible para viajar a las otras sedes de la Universidad y de participar en distintas ferias de libros y/o actividades para difusión de publicaciones, entre otras",
      "Formación y/o actualización en el área de la comunicación, como así también en lo vinculado a tareas de redacción y corrección de textos académicos y literarios",
-     "Acreditar capacidad para diseñar e implementar procesos comunicacionales, estableciendo canales y procedimientos que garanticen el acceso adecuado a la información. PER…",
-     "Actitud de pertenencia y compromiso con la Institución",
-     "Competencia para gestionar y administrar contenido editorial",
-     "Interés en el desarrollo de estrategias comunicacionales para la difusión de las acciones de la editorial",
-     "Habilidad en la expresión oral y escrita involucrada en cada formato comunicacional",
-     "Capacidad de colaboración y apoyo profesional en el desarrollo de las actividades editoriales (edición, producción y venta)",
-     "Habilidad de desarrollar pensamiento analítico y capacidad de resolver problemas",
-     "Habilidad interpersonal para el asesoramiento y asistencia a los requerimientos de los docentes, investigadores y autoridades vinculados en los procesos editoriales inv…",
-     "Predisposición para el trabajo en equipo",
-     "Poseer competencias de proactividad y motivación en la tarea",
-     "Contribuir al desarrollo del área",
-     "Poseer capacidad de ventas"
+     "Acreditar capacidad para diseñar e implementar procesos comunicacionales, estableciendo canales y procedimientos que garanticen el acceso adecuado a la información"
     ],
     "lugar": "Editorial Universitaria de la Patagonia, Comodoro Rivadavia",
     "horario": null,
@@ -2063,20 +1988,7 @@
     ],
     "otros": [
      "Ser argentino nativo, por opción o naturalizado con cuatro años en ejercicio de la ciudadanía",
-     "Presentación de Curiculum Vitae actualizado",
-     "Predisposición para trabajo en equipo",
-     "Idoneidad para realizar tareas técnico-profesionales",
-     "Disponibilidad respecto a su capacitación permanente",
-     "Capacidad para detectar y comunicar problemas propios de las tareas que desarrolle y proponer soluciones",
-     "Excelente manejo de herramientas informáticas y rápida adaptación al uso de nuevos sistemas",
-     "Personalidad proactiva",
-     "Compromiso de guardar reserva de la información a la que acceda desde su puesto laboral. CONOCIMIENTO Y COMPETENCIA:",
-     "Manejo y conocimiento de técnicas de análisis para aceites esenciales",
-     "Conocimiento teórico y predisposición a capacitarse en las distintas técnicas de obtención de aceites esenciales y afines",
-     "Manejo sistema operativo Windows, Linux, procesador de texto, planillas y bases de datos",
-     "Conocimiento sobre Seguridad e Higiene",
-     "Conocimientos básicos de idioma inglés",
-     "Conocimiento sobre el Estatuto de la UNPSJB, el CCT y reglamento de concursos del personal Nodocente"
+     "Presentación de Curiculum Vitae actualizado"
     ],
     "lugar": "Unidad de Extracción de Aceites Esenciales (dependiente del INBIES), Esquel",
     "horario": null,
