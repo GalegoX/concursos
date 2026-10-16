@@ -15,45 +15,39 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0 Safari/537.36")
 
 URLS = {
-    # Universidad
-    "unp_rectorado": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-    "unp_home": "https://www.unp.edu.ar/",
-    "ing_concursos": "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos",
-    "fce_concursos": "https://web.sistemasfce.com.ar/wordpress/index.php/concursos-nodocentes/",
-    "fce_wp_pages": "https://web.sistemasfce.com.ar/wordpress/index.php/wp-json/wp/v2/pages?search=concurso&per_page=20",
-    "fce_wp_posts": "https://web.sistemasfce.com.ar/wordpress/index.php/wp-json/wp/v2/posts?search=concurso&per_page=20",
-    "fcn_home": "https://www.fcn.unp.edu.ar/",
-    "fcn_wp_posts": "https://www.fcn.unp.edu.ar/wp-json/wp/v2/posts?search=concurso&per_page=20",
-    "fcn_wp_pages": "https://www.fcn.unp.edu.ar/wp-json/wp/v2/pages?search=concurso&per_page=20",
-    "fcn_feed": "https://www.fcn.unp.edu.ar/feed/",
-    "fhcs_home": "https://www.fhcs.unp.edu.ar/",
-    "fhcs_wp_posts": "https://www.fhcs.unp.edu.ar/wp-json/wp/v2/posts?search=concurso&per_page=30",
-    "fhcs_feed": "https://www.fhcs.unp.edu.ar/feed/",
-    "fhcs_concursos": "https://www.fhcs.unp.edu.ar/concursos/",
-    "fhcs_post": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
-    "fcj_a": "https://www.fcj.unp.edu.ar/",
-    "fcj_b": "https://fcj.unp.edu.ar/",
-    "fcj_c": "https://www.juridicas.unp.edu.ar/",
-    "digesto_mpd": "https://huarpe.unp.edu.ar/sudocu/mpd/",
-    "digesto_raiz": "https://huarpe.unp.edu.ar/sudocu/",
-    # Justicia provincial
-    "jus_listado": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-    "jus_rrhh": "https://www.juschubut.gov.ar/organizacion/dependientes-administracion-general/direccion-de-recursos-humanos/llamados-a-concurso.html",
-    "jus_servicios": "https://www.juschubut.gov.ar/servicios/concursos/",
-    "mpf_concursos": "https://www.mpfchubut.gov.ar/ciudadano/concursos",
-    "mpf_abiertos": "https://www.mpfchubut.gov.ar/concursos/concursos-abiertos",
-    "defensa_a": "https://www.defensachubut.gov.ar/",
-    "defensa_b": "https://defensachubut.gov.ar/",
-    # Justicia nacional con sede en Comodoro
+    # Rectorado: la direccion de siempre redirige a un 404
+    "r_http": "http://www.unp.edu.ar/index.php/webmail-2/concursos",
+    "r_sinwww": "https://unp.edu.ar/index.php/webmail-2/concursos",
+    "r_nodocente": "https://www.unp.edu.ar/index.php/component/content/article?id=4671",
+    "r_buscar": "https://www.unp.edu.ar/index.php?option=com_search&searchword=concurso&searchphrase=all&ordering=newest&limit=50",
+    "r_finder": "https://www.unp.edu.ar/index.php/component/finder/search?q=concurso",
+    "r_feed": "https://www.unp.edu.ar/index.php?format=feed&type=rss",
+    "r_docentes": "https://www.unp.edu.ar/index.php/2-uncategorised/5418-concursos-docentes",
+    # Economicas se mudo a fce.unp.edu.ar
+    "fce_home": "https://www.fce.unp.edu.ar/",
+    "fce_wp_posts": "https://www.fce.unp.edu.ar/wp-json/wp/v2/posts?search=concurso&per_page=20",
+    "fce_wp_pages": "https://www.fce.unp.edu.ar/wp-json/wp/v2/pages?search=concurso&per_page=20",
+    "fce_wordpress": "https://www.fce.unp.edu.ar/wordpress/",
+    # Defensa Publica del Chubut
+    "def_concursos": "https://www.defensachubut.gov.ar/?page_id=11595",
+    "def_wp_page": "https://www.defensachubut.gov.ar/wp-json/wp/v2/pages/11595",
+    "def_wp_posts": "https://www.defensachubut.gov.ar/wp-json/wp/v2/posts?search=concurso&per_page=20",
+    # Defensoria General de la Nacion (ingreso por jurisdiccion)
+    "mpd_vigentes": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes",
+    "mpd_tecadm": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/agrupamiento-tecnico-administrativo-c",
+    "mpd_servaux": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/agrupamiento-servicios-auxiliares-c",
+    "mpd_ingreso": "https://www.mpd.gov.ar/index.php/ingreso-democratico",
+    # MPF de la Nacion (la primera vez dio 500)
     "mpfn_ingreso": "https://www.mpf.gob.ar/ingreso-democratico/",
-    "mpfn_feed": "https://www.mpf.gob.ar/ingreso-democratico/feed/",
-    "mpfn_novedad": "https://www.mpf.gob.ar/ingreso-democratico/novedad/convocatoria-concurso-no-98-servicios-auxiliares-comodoro-rivadavia/",
-    "mpd_home": "https://www.mpd.gov.ar/",
+    "fiscales_buscar": "https://www.fiscales.gob.ar/?s=ingreso+democratico",
+    "fiscales_wp": "https://www.fiscales.gob.ar/wp-json/wp/v2/posts?search=concurso%20ingreso&per_page=20",
+    # Digesto SUDOCU: buscar como consulta los documentos
+    "dig_js": "https://huarpe.unp.edu.ar/sudocu/mpd/mpd.min.js",
 }
 
 
 def bajar(sesion, url, verificar=True):
-    return sesion.get(url, timeout=45, allow_redirects=True, verify=verificar)
+    return sesion.get(url, timeout=60, allow_redirects=True, verify=verificar)
 
 
 def main():
