@@ -710,14 +710,13 @@
    "publicado": "2026-10-01",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf",
    "resolucion": "899/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
    "instancia": "interno",
    "categoria": 7,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
    "desde": "2026-10-23",
    "hasta": "2026-10-29",
    "req": {
@@ -752,15 +751,13 @@
    "publicado": "2026-10-01",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
    "resolucion": "902/2026",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
    "instancia": "interno",
    "categoria": 5,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Puerto Madryn",
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
    "desde": "2026-10-23",
    "hasta": "2026-10-29",
    "req": {
@@ -780,13 +777,7 @@
    "inscripcion": "por_abrir",
    "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
    "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
+   "para": {},
    "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
@@ -801,14 +792,13 @@
    "publicado": "2026-10-01",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
    "resolucion": "900/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
    "instancia": "interno",
    "categoria": 4,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
    "desde": "2026-10-23",
    "hasta": "2026-10-29",
    "req": {
@@ -1047,6 +1037,9 @@
    "dependencia": "fcnycs",
    "publicado": "2026-04-07",
    "resolucion": "532/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
    "tambien_en": [
     "https://huarpe.unp.edu.ar/f26664a5-1f23-477b-b696-094b7147c3ef"
    ],
@@ -1054,9 +1047,6 @@
    "categoria": 7,
    "agrupamiento": "tp_b",
    "titulo_requerido": "terciario",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -1428,13 +1418,13 @@
    "publicado": "2024-02-28",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2024/01/RES-D12-060-2024.pdf",
    "resolucion": "60/2024",
+   "ciudades": [
+    "Trelew"
+   ],
    "instancia": "abierto",
    "categoria": 7,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Trelew"
-   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -1461,13 +1451,13 @@
    "publicado": "2023-08-08",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2023/06/D12-541-2023.pdf",
    "resolucion": "541/2023",
+   "ciudades": [
+    "Trelew"
+   ],
    "instancia": "interno",
    "categoria": 7,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Trelew"
-   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
