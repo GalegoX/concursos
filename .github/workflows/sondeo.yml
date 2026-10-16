@@ -1,0 +1,35 @@
+name: Sondeo de fuentes (temporal)
+
+# Prueba de lectura: baja las paginas publicas de concursos tal como las ve
+# GitHub y deja el HTML como adjunto de la corrida (se borra solo a los 3 dias).
+# Sirve para programar los lectores sobre la estructura real. Se elimina despues.
+
+on:
+  push:
+    branches: [sondeo]
+
+permissions:
+  contents: read
+
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Bajar las paginas candidatas
+        run: python sondeo/sondeo.py
+
+      - name: Guardar el HTML como adjunto de la corrida
+        uses: actions/upload-artifact@v4
+        with:
+          name: sondeo
+          path: out/
+          retention-days: 3
