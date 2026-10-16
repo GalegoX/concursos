@@ -1,0 +1,176 @@
+{
+ "revisado": "2026-10-16T12:11-03:00",
+ "fuentes": [
+  {
+   "id": "rectorado",
+   "nombre": "UNPSJB, Rectorado",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "ambito": "nodocente",
+   "ok": true,
+   "avisos": 17,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "ingenieria",
+   "nombre": "UNPSJB, Facultad de Ingeniería",
+   "url": "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos",
+   "ambito": "nodocente",
+   "ok": true,
+   "avisos": 14,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "fcnycs",
+   "nombre": "UNPSJB, Facultad de Cs. Naturales y Cs. de la Salud",
+   "url": "https://www.fcn.unp.edu.ar/",
+   "ambito": "nodocente",
+   "ok": true,
+   "avisos": 1,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "humanidades",
+   "nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "url": "https://www.fhcs.unp.edu.ar/",
+   "ambito": "nodocente",
+   "ok": true,
+   "avisos": 7,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "digesto",
+   "nombre": "UNPSJB, Digesto de resoluciones",
+   "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos",
+   "ambito": "nodocente",
+   "ok": true,
+   "avisos": 49,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "judicial",
+   "nombre": "Poder Judicial del Chubut",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "ambito": "judicial",
+   "ok": true,
+   "avisos": 21,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "mpf",
+   "nombre": "Ministerio Público Fiscal del Chubut",
+   "url": "https://www.mpfchubut.gov.ar/ciudadano/concursos",
+   "ambito": "judicial",
+   "ok": true,
+   "avisos": 31,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "defensa",
+   "nombre": "Defensa Pública del Chubut",
+   "url": "https://www.defensachubut.gov.ar/?page_id=11595",
+   "ambito": "judicial",
+   "ok": true,
+   "avisos": 58,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  {
+   "id": "defensoria_nacion",
+   "nombre": "Defensoría General de la Nación",
+   "url": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes",
+   "ambito": "judicial",
+   "ok": true,
+   "avisos": 0,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  }
+ ],
+ "avisos": {
+  "galego": {
+   "canal": false
+  },
+  "pareja": {
+   "canal": false
+  }
+ },
+ "diagnostico": {
+  "identificacion": {
+   "https://www.unp.edu.ar/index.php/webmail-2/concursos": "navegador",
+   "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos": "monitor",
+   "https://www.fcn.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-4-AA-PP-Despacho.pdf": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docen": "monitor",
+   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2023/06/D12-541-2023.pdf": "monitor",
+   "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos": "monitor",
+   "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx": "monitor",
+   "https://www.mpfchubut.gov.ar/ciudadano/concursos": "monitor",
+   "https://www.defensachubut.gov.ar/?page_id=11595": "monitor",
+   "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes": "monitor"
+  },
+  "digesto_titulos": {
+   "38": [
+    "Modificar la denominación del cargo vacante Categoría 03, Jefe de Departamento, Agrupamiento Técnico Profesional “A”, Tr",
+    "Declarar DESIERTOS los llamados a Concursos: Cerrado Interno, Cerrado por Sede y Cerrado General, para la cobertura de u",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrat",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Pro",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Administrat",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Administrat",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Mantenimien",
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Técnico Pro"
+   ],
+   "22": [
+    "Declarar abierta la inscripción del Concurso Público Cerrado de antecedentes y oposición para cubrir un cargo de Jefe de",
+    "Apertura de inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo de Profes",
+    "Declarar abierta la inscripción para el Concurso Público Cerrado del cargo de Jefe de Trabajos Prácticos con dedicación ",
+    "Apertura de inscripción al Concurso Cerrado para quien ocupa el cargo de Profesora Adjunta de la cátedra Biología Genera",
+    "Declarar abierta la inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo d",
+    "Declarar abierta inscripción-Concurso Público Cerrado de antecedentes y oposición-cargo Profesor Adjunto, dedicación Sim",
+    "Declarar abierta la inscripción para el Concurso Público Cerrado para el cargo de Director del Laboratorio de Virología ",
+    "Declarar abierta la inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo d"
+   ],
+   "15": [
+    "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 432/2025",
+    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
+    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
+    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
+    "AUTORIZAR, que los siguientes concursos sean realizados con la participación de la totalidad de los miembros del jurado ",
+    "CONVOCAR a CONCURSO ABIERTO Auxiliar Administrativo, Agrupamiento Administrativo, Tramo Inicial, Categoría 6, Secretaría",
+    "Convocar a concurso Abierto (Nodocente) categoria 7 - Deleg. Acad. Comodoro Riv.",
+    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Ayudante de Segunda (Alumno), dedicación Simple, con una"
+   ],
+   "17": [
+    "APROBAR el procedimiento formal de la sustanciación del Concurso abierto Regular para el cubrir 1 (un) cargo de PROFESOR",
+    "Autorizar llamado a concurso cerrado Abog. Medina Insua",
+    "APROBAR el procedimiento formal de la sustanciación del Concurso abierto Regular para el cubrir 1 (un) cargo de PROFESOR",
+    "Sustanciación concurso Ayte. de 2° regular Estadistica Tw. desig. Sr. Joaquin Caballero",
+    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción de la Cra. ",
+    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción del Cr. Mar",
+    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción y regulariz",
+    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción del Cr. Lui"
+   ],
+   "24": [
+    "Autorizar el Pago a proveedor FCJ - SAPM - 3045/2026; a nombre de Fleitas Raúl Fernando CUIT 20-315688591, Factura C 000",
+    "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 7 del Tra",
+    "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 3 del Tra",
+    "Concurso de profesores: Llamado a inscripción - Derecho de Familia - cargo profesor titular - dedicación simple - CR",
+    "Llamado a inscripción - Concurso docente JTP - Personas Jurídicas Civiles y Comerciales - PMy",
+    "Llamado a inscripción - Concurso de profesor - Derecho del Consumidor y del Usuario - PMy",
+    "Llamado a inscripción - Concurso de profesor - Derecho de las Obligaciones - PMy",
+    "Llamado a inscripción - Concurso de profesor - Derechos Reales - PMy"
+   ],
+   "25": [
+    "Rectif.Llamado a concurso JTP - SEMI - EXCL- Personas Juridicas Civiles y Comerciales - PMY",
+    "Designar como docentes para las carreras de posgrado de la Facultad de Ciencias Jurídicas - Sede Trelew Especialización ",
+    "Designar a la Dra. Luciana Paula CAPONE DNI 27.407.790 como Coordinadora de la Licenciatura en Criminalística, a partir ",
+    "Designar a la Dra. Luciana Paula CAPONE DNI 27.407.790 como Coordinadora de la Licenciatura en Criminalística, a partir ",
+    "Rectificar parcialmente la Resolución Digital CD FCJ Nº 70 / 2026 en su parte resolutiva: Debe decir llamar a concurso p"
+   ],
+   "33": [],
+   "36": [],
+   "34": [],
+   "35": []
+  }
+ }
+}

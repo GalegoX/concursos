@@ -1,0 +1,802 @@
+{
+ "vistos": {
+  "rectorado:575/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:545/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:581/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:556/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:570/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:580/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:561/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:571/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:564/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:610/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:608/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:596/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:601/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:616/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:531/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:540/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "rectorado:640/2026": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:1127/2025": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:339/2025": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:150/2025": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:149/2025": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:928/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:895/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:560/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:385/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:95/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:97/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:92/2024": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:826/2023": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:749/2023": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "ingenieria:270/2023": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "fcnycs:133": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:28458": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:28455": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:28452": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:26239": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:26236": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:21262": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "humanidades:20141": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:d00a6d83-a93a-49f1-8f07-e45cc13ed71a": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:c39979a5-3dab-44c5-a8c6-8228a8b06ccc": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:abd22bbd-ffff-41be-8dbb-773503915def": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:37a806b8-52a5-42cc-92ef-cd2b5307b923": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:9dc16dff-1bfb-4e2a-8a23-668951d63771": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:0acc8ac9-a394-4874-8e3d-e2d3a45e34ca": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:45aee625-6453-44dd-aa00-ecf1906e4703": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:c3af6fd8-a88e-47f4-95e6-270ea583f47e": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:17582abc-02bf-43a2-af8e-e78c47e48523": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:2d7ddc65-a917-410f-85b5-f3da630ae2a6": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:954eea09-595a-404a-a189-88a1bef4a7a9": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:7a91a955-fc01-4c87-9477-5a9cbcad2bf3": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:9849a6ab-daee-45aa-9fc6-a7fd83a1f2e0": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:00029076-4fe2-4f0a-9359-55952e5816a2": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:98058371-fd14-423a-9ebd-033e908b160b": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:6a52000f-1dd9-485c-91e8-638bb68f09c6": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:0583a59f-9b5d-467a-b71b-eb4196ff6704": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:086197c3-56d8-4683-be51-f79a0c418032": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:a8e89d93-c714-4ac8-b452-605d53f7657b": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:b5ee000c-f059-4f90-a72a-1c30d9e8f1b2": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:a5705b3d-f090-46ee-bc7b-b7a072c6f7c4": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:adf33f77-edd5-4a4f-8f49-ffa69d0e6236": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:43176491-44bb-458e-ac8c-92e66e24c202": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:c1503adb-b773-4cfb-8d1a-ebf628fe49f7": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:a8a894fa-32e9-42e9-a574-6c2d8711b58d": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:d658b9d3-8c18-4780-bb80-1a92f9830657": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:76d4f79b-ad13-4950-af39-6270d29d7647": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:e6e85f9e-cc46-49fc-b58d-6f2482150510": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:2d9f4f16-26cc-4fea-adc2-c321b9831532": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:e73b503d-0178-4bfc-b979-0094752a948e": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:da9f5b8d-e109-4f98-b2cf-f1d922311629": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:a02a9954-1fee-4f5e-97be-112739ac01ca": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:7af852bf-5c45-4fbf-a1b9-7844df48dc45": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:b01af23c-dc77-4d0d-8e2a-2ca2507abbae": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:1ef5e943-c84b-456e-ab02-96e3da340fb6": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:a32245fc-59ed-4b45-af8f-b82abfce65c7": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:980": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:979": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:978": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:977": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:976": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:975": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:974": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:973": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:972": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:971": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:969": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:967": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:966": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:964": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:963": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:960": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:959": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:954": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:950": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:939": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "judicial:935": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-prosecretario-administrativo-un-cargo-oficial-superior-un-cargo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-trelew": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abogados-as-de-fiscalia-para-la-oumpf-rawson-un-cargo-y-ufe-ayda-rawson": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-de-fiscalia-oumpf-de-comodoro-rivadavia-un-cargo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-auxiliar-administrativo-para-la-oumpf-un-cargo-y-savd-comodoro-rivadavi": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abierto-profesional-abogado-en-el-servicio-de-solucion-alternativa-de-c": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-auxiliar-administrativo-para-la-oumpf-trelew-un-cargo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-unidad-fiscal-especializada-en-delitos-contra": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:funcionario-a-de-fiscalia-para-la-ufeayda-un-cargo-rw-y-oumpf-rw-un-cargo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abierto-funcionario-a-ufe-cibercrimen-y-evidencia-digital": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:abogados-as-de-fiscalia-para-las-oumpf-de-las-ciudades-de-sarmiento-un-cargo-comodoro-riva": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abierto-profesional-direccion-de-capacitacion-del-mpf": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:concurso-abierto-auxiliar-administrativo-esquel": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abierto-funcionario-a-de-fiscalia-oumpf-comodoro-rivadavia": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-oficial-superior-y-un-1-cargo-de-prosecretario-administrativo-u": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-puerto-madryn": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-prosecretario-administrativo-oumpf-trelew-2": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-prosecretario-administrativo-oumpf-trelew": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-oficial-oumpf-esquel": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-cerrado-jefe-de-departamento-pto-madryn": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-oficial-superior-oumpf-comodoro-rivadavia": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:procurador-a-de-fiscalia-para-la-oumpf-rw-la-oumpf-tw-y-ufecyed": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-esquel": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-oumpf-esquel-un-cargo-trelew-un-cargo-rawson-": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-abierto-procuradores-de-fiscalia-oumpf-comodoro-riv-esquel-lago-puelo-r": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-procurador-a-de-fiscalia-oumpf-rawson-y-trelew-ufe-dap-y-ufe-cyed": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-oumpf-pto-madryn-c-rivadavia-y-lago-puelo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:fiscal-general-rawson": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:fiscal-general-lago-puelo": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:fiscal-general-puerto-madryn": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "mpf:fiscal-general-para-la-ciudad-de-trelew-dos-2-cargos": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:66/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:65/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:67/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:64/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:62/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:61/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:59/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:58/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:57/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:56/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:55/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:53/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:47/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:52/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:51/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:49/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:48/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:46/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:45/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:44/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:42/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:43/26": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:41/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:40/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:39/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:38/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:37/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:36/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:35/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:33/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:32/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:31/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:30/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:29/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:28/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:27/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:26/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:25/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:24/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:23/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:22/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:21/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:20/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:19/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:18/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:17/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:16/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:15/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:14/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:13/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:10/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:11/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:09/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:08/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:07/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:6/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:5/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "defensa:04/25": {
+   "desde": "2026-10-16",
+   "avisado": []
+  }
+ },
+ "fuentes": {
+  "rectorado": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "ingenieria": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "fcnycs": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "humanidades": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "digesto": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "judicial": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "mpf": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "defensa": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  },
+  "defensoria_nacion": {
+   "fallas": 0,
+   "base": true,
+   "ultima_ok": "2026-10-16T12:11-03:00"
+  }
+ },
+ "pdf": {
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf": "1 / 4 Resolución Digital D/13 FHyCS Nº 899 / 2026 VISTO: La vacancia de personal Nodocente en una categoría 7 del Agrupamiento Administrativo en la dirección de Alumnos de esta Facultad, y; CONSIDERANDO: Que se ha producido una vacancia como consecuencia del ascenso por concurso de la agente Soledad Blanca Rolón. Que el Rectorado ha autorizado la realización del concurso. Que resulta necesario fortalecer el área Económico-Financiera de la Facultad. Que se ha producido la designación del jurado para este concurso, mediante sorteo según indica la normativa vigente Ord. CS 210, Reglamento de Concursos para el Trabajador No Docente de la UNPSJB. Que la Sra. Decana se encuentra facultada para resolver al respecto. POR ELLO, LA DECANA DE LA FACULTAD DE HUMANIDADES Y CIENCIAS SOCIALES RESUELVE: Art. 1º) Llamar a concurso de carácter cerrado interno para la Facultad de Humanidades y Ciencias Sociales, Comodoro Rivadavia, para una categoría 7, Agrupamiento Administrativo, Planta Permanente, radicada en el área Económico-Financiera, Comodoro Rivadavia, en todos los términos que indica la Ord. CS 210 y el acta Paritaria que establece el Marco Normativo de Excepcionalidad al reglamento de Concursos para el Trabajador Nodocente de la Universidad. Art. 2º) Establecer los tiempos de realización, según el Art. 8 de la mencionada Ordenanza: - 1 al 22 de octubre de 2026: difusión del concurso en el Sitio Web y/o redes sociales y carteleras de la Facultad de Humanidades y Ciencias Sociales y en todas sus sedes; 2 / 4 - 23 al 29 de octubre de 2026: inscripción, a realizarse en la oficina de despacho de la Facultad de Humanidades y Ciencias Sociales sede Comodoro Rivadavia en horario de 10:00 hs. a 13:00 hs. - 30 de octubre al 5 de noviembre de 2026: período de impugnación. - 11 de noviembre de 2026: realización del concurso. Art. 3º) Designar el jurado, que quedará compuesto del siguiente modo: Primer miembro titular: José Giri (Sede Comodoro Rivadavia) Segundo miembro titular: Mauricio Róbalo Bianco (Sede Trelew) Tercer miembro titular: Gabriela Gallegos (Sede Comodoro Rivadavia) Primer miembro suplente: Sandra Villarroel (Sede Comodoro Rivadavia) Segundo miembro suplente: Mirta González (Sede Comodoro Rivadavia) Tercer miembro suplente: Daniel Ormachea (Sede Comodoro Rivadavia) Art. 4º) Establecer que los requisitos para postularse al llamado presente serán los que siguen: - Lugar de trabajo: Comodoro Rivadavia, Chubut; - Estudios Secundarios Completos (Excluyente); -Tecnicatura Universitaria en Gestión y Administración de Universidades (no excluyente); -Estudios universitarios/terciarios (no excluyente); Art. 5º) Recomendar aspectos constitutivos del perfil para la categoría en cuestión: - Muy buena comunicación oral y escrita; - Buen trato interpersonal; - Personalidad proactiva; - Idoneidad y predisposición para la comunicación y el trabajo en equipo; 3 / 4 - Predisposición y dinamismo para interpretar y realizar demandas de tareas; Art. 6º) Establecer como Funciones Específicas: - Facturación; - Carga en el Sistema Pilagá; - Compra de pasajes aéreos por sistema Optar. - Tramitación de solicitud de viáticos. - Rendición de caja chica. - Pedidos de adelanto. - Tramitación de Pedido de Pago a Proveedor. - Tramitación de reintegros. Art. 7º) Recomendar aproximaciones de temas para el concurso en cuestión: - Conocimiento del Estatuto de la Universidad Nacional de la Patagonia San Juan Bosco (Ordenanza Consejo Superior Nº 120); - Conocimiento del Convenio Colectivo de Trabajo para el sector Nodocente de las Instituciones Universitarias Nacionales (Decreto 366/2006); - Conocimiento de las reglamentaciones de la Facultad. - Conocimiento de los procedimientos Administrativos de la Facultad y de la Universidad. - Conocimiento de los sistemas SUDOCU, Guaraní y Pilagá y Diaguita, Plataformas Pagos Tic y Optar; - Dominio de herramientas de ofimática tales como procesador de texto, planillas de cálculo, etc. - Dominio de recursos inherentes a la escritura administrativa. Art. 8º) Regístrese, comuníquese a quien corresponda y cumplido ARCHÍVESE.",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf": "1 / 4 Resolución Digital D/13 FHyCS Nº 902 / 2026 VISTO: La vacancia de personal Nodocente en una categoría 5 del Agrupamiento Administrativo en la Secretaría de Investigación de esta Facultad, y; CONSIDERANDO: Que se ha producido una vacancia como consecuencia del acceso al beneficio jubilatorio por parte de la Agente Delfia Montiel. Que el Rectorado ha autorizado la realización del concurso. Que resulta necesario fortalecer el área Administrativa en la Sede Puerto Madryn. Que se ha producido la designación del jurado para este concurso, mediante sorteo según indica la normativa vigente Ord. CS 210, Reglamento de Concursos para el Trabajador No Docente de la UNPSJB. Que la Sra. Decana se encuentra facultada para resolver al respecto. POR ELLO, LA DECANA DE LA FACULTAD DE HUMANIDADES Y CIENCIAS SOCIALES RESUELVE: Art. 1º) Llamar a concurso de carácter cerrado interno para la Facultad de Humanidades y Ciencias Sociales, Puerto Madryn, para una categoría 5, Agrupamiento Administrativo, Planta Permanente, radicada en la Sede Puerto Madryn, en todos los términos que indica la Ord. CS 210 y el acta Paritaria que establece el Marco Normativo de Excepcionalidad al reglamento de Concursos para el Trabajador Nodocente de la Universidad. Art. 2º) Establecer los tiempos de realización, según el Art. 8 de la mencionada Ordenanza: - 1 al 22 de octubre de 2026: difusión del concurso en el Sitio Web y/o redes sociales y carteleras de la Facultad de Humanidades y Ciencias Sociales y en todas sus sedes. - 23 al 29 de octubre de 2026: inscripción, a realizarse en la oficina de la Delegación Académica de la Facultad de Humanidades y Ciencias Sociales sede Puerto Madryn en 2 / 4 horario de 10:00 hs. a 13:00 hs. - 30 de octubre al 6 de noviembre de 2026: período de impugnación. - 13 de noviembre de 2026: realización del concurso. Art. 3º) Designar el jurado, que quedará compuesto del siguiente modo: Primer miembro titular: José Giri (Sede Comodoro Rivadavia) Segundo miembro titular: Gonzalo Pereira (Sede Comodoro Rivadavia) Tercer miembro titular: Daniel Ormachea (Sede Comodoro Rivadavia) Primer miembro suplente: Marcelo Williams (Sede Trelew) Segundo miembro suplente: Raúl Piñero (Sede Trelew) Tercer miembro suplente: Sandra Villarroel (Sede Comodoro Rivadavia) Art. 4º) Establecer que los requisitos para postularse al llamado presente serán los que siguen: - Lugar de Trabajo: Puerto Madryn, Chubut; - Estudios Secundarios Completos (Excluyente); -Tecnicatura Universitaria en Gestión y Administración de Universidades (no excluyente); -Estudios universitarios/terciarios (no excluyente); Art. 5º) Recomendar aspectos constitutivos del perfil para la categoría en cuestión: - Muy buena comunicación oral y escrita; - Buen trato interpersonal; - Personalidad proactiva; - Idoneidad y predisposición para la comunicación y el trabajo en equipo; - Predisposición y dinamismo para interpretar y realizar demandas de tareas; 3 / 4 Art. 6º) Establecer como Funciones Específicas: ALUMNOS: Confección de expedientes de títulos. Confección de actas de examen. Confección de actas de cursadas y promoción. Recepción y control de documentación de ingresantes. Control de seguros para estudiantes. DOCENTES: Control y actualización de la planta docente. Entender en lo referente a llamados a inscripción a cargos docentes y/o concursos. Confección de legajos docentes. Confección de certificaciones que sobre su actividad requieran los docentes. Recepción, control, pase, entrega y archivo de DDJJ. Entender en el armado de tribunales examinadores. Tramitación, control y gestión de pedidos de licencias ordinarias y extraordinarias. Notificación de mesas examinadoras, designaciones y todo lo referido a la actividad docente. ECONOMICO FINANCIERA Facturación. Tramitación de pago, adelanto y rendición a proveedores. Rendición de caja chica. Viáticos. Art. 7º) Recomendar aproximaciones de temas para el concurso en cuestión: - Conocimiento de los sistemas SUDOCU, Guaraní, y Pilagá; - Conocimiento de procedimientos administrativos de la Universidad; - Conocimiento de las reglamentaciones de la Facultad. - Dominio de herramientas de ofimática tales como procesador de texto, planillas de cálculo, etc. - Dominio de recursos inherentes a la escritura administrativa. - Conocimiento del Convenio colectivo Nodocente. - Conocimiento del Estatuto de la Universidad Nacional de la Patagonia San Juan Bosco (Ordenanza Consejo Superior Nº 120);",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf": "1 / 4 Resolución Digital D/13 FHyCS Nº 900 / 2026 VISTO: La vacancia de personal Nodocente en una categoría 4 del Agrupamiento Administrativo en el departamento de relaciones interinstitucionales de la Secretaría de Extensión de esta Facultad, y; CONSIDERANDO: Que se ha producido una vacancia como consecuencia del acceso al beneficio jubilatorio por parte de la Agente Miriam Zuñiga. Que el Rectorado ha autorizado la realización del concurso. Que resulta necesario fortalecer el área Económico-Financiera de la Facultad. Que se ha producido la designación del jurado para este concurso, mediante sorteo según indica la normativa vigente Ord. CS 210, Reglamento de Concursos para el Trabajador No Docente de la UNPSJB. Que la Sra. Decana se encuentra facultada para resolver al respecto. POR ELLO, LA DECANA DE LA FACULTAD DE HUMANIDADES Y CIENCIAS SOCIALES RESUELVE: Art. 1º) Llamar a concurso de carácter cerrado interno para la Facultad de Humanidades y Ciencias Sociales, Comodoro Rivadavia, para una categoría 4, Agrupamiento Administrativo, Planta Permanente, radicada en la Secretaría de Extensión, Comodoro Rivadavia, en todos los términos que indica la Ord. CS 210 y el acta Paritaria que establece el Marco Normativo de Excepcionalidad al reglamento de Concursos para el Trabajador Nodocente de la Universidad. Art. 2º) Establecer los tiempos de realización, según el Art. 8 de la mencionada Ordenanza: - 1 al 22 de octubre de 2026: difusión del concurso en el Sitio Web y/o redes sociales y carteleras de la Facultad de Humanidades y Ciencias Sociales y en todas sus sedes; 2 / 4 - 23 al 29 de octubre de 2026: inscripción, a realizarse en la oficina de despacho de la Facultad de Humanidades y Ciencias Sociales sede Comodoro Rivadavia en horario de 10:00 hs. a 13:00 hs. - 30 de octubre al 5 de noviembre de 2026: período de impugnación. - 12 de noviembre de 2026: realización del concurso. Art. 3º) Designar el jurado, que quedará compuesto del siguiente modo: Primer miembro titular: Laura Ojeda (Sede Comodoro Rivadavia) Segundo miembro titular: Roxana Bahamondes (Sede Trelew) Tercer miembro titular: Mauricio Róbalo Bianco (Sede Trelew) Primer miembro suplente: Daniel Ormachea (Sede Comodoro Rivadavia) Segundo miembro suplente: Mirta González (Sede Comodoro Rivadavia) Tercer miembro suplente: José Giri (Sede Comodoro Rivadavia) Art. 4º) Establecer que los requisitos para postularse al llamado presente serán los que siguen: - Lugar de trabajo: Comodoro Rivadavia, Chubut; - Estudios Secundarios Completos (Excluyente); -Tecnicatura Universitaria en Gestión y Administración de Universidades (no excluyente); -Estudios universitarios/terciarios (no excluyente); Art. 5º) Recomendar aspectos constitutivos del perfil para la categoría en cuestión: - Muy buena comunicación oral y escrita; - Buen trato interpersonal; - Personalidad proactiva; - Idoneidad y predisposición para la comunicación y el trabajo en equipo; 3 / 4 - Predisposición y dinamismo para interpretar y realizar demandas de tareas; Art. 6º) Establecer como Funciones Específicas: Gestión Administrativa del Régimen de Pasantías Educativas y Prácticas. - Tramitación de convenios, actas compromiso y proyectos de extensión. - Confección de actos administrativos y seguimiento documental (SUDOCU): - Elaboración de Resoluciones y Confección y tramitación de Expedientes - Administración Financiera, Facturación Aranceles y Sistema SIU-Pilagá. - Soporte administrativo-contable a equipos extensionistas y atención. Art. 7º) Recomendar aproximaciones de temas para el concurso en cuestión: - Conocimiento del Estatuto de la Universidad Nacional de la Patagonia San Juan Bosco (Ordenanza Consejo Superior Nº 120); - Conocimiento del Convenio Colectivo de Trabajo para el sector Nodocente de las Instituciones Universitarias Nacionales (Decreto 366/2006); - Conocimiento de las reglamentaciones de la Facultad, en particular: Normativa institucional de extensión: -Resolución CDFHCS Nº 088/2020 (y sus modificaciones incorporadas por el Consejo Directivo en materia de Cursos, Diplomados de Extensión y modalidades del SIED). -Requisitos para la formulación de proyectos, funciones de las Actas Compromiso e instructivos para certificaciones. - Conocimiento de la normativa inherente a Convenios y Pasantías - Ley Nacional Nº 26.427. - Resolución CDFHCS Nº 166/2010 (Reglamento de Pasantías y rol del Docente Guía).",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-4-AA-PP-Despacho.pdf": "1 / 5 Resolución Digital D/12 FHyCS Nº 929 / 2025 VISTO: La vacancia de personal Nodocente en una categoría 4 del Agrupamiento Administrativo en Despacho de esta Facultad, y; CONSIDERANDO: Que se ha producido una vacancia como consecuencia de la jubilación de la Sra. Isabel Reynoso. Que el Rectorado ha autorizado la realización del concurso. Que se ha producido la designación del jurado para este concurso, mediante sorteo según indica la normativa vigente Ord. CS 186, Reglamento de Concursos para el Trabajador NoDocente de la UNPSJB. Que la Sra. Decana se encuentra facultada para resolver al respecto. POR ELLO, LA DECANA DE LA FACULTAD DE HUMANIDADES Y CIENCIAS SOCIALES RESUELVE: Art.1°) Llamar a concurso de carácter cerrado interno para la Facultad de Humanidades y Ciencias Sociales, Comodoro Rivadavia, para una categoría 4 Agrupamiento Administrativo, Planta Permanente, radicada en el área de Despacho, Comodoro Rivadavia, 2 / 5 en todos los términos que indica la Ord. CS 186 y el acta Paritaria que establece el Marco Normativo de Excepcionalidad al Reglamento de Concursos para el Trabajador Nodocente de la Universidad. Art. 2°) Establecer los tiempos de realización, según el Art. 8 de la Ordenanza mencionada en artículo anterior: - 9 al 30 de marzo de 2026: difusión del concurso en el Sitio Web y/o redes sociales y carteleras de la Facultad de Humanidades y Ciencias Sociales y en todas sus sedes. - 31 de marzo al 8 de abril de 2026: inscripción, a realizarse en la Dirección de Docentes de la Facultad de Humanidades y Ciencias Sociales de Comodoro Rivadavia en horario de 10:00 hs a 13:00 hs. - 9 al 15 de abril de 2026: período de impugnación. - 20 de abril de 2026: realización del concurso. Art.3°) Designar el jurado, que quedará compuesto del siguiente modo: - Primer miembro titular: José Giri (Comodoro Rivadavia) - Segundo miembro titular: Marcelo Williams (Sede Trelew) - Tercer miembro titular: Mariela Espinoza (Sede Comodoro Rivadavia) - Primer miembro suplente: Mauricio Róbalo Bianco (Sede Trelew) - Segundo miembro suplente: Miriam Luna (Sede Comodoro Rivadavia) - Tercer miembro suplente: Mirta González (Sede Comodoro Rivadavia) Art. 4°) Establecer que los requisitos para postularse al presente llamado serán los siguientes: 3 / 5 - Estudios Secundarios Completos (Excluyente); - Tecnicatura Universitaria en Gestión y Administración de Universidades (No excluyente); - Estudios universitarios/terciarios (no excluyente); - Conocimiento de los sistemas informáticos utilizados por la Universidad; - Conocimiento de procedimientos administrativos de la Universidad; - Dominio de herramientas de ofimática tales como procesador de texto, planillas de cálculo, etc. - Dominio de recursos inherentes a la escritura administrativa; - Conocimiento de las reglamentaciones de la Facultad; - Conocimiento del Convenio colectivo Nodocente; Art. 5°) Recomendar aspectos constitutivos del perfil para la categoría en cuestión: - Muy buena comunicación oral y escrita; - Buen trato interpersonal; - Personalidad proactiva; - Idoneidad y predisposición para la comunicación y el trabajo en equipo; - Predisposición y dinamismo para interpretar y realizar demandas de tareas; - Disposición para el ordenamiento y la sistematización de documentos y archivos. Art. 6°) Establecer como Funciones Específicas las de:",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf": "1 / 2 Resolución Digital D/12 FHyCS Nº 945 / 2025 VISTO: El Expediente EXP_FHCS-SJB: 0000003/2025, y; CONSIDERANDO Que por Expediente del Visto se tramita el llamado a concurso para una CAT 5 AA PP Área Gestión del Personal Docente, Comodoro Rivadavia. Que a la instancia interna cerrada, establecida por Resolución Digital D/12 FHyCS N° 753/2025, no concurrió la única aspirante inscripta, según consta en el acta declaratoria de concurso desierto emitida por el jurado. Que de acuerdo a la Ordenanza 146 Reglamento de Concursos Nodocentes se establece que la siguiente instancia es la de Concurso Cerrado por Sede. Que la Sra. Decana se encuentra facultada para resolver al respecto. POR ELLO, LA DECANA DE LA FACULTAD DE HUMANIDADES Y CIENCIAS SOCIALES RESUELVE: Art. 1°) Llamar a concurso de carácter cerrado por sede para Comodoro Rivadavia, para una categoría 5 Agrupamiento Administrativo, Planta Permanente, radicada en el área de Gestión de Personal Docente dependiente de la Dirección de Docentes, Comodoro Rivadavia, en todos los términos que indica la Ord. CS 186 y el acta Paritaria que establece el Marco Normativo de Excepcionalidad al reglamento de Concursos para el Trabajador Nodocente de la Universidad. 2 / 2 Art. 2°) Establecer los tiempos de realización, según el Art. 8 de la mencionada Ordenanza en artículo anterior: - 9 al 30 de marzo de 2026: difusión del concurso en el Sitio Web y/o redes sociales y carteleras de la Facultad de Humanidades y Ciencias Sociales y en todas sus sedes. - 31 de marzo al 8 de abril de 2026: inscripción, a realizarse en la Oficina de Despacho de la Facultad de Humanidades y Ciencias Sociales sede Comodoro Rivadavia en horario de 10:00 hs a 13:00 hs. - 9 al 15 de abril de 2026: período de impugnación. - 21 de abril de 2026: realización del concurso. Art. 3°) El jurado, los aspectos constitutivos del puesto para la categoría, los requisitos para postularse, los aspectos constitutivos del perfil y la recomendación de aproximaciones de temas para el concurso son los estipulados por la Resolución Digital D/12 FHyCS N° 753/2025. Art. 4°) Regístrese, comuníquese a quien corresponda y cumplido ARCHÍVESE. jeg. Firmado digitalmente por. Susana Laura Vidoz- Decana FHyCS. Hoja de autorizaciones",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2024/01/RES-D12-060-2024.pdf": "",
+  "https://www.fhcs.unp.edu.ar/wp-content/uploads/2023/06/D12-541-2023.pdf": ""
+ },
+ "bienvenida": {},
+ "recordados": {}
+}
