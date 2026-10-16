@@ -8,6 +8,15 @@
 <meta name="theme-color" content="#EDF0F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#11161F" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235B3E9E'/%3E%3Crect x='6' y='14' width='20' height='4' rx='2' fill='%23fff'/%3E%3Crect x='13' y='9' width='3' height='14' rx='1.5' fill='%23F2C14E'/%3E%3C/svg%3E">
+<script>
+(function(){
+  var alias = {pareja: "bianca", galego: "cristian"}, h = location.hash.slice(1);
+  h = alias[h] || h;
+  try { if (!h) h = localStorage.getItem("persona") || ""; } catch (e) {}
+  h = alias[h] || h;
+  if (h === "cristian" || h === "bianca") document.documentElement.dataset.persona = h;
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
@@ -29,6 +38,16 @@
   --sello:#A894E8; --abierta:#4DC28B; --proxima:#E9A24A; --cerrada:#6D7886; --alerta:#E57B6A;
   --pista:#2A3441;
 }
+
+/* Un tema por persona: azul ceniza para Cristian, rosa Barbie para Bianca. */
+:root[data-persona="cristian"]{--papel:#E8EEF4;--hoja:#F8FAFC;--tinta:#172331;--tenue:#536477;--linea:#C9D4DF;--sello:#3F6587;--pista:#D2DCE6;}
+:root[data-persona="bianca"]{--papel:#FDEEF6;--hoja:#FFFFFF;--tinta:#2B1323;--tenue:#7A5068;--linea:#F1CFE0;--sello:#D41B80;--pista:#F6DAE8;}
+@media (prefers-color-scheme: dark){
+  :root[data-persona="cristian"]:not([data-theme="light"]){--papel:#151E28;--hoja:#1D2835;--tinta:#E3EAF2;--tenue:#9AACBF;--linea:#2D3B4B;--sello:#8FB2D3;--pista:#2D3B4B;}
+  :root[data-persona="bianca"]:not([data-theme="light"]){--papel:#1F0F19;--hoja:#2B1623;--tinta:#F8E9F1;--tenue:#CFA2BB;--linea:#45253A;--sello:#FF62B1;--pista:#45253A;--alerta:#F08A79;}
+}
+:root[data-theme="dark"][data-persona="cristian"]{--papel:#151E28;--hoja:#1D2835;--tinta:#E3EAF2;--tenue:#9AACBF;--linea:#2D3B4B;--sello:#8FB2D3;--pista:#2D3B4B;}
+:root[data-theme="dark"][data-persona="bianca"]{--papel:#1F0F19;--hoja:#2B1623;--tinta:#F8E9F1;--tenue:#CFA2BB;--linea:#45253A;--sello:#FF62B1;--pista:#45253A;--alerta:#F08A79;}
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
 body{
@@ -109,13 +128,13 @@ section>.explica{color:var(--tenue);font-size:.92rem;margin-top:2px;max-width:58
 .dato{margin-top:6px;font-size:.86rem;color:var(--tenue);max-width:62ch}
 .dato span{color:var(--tinta);font-weight:600}
 .acciones{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem}
-.acciones a{font-weight:560}
+.acciones a{font-weight:560;color:var(--sello)}
 
 .vacio{margin-top:12px;color:var(--tenue);max-width:56ch}
 details.plegado{margin-top:40px;border-top:1px solid var(--linea)}
 details.plegado>summary{cursor:pointer;padding:14px 0 4px;font-weight:620;font-variation-settings:"wdth" 110;list-style:none}
 details.plegado>summary::-webkit-details-marker{display:none}
-details.plegado>summary::after{content:" +";color:var(--tenue);font-weight:400}
+details.plegado>summary::after{content:" +";color:var(--sello);font-weight:500}
 details.plegado[open]>summary::after{content:" –"}
 details.plegado .explica{color:var(--tenue);font-size:.92rem}
 .compacto .llamado{padding:11px 13px}
@@ -398,6 +417,9 @@ function elegida(personas){
   let pid = elegida(datos.personas);
   const mostrar = id => {
     pid = id;
+    document.documentElement.dataset.persona = pid;
+    const fondo = getComputedStyle(document.documentElement).getPropertyValue("--papel").trim();
+    document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.setAttribute("content", fondo));
     botones(datos.personas, pid);
     render(datos, revision, pid);
     try { localStorage.setItem("persona", pid); } catch (e) {}
