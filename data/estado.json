@@ -58,7 +58,9 @@
   },
   "rectorado:531/2026": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "rectorado:540/2026": {
    "desde": "2026-10-16",
@@ -122,7 +124,9 @@
   },
   "ingenieria:270/2023": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "fcnycs:133": {
    "desde": "2026-10-16",
@@ -146,11 +150,15 @@
   },
   "humanidades:26236": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "humanidades:21262": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "humanidades:20141": {
    "desde": "2026-10-16",
@@ -194,15 +202,21 @@
   },
   "digesto:2d7ddc65-a917-410f-85b5-f3da630ae2a6": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "digesto:954eea09-595a-404a-a189-88a1bef4a7a9": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "digesto:7a91a955-fc01-4c87-9477-5a9cbcad2bf3": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "digesto:9849a6ab-daee-45aa-9fc6-a7fd83a1f2e0": {
    "desde": "2026-10-16",
@@ -210,7 +224,9 @@
   },
   "digesto:00029076-4fe2-4f0a-9359-55952e5816a2": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "digesto:98058371-fd14-423a-9ebd-033e908b160b": {
    "desde": "2026-10-16",
@@ -218,7 +234,9 @@
   },
   "digesto:6a52000f-1dd9-485c-91e8-638bb68f09c6": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "digesto:0583a59f-9b5d-467a-b71b-eb4196ff6704": {
    "desde": "2026-10-16",
@@ -230,7 +248,9 @@
   },
   "digesto:a8e89d93-c714-4ac8-b452-605d53f7657b": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian"
+   ]
   },
   "digesto:b5ee000c-f059-4f90-a72a-1c30d9e8f1b2": {
    "desde": "2026-10-16",
@@ -378,7 +398,9 @@
   },
   "judicial:939": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "judicial:935": {
    "desde": "2026-10-16",
@@ -402,7 +424,9 @@
   },
   "mpf:llamado-a-concurso-auxiliar-administrativo-para-la-oumpf-un-cargo-y-savd-comodoro-rivadavi": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "mpf:llamado-a-concurso-abierto-profesional-abogado-en-el-servicio-de-solucion-alternativa-de-c": {
    "desde": "2026-10-16",
@@ -410,7 +434,9 @@
   },
   "mpf:llamado-a-concurso-auxiliar-administrativo-para-la-oumpf-trelew-un-cargo": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-unidad-fiscal-especializada-en-delitos-contra": {
    "desde": "2026-10-16",
@@ -434,7 +460,9 @@
   },
   "mpf:concurso-abierto-auxiliar-administrativo-esquel": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "mpf:llamado-a-concurso-abierto-funcionario-a-de-fiscalia-oumpf-comodoro-rivadavia": {
    "desde": "2026-10-16",
@@ -538,7 +566,9 @@
   },
   "defensa:58/26": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:57/26": {
    "desde": "2026-10-16",
@@ -610,7 +640,9 @@
   },
   "defensa:38/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:37/25": {
    "desde": "2026-10-16",
@@ -630,7 +662,9 @@
   },
   "defensa:32/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:31/25": {
    "desde": "2026-10-16",
@@ -658,7 +692,9 @@
   },
   "defensa:25/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:24/25": {
    "desde": "2026-10-16",
@@ -666,7 +702,9 @@
   },
   "defensa:23/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:22/25": {
    "desde": "2026-10-16",
@@ -714,7 +752,9 @@
   },
   "defensa:11/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:09/25": {
    "desde": "2026-10-16",
@@ -734,7 +774,9 @@
   },
   "defensa:5/25": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "bianca"
+   ]
   },
   "defensa:04/25": {
    "desde": "2026-10-16",
@@ -746,7 +788,10 @@
   },
   "digesto:d1d4c8da-4f98-436e-b2d7-e23dcfa9427e": {
    "desde": "2026-10-16",
-   "avisado": []
+   "avisado": [
+    "cristian",
+    "bianca"
+   ]
   },
   "digesto:a597d02a-0fe0-4916-a884-253970bab2a8": {
    "desde": "2026-10-16",
@@ -757,49 +802,52 @@
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "humanidades": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   },
   "defensoria_nacion": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T15:50-03:00"
+   "ultima_ok": "2026-10-16T16:00-03:00"
   }
  },
- "bienvenida": {},
+ "bienvenida": {
+  "cristian": "2026-10-16",
+  "bianca": "2026-10-16"
+ },
  "recordados": {}
 }
