@@ -8,13 +8,13 @@ página con una vista para cada uno:
 - **Galego** (nodocente, cat. 7, administrativo, FCNyCS, Comodoro): ascensos
   en concursos abiertos, cerrados generales, cerrados por sede de Comodoro y
   cerrados internos de su facultad.
-- **Pareja** (externa): concursos abiertos al público de la universidad y de
+- **Bianca** (externa): concursos abiertos al público de la universidad y de
   la justicia que no pidan título, o que acepten estudiantes.
 
 Lo de Comodoro suena; lo de otras ciudades llega en silencio.
 
 Página: https://galegox.github.io/concursos/
-(con `#galego` o `#pareja` al final abre directo la vista de cada uno).
+(con `#galego` o `#bianca` al final abre directo la vista de cada uno).
 
 ---
 
@@ -44,7 +44,7 @@ una vez por persona:
 | Name | Secret |
 |---|---|
 | `NTFY_GALEGO` | el canal de Galego |
-| `NTFY_PAREJA` | el canal de la pareja |
+| `NTFY_BIANCA` | el canal de Bianca |
 
 ### 4. Probar
 
@@ -100,7 +100,7 @@ No cubre:
 ## Si cambia la situación de alguno
 
 Todo está en `config.py`, con comentarios: categoría, agrupamiento,
-dependencia y sede de Galego, títulos y carrera de la pareja, y si los
+dependencia y sede de Galego, títulos y carrera de Bianca, y si los
 avisos de otras ciudades suenan, llegan en silencio o no llegan. Al
 guardar el cambio, el monitor corre solo y aplica el criterio nuevo.
 

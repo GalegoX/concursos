@@ -9,7 +9,7 @@ en data/ para la página web.
     python monitor.py
 
 Variables de entorno:
-    NTFY_GALEGO, NTFY_PAREJA  canales de ntfy (secretos de GitHub)
+    NTFY_GALEGO, NTFY_BIANCA  canales de ntfy (secretos de GitHub)
     PRUEBA=true               manda además un aviso de prueba a cada uno
 """
 

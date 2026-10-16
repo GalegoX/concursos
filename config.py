@@ -45,9 +45,9 @@ PERSONAS = [
         "avisos_tecnicos": True,
     },
     {
-        "id": "pareja",
-        "nombre": "Pareja",
-        "secreto_ntfy": "NTFY_PAREJA",
+        "id": "bianca",
+        "nombre": "Bianca",
+        "secreto_ntfy": "NTFY_BIANCA",
         # Externa a la universidad: solo concursos abiertos al público.
         "nodocente": None,
         "judiciales": True,

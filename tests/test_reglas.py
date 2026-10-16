@@ -21,8 +21,8 @@ GALEGO = {
     "nodocente": {"categoria": 7, "agrupamiento": "administrativo",
                   "dependencia": "fcnycs", "sede": "Comodoro Rivadavia"},
 }
-PAREJA = {
-    "id": "pareja", "nodocente": None, "judiciales": True, "titulos": [], "otras_ciudades": "suave",
+BIANCA = {
+    "id": "bianca", "nodocente": None, "judiciales": True, "titulos": [], "otras_ciudades": "suave",
     "estudios": {"carrera": "Licenciatura en Administración",
                  "area": ["administracion", "ciencias economicas", "contador", "contable"]},
 }
@@ -162,36 +162,36 @@ class ParaQuien(unittest.TestCase):
         # Lo judicial no le corresponde.
         self.assertIsNone(self.nivel(aviso(ambito="judicial", instancia="abierto"), GALEGO))
 
-    def test_pareja(self):
-        self.assertEqual(self.nivel(aviso(ambito="judicial", instancia="abierto"), PAREJA), "fuerte")
+    def test_bianca(self):
+        self.assertEqual(self.nivel(aviso(ambito="judicial", instancia="abierto"), BIANCA), "fuerte")
         self.assertEqual(self.nivel(aviso(ambito="judicial", instancia="abierto", ciudades=["Trelew"]),
-                                    PAREJA), "suave")
+                                    BIANCA), "suave")
         self.assertEqual(self.nivel(aviso(ambito="judicial", instancia="abierto",
-                                          titulo_requerido="abogacia"), PAREJA), "pagina")
-        self.assertIsNone(self.nivel(aviso(ambito="judicial", instancia="cerrado"), PAREJA))
+                                          titulo_requerido="abogacia"), BIANCA), "pagina")
+        self.assertIsNone(self.nivel(aviso(ambito="judicial", instancia="cerrado"), BIANCA))
         # Universidad: solo abiertos, y que no pidan título.
-        self.assertEqual(self.nivel(aviso(instancia="abierto", categoria=7), PAREJA), "fuerte")
+        self.assertEqual(self.nivel(aviso(instancia="abierto", categoria=7), BIANCA), "fuerte")
         self.assertEqual(self.nivel(aviso(instancia="abierto", categoria=5, titulo_requerido="terciario"),
-                                    PAREJA), "pagina")
-        self.assertIsNone(self.nivel(aviso(instancia="general", categoria=5), PAREJA))
+                                    BIANCA), "pagina")
+        self.assertIsNone(self.nivel(aviso(instancia="general", categoria=5), BIANCA))
 
-    def test_pareja_estudiante(self):
+    def test_bianca_estudiante(self):
         # Pide título pero acepta estudiantes: le avisa, con nota.
         req = "a) Título universitario de grado o ser estudiante avanzado con 20 materias aprobadas."
         ev = reglas.evaluar(aviso(ambito="judicial", instancia="abierto", requisitos=req,
-                                  titulo_requerido="universitario"), PAREJA, LOCALES)
+                                  titulo_requerido="universitario"), BIANCA, LOCALES)
         self.assertEqual(ev["nivel"], "fuerte")
         self.assertTrue(any("estudiantes" in n for n in ev["notas"]))
         # Pide el título de su carrera: en la página, marcado como de su carrera.
         req = "a) Poseer título universitario de grado en Ciencias Económicas, legalizado."
         ev = reglas.evaluar(aviso(ambito="judicial", instancia="abierto", requisitos=req,
-                                  titulo_requerido="universitario"), PAREJA, LOCALES)
+                                  titulo_requerido="universitario"), BIANCA, LOCALES)
         self.assertEqual(ev["nivel"], "pagina")
         self.assertIn("de tu carrera", ev["motivo"])
         # Valoran estudios afines y no pide título: le avisa y le dice que suma.
         req = "a) Estudios secundarios completos. b) Se valorará ser estudiante de Administración."
         ev = reglas.evaluar(aviso(ambito="judicial", instancia="abierto", requisitos=req),
-                            PAREJA, LOCALES)
+                            BIANCA, LOCALES)
         self.assertEqual(ev["nivel"], "fuerte")
         self.assertTrue(any("te suma" in n for n in ev["notas"]))
 
