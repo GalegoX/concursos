@@ -284,35 +284,53 @@ def ventana(desde, hasta, anio_ref):
     return inicio, fin
 
 
+def _ventana_de_tramo(tramo, anio_ref, permitir_dia_unico=True):
+    """Interpreta un tramo corto de texto con una o dos fechas."""
+    fechas = _fechas_completas(tramo)
+    if not fechas:
+        return None
+    f1 = fechas[0]
+    if len(fechas) >= 2:
+        entre = tramo[f1[4]:fechas[1][3]]
+        if re.fullmatch(r"\s*(?:,|\by\b|\bal\b|\ba\b|-|–|hasta(?: el)?)\s*(?:el\s+)?(?:dia\s+)?", entre):
+            return ventana(f1[:3], fechas[1][:3], anio_ref)
+    antes = tramo[:f1[3]]
+    sueltos = _RE_DIAS_ANTES.search(antes)
+    if sueltos:
+        return ventana((int(sueltos.group(1)), f1[1], f1[2]), f1[:3], anio_ref)
+    if re.search(r"hasta|cierre|vence", antes):
+        return ventana(None, f1[:3], anio_ref)
+    if not permitir_dia_unico:
+        return None
+    dia = ventana(None, f1[:3], anio_ref)[1]
+    return dia, dia
+
+
+# Cronogramas de la UNPSJB: "- 23 al 29 de octubre de 2026: inscripción, a realizarse..."
+_RE_FASE_INSCRIPCION = re.compile(r"(?:^|[-–•;.])\s*([^:;.\-–•]{4,90}?)\s*:\s*(?:la\s+)?inscripci")
+
+
 def fechas_inscripcion(texto, anio_ref):
     """
     Busca la ventana de inscripción en el texto y devuelve (desde, hasta) como
-    date (cualquiera puede ser None). Solo mira justo después de la palabra
-    "inscripción" (o "postulaciones"), para no tomar la fecha de la resolución
-    o del examen. anio_ref completa las fechas escritas sin año.
+    date (cualquiera puede ser None). Mira el rango que acompaña a la palabra
+    "inscripción" (o "postulaciones"), antes o después de ella, para no tomar
+    la fecha de la resolución o del examen. anio_ref completa las fechas
+    escritas sin año.
     """
     t = normalizar(texto)
+    for m in _RE_FASE_INSCRIPCION.finditer(t):
+        v = _ventana_de_tramo(m.group(1), anio_ref)
+        if v:
+            return v
     for m in _RE_CLAVE_INSCRIPCION.finditer(t):
         tramo = t[m.end():m.end() + 150]
         corte = _RE_FIN_TRAMO.search(tramo)
         if corte and corte.start() > 6:
             tramo = tramo[:corte.start()]
-        fechas = _fechas_completas(tramo)
-        if not fechas:
-            continue
-        f1 = fechas[0]
-        if len(fechas) >= 2:
-            entre = tramo[f1[4]:fechas[1][3]]
-            if re.fullmatch(r"\s*(?:,|\by\b|\bal\b|\ba\b|-|–|hasta(?: el)?)\s*(?:el\s+)?(?:dia\s+)?", entre):
-                return ventana(f1[:3], fechas[1][:3], anio_ref)
-        antes = tramo[:f1[3]]
-        sueltos = _RE_DIAS_ANTES.search(antes)
-        if sueltos:
-            return ventana((int(sueltos.group(1)), f1[1], f1[2]), f1[:3], anio_ref)
-        if re.search(r"hasta|cierre|vence", antes):
-            return ventana(None, f1[:3], anio_ref)
-        dia = ventana(None, f1[:3], anio_ref)[1]
-        return dia, dia
+        v = _ventana_de_tramo(tramo, anio_ref)
+        if v:
+            return v
     return None, None
 
 
@@ -428,6 +446,88 @@ def cumple_titulo(titulos, requerido):
 
 
 # --------------------------------------------------------------------------
+# Requisitos de la resolución (UNPSJB): excluyentes y no excluyentes
+# --------------------------------------------------------------------------
+
+_RE_INICIO_REQ = re.compile(r"\brequisitos\b[^:.;]{0,110}:", re.I)
+_RE_FIN_REQ = re.compile(
+    r"\b(perfil del (?:cargo|puesto)|funciones\b|art\.?\s*\d+\s*[°ºo]?\s*\)|art[ií]culo\s+\d|"
+    r"aspectos constitutivos|recomendar|temario|bibliograf[ií]a)", re.I)
+_RE_REMITE = re.compile(r"requisitos para postularse.{0,250}?estipulados por la resoluci\w*"
+                        r"[^.]{0,80}?n\W{0,4}(\d{1,5}\s*/\s*\d{4})", re.I)
+_RE_GENERALES = re.compile(
+    r"secundari|nivel medio|estudios medios|\bcv\b|curriculum|antecedentes penales|"
+    r"documentaci\w* respaldatoria|ordenanza|requisitos generales|\bdni\b|psicofisic|"
+    r"certificad\w* de (?:domicilio|buena conducta)")
+
+
+def requisitos_resolucion(texto):
+    """
+    Lee la lista de requisitos de una resolución de llamado de la UNPSJB.
+
+    Devuelve None si no la encuentra, o un dict con:
+      excluyentes  los propios del cargo que dejan afuera (título, experiencia...)
+      generales    excluyentes que se piden a todos (secundario, CV, antecedentes)
+      suman        los no excluyentes o deseables
+      otros        requisitos sin marcar
+      lugar, horario   si figuran
+      remite       número de otra resolución donde están los requisitos
+    """
+    if not texto:
+        return None
+    t = limpiar(texto)
+    req = {"excluyentes": [], "generales": [], "suman": [], "otros": [],
+           "lugar": None, "horario": None, "remite": None}
+    m = _RE_REMITE.search(t)
+    if m:
+        req["remite"] = re.sub(r"\s", "", m.group(1))
+    inicio = None
+    for m in _RE_INICIO_REQ.finditer(t):
+        sigue = t[m.end():m.end() + 500]
+        if re.match(r"\s*[-–•]", sigue) or "excluyente" in sigue.lower():
+            inicio = m.end()
+            break
+    if inicio is None:
+        return req if req["remite"] else None
+    fin = _RE_FIN_REQ.search(t, inicio)
+    seccion = t[inicio:fin.start() if fin else inicio + 3000]
+    for item in re.split(r"(?:^|(?<=[\s;.]))[-–•]\s*(?=\S)", seccion):
+        item = item.strip(" ;.,-–•")
+        if len(item) < 4:
+            continue
+        n = normalizar(item)
+        visible = re.sub(r"\s*\((?:no\s+)?excluyente\)", "", item, flags=re.I).strip(" ;.,")
+        visible = visible if len(visible) <= 170 else visible[:168].rstrip() + "…"
+        if n.startswith("lugar de trabajo"):
+            req["lugar"] = visible.split(":", 1)[-1].strip()
+        elif n.startswith("horario"):
+            req["horario"] = visible.split(":", 1)[-1].strip()
+        elif re.search(r"no\s+excluyente|deseable|preferente|se valorar", n):
+            req["suman"].append(visible)
+        elif "excluyente" in n:
+            (req["generales"] if _RE_GENERALES.search(n) else req["excluyentes"]).append(visible)
+        elif not _RE_GENERALES.search(n):
+            req["otros"].append(visible)
+    return req
+
+
+def titulo_de_excluyentes(excluyentes):
+    """Nivel de título que exigen los requisitos excluyentes, o None."""
+    nivel = None
+    for e in excluyentes:
+        n = normalizar(e)
+        if not re.search(r"titulo|tecnicatura|licenciatura|profesorado|egresad|graduad", n):
+            continue
+        if re.search(r"universitari|licenciatura|de grado", n) and not re.search(r"terciari|superior|tecnicatura", n):
+            candidato = "universitario"
+        else:
+            candidato = "terciario"
+        if nivel is None or NIVELES_TITULO[candidato] > NIVELES_TITULO[nivel]:
+            nivel = candidato
+    return nivel
+
+
+# --------------------------------------------------------------------------
 # A quién le sirve
 # --------------------------------------------------------------------------
 
@@ -505,6 +605,9 @@ def evaluar(item, persona, locales):
                 notas.append("No se pudo leer si es abierto, general, por sede o interno.")
 
     requerido = item.get("titulo_requerido")
+    excluyentes = (item.get("req") or {}).get("excluyentes") or []
+    if excluyentes:
+        notas = [f"Excluyente: {e}" for e in excluyentes[:2]] + notas
     estudios = persona.get("estudios") or {}
     area = estudios.get("area", [])
     req_txt = item.get("requisitos") or ""
@@ -516,13 +619,14 @@ def evaluar(item, persona, locales):
                     "motivo": "Pide " + NOMBRE_TITULO[requerido] + " de tu carrera",
                     "notas": notas + ["Te va a servir cuando te recibas."]}
         else:
-            return {"nivel": "pagina", "motivo": "Pide " + NOMBRE_TITULO[requerido],
-                    "notas": notas}
+            motivo = ("Pide un título excluyente" if titulo_de_excluyentes(excluyentes)
+                      else "Pide " + NOMBRE_TITULO[requerido])
+            return {"nivel": "pagina", "motivo": motivo, "notas": notas}
     if estudios and req_txt:
         opcionales = lineas_requisitos(req_txt)[1]
         if any(menciona_area(l, area) or "estudiante" in l for l in opcionales):
             notas.append("Valoran estudios afines a tu carrera: te suma.")
-    if requerido and persona.get("titulos") is None:
+    if requerido and persona.get("titulos") is None and not titulo_de_excluyentes(excluyentes):
         notas.append("Pide " + NOMBRE_TITULO[requerido] + ".")
 
     nd = persona.get("nodocente")

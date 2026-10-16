@@ -88,7 +88,7 @@ class Contexto:
                 break               # tarda o falla igual: cambiar de identificación no ayuda
         raise FuenteError(ultimo)
 
-    def texto_pdf(self, url, paginas=3):
+    def texto_pdf(self, url, paginas=8):
         """Texto de las primeras páginas de un PDF (vacío si es escaneado)."""
         if url in self.cache_pdf:
             return self.cache_pdf[url]
@@ -99,11 +99,49 @@ class Contexto:
                 from pypdf import PdfReader
                 lector = PdfReader(io.BytesIO(r.content))
                 partes = [(p.extract_text() or "") for p in lector.pages[:paginas]]
-                texto = limpiar(" ".join(partes))[:6000]
+                texto = limpiar(" ".join(partes))[:25000]
         except Exception:
             texto = ""
         self.cache_pdf[url] = texto
         return texto
+
+
+DIGESTO_API = "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos"
+
+
+def texto_html(html):
+    return limpiar(BeautifulSoup(html or "", "lxml").get_text(" "))
+
+
+def buscar_resolucion(ctx, carpetas, resolucion):
+    """
+    Busca '575/2026' en las carpetas del digesto y devuelve el texto completo
+    de la resolución, o "" si no está.
+    """
+    m = re.match(r"(\d+)/(\d{4})$", resolucion or "")
+    if not m:
+        return ""
+    numero, anio = int(m.group(1)), int(m.group(2))
+    clave = ("res", tuple(carpetas), resolucion)
+    if clave in ctx.cache_pdf:
+        return ctx.cache_pdf[clave]
+    texto = ""
+    for carpeta in carpetas:
+        try:
+            datos = ctx.get(DIGESTO_API, params={"idContenedor": carpeta, "offset": 0, "limit": 10,
+                                                 "txtBusquedaNRO": numero}).json()
+        except (FuenteError, ValueError):
+            continue
+        for d in datos.get("documents") or []:
+            nro = d.get("nro") if isinstance(d.get("nro"), dict) else {}
+            if nro.get("nro") == numero and nro.get("anio") == anio:
+                texto = limpiar(d.get("titulo") or "") + ". " + texto_html(
+                    (d.get("atributos") or {}).get("contenido"))
+                break
+        if texto:
+            break
+    ctx.cache_pdf[clave] = texto
+    return texto
 
 
 def _sopa(r):
@@ -310,9 +348,10 @@ def leer_wordpress(fuente, ctx):
             continue
         pdfs = [urljoin(p["link"], a["href"]) for a in cont.find_all("a", href=True)
                 if a["href"].lower().split("?")[0].endswith(".pdf")]
-        texto_pdf = ctx.texto_pdf(pdfs[0]) if (pdfs and len(cuerpo) < 400) else ""
-        texto = " ".join(x for x in (titulo, cuerpo, texto_pdf) if x)
         publicado = p.get("date", "")[:10] or None
+        reciente = publicado and (ctx.hoy - date.fromisoformat(publicado)).days <= 150
+        texto_pdf = ctx.texto_pdf(pdfs[0]) if (pdfs and reciente) else ""
+        texto = " ".join(x for x in (titulo, cuerpo, texto_pdf[:4000]) if x)
         anio = int(publicado[:4]) if publicado else ctx.hoy.year
         m = re.search(r"\b(\d{1,4})\s*/\s*(\d{4})\b", normalizar(cuerpo + " " + texto_pdf[:800]))
         avisos.append(aviso(
@@ -320,7 +359,7 @@ def leer_wordpress(fuente, ctx):
             dependencia=fuente["dependencia"], publicado=publicado,
             pdf=pdfs[0] if pdfs else None,
             resolucion=f"{int(m.group(1))}/{m.group(2)}" if m else None,
-            anio_ref=anio,
+            anio_ref=anio, resolucion_texto=texto_pdf or cuerpo,
         ))
     return avisos
 
@@ -347,7 +386,7 @@ def leer_digesto(fuente, ctx):
     for carpeta, (dependencia, ciudad) in fuente["carpetas"].items():
         try:
             r = ctx.get(fuente["url"], params={
-                "idContenedor": carpeta, "offset": 0, "limit": 30,
+                "idContenedor": carpeta, "offset": 0, "limit": 50,
                 "dir": "DESC", "txtBusquedaTitulo": "concurso"})
             datos = r.json()
         except (FuenteError, ValueError) as e:
@@ -360,16 +399,22 @@ def leer_digesto(fuente, ctx):
         for d in docs:
             titulo = limpiar(d.get("titulo"))
             n = normalizar(titulo)
-            if (not _DIGESTO_LLAMADO.search(n) or _DIGESTO_NO_ES_LLAMADO.search(n)
-                    or _DIGESTO_DOCENTE.search(n)):
+            nuevo_llamado = re.search(r"autoriz\w* (?:el )?llamado a (.{0,90})|\bllamar a (concurso.{0,90})", n)
+            if (not _DIGESTO_LLAMADO.search(n) or _DIGESTO_DOCENTE.search(n)
+                    or (_DIGESTO_NO_ES_LLAMADO.search(n) and not nuevo_llamado)):
                 continue
             if not (es_nodocente(n) or _DIGESTO_NODOCENTE.search(n)):
                 continue
             nro = d.get("nro") if isinstance(d.get("nro"), dict) else {}
             res = (f"{nro['nro']}/{nro['anio']}" if nro.get("nro") and nro.get("anio") else None)
             publicado = (d.get("fecha") or "")[:10] or None
+            instancia = None
+            if nuevo_llamado:
+                instancia = reglas.detectar_instancia("concurso " + (nuevo_llamado.group(1) or nuevo_llamado.group(2)))
             avisos.append(aviso(
                 fuente, d["id"], titulo, f"https://huarpe.unp.edu.ar/{d['id']}",
+                instancia=instancia,
+                resolucion_texto=texto_html((d.get("atributos") or {}).get("contenido")),
                 texto=" ".join(x for x in (titulo, limpiar(d.get("descripcion") or "")) if x),
                 dependencia=dependencia, resolucion=res, publicado=publicado,
                 ciudades=reglas.detectar_ciudades(titulo) or ([ciudad] if ciudad else None),

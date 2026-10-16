@@ -133,6 +133,71 @@ class Lectura(unittest.TestCase):
             "Llamado a concurso Auxiliar Administrativo para la OUMPF (un cargo)")[0])
 
 
+class Resoluciones(unittest.TestCase):
+    """Fragmentos de resoluciones de llamado reales (UNPSJB, 2026)."""
+
+    BIBLIOTECA = (
+        "FECHA DE INSCRIPCIÓN: 27/10/2026 hasta 02/11/2026 FECHA DE IMPUGNACIÓN Y OBSERVACIONES: "
+        "04/11/2026 hasta 10/11/2026 REQUISITOS: -Lugar de trabajo: Biblioteca Central de la UNPSJB "
+        "Comodoro Rivadavia. -Horario de trabajo: lunes a viernes de 14:00 a 21:00 hs. -Cumplir con "
+        "todo lo dispuesto en la Ordenanza Digital Consejo Superior N° 210: a) Tener como mínimo "
+        "DIECIOCHO (18) años. -Poseer titulo secundario completo (excluyente). -Poseer título "
+        "profesional de bibliotecario emitido por una institución oficial de nivel superior "
+        "(terciaria o universitaria) de 3 (tres) años o más de duración (excluyente). -Presentación "
+        "de un CV ACTUALIZADO (excluyente). PERFIL DEL CARGO: El técnico superior especializado...")
+    CIENCIA = (
+        "REQUISITOS GENERALES: -Serán requisitos generales para el ingreso o promoción, los "
+        "establecidos en la Ordenanza Digital Consejo Superior Nº 210, Art. 3. -Lugar de trabajo: "
+        "Sede Comodoro Rivadavia. -Título del Nivel Secundario (Excluyente). -Título en Tecnicatura "
+        "Universitaria en Gestión y Administración de Universidades (No Excluyente). PERFIL DEL CARGO: -Actitud")
+    HUMANIDADES = (
+        "Art. 2º) Establecer los tiempos: - 1 al 22 de octubre de 2026: difusión del concurso; "
+        "- 23 al 29 de octubre de 2026: inscripción, a realizarse en la oficina de despacho. "
+        "- 30 de octubre al 5 de noviembre de 2026: período de impugnación. Art. 4º) Los "
+        "requisitos para postularse al llamado presente serán los que siguen: - Lugar de trabajo: "
+        "Comodoro Rivadavia, Chubut; - Estudios Secundarios Completos (Excluyente); -Estudios "
+        "universitarios/terciarios (no excluyente); Art. 5º) Recomendar aspectos")
+    REMITE = ("Art. 3°) El jurado, los aspectos constitutivos del puesto para la categoría, los "
+              "requisitos para postularse, los aspectos constitutivos del perfil y la recomendación "
+              "de aproximaciones de temas para el concurso son los estipulados por la Resolución "
+              "Digital D/12 FHyCS N° 753/2025. Art. 4°) Regístrese")
+
+    def test_biblioteca(self):
+        req = reglas.requisitos_resolucion(self.BIBLIOTECA)
+        self.assertEqual(len(req["excluyentes"]), 1)
+        self.assertIn("bibliotecario", req["excluyentes"][0])
+        self.assertEqual(req["horario"], "lunes a viernes de 14:00 a 21:00 hs")
+        self.assertEqual(reglas.titulo_de_excluyentes(req["excluyentes"]), "terciario")
+        self.assertEqual(reglas.fechas_inscripcion(self.BIBLIOTECA, 2026), (D(2026, 10, 27), D(2026, 11, 2)))
+
+    def test_no_excluyentes_suman(self):
+        req = reglas.requisitos_resolucion(self.CIENCIA)
+        self.assertEqual(req["excluyentes"], [])
+        self.assertEqual(len(req["suman"]), 1)
+        self.assertIsNone(reglas.titulo_de_excluyentes(req["excluyentes"]))
+
+    def test_humanidades(self):
+        req = reglas.requisitos_resolucion(self.HUMANIDADES)
+        self.assertEqual(req["excluyentes"], [])
+        self.assertEqual(req["suman"], ["Estudios universitarios/terciarios"])
+        self.assertEqual(reglas.fechas_inscripcion(self.HUMANIDADES, 2026), (D(2026, 10, 23), D(2026, 10, 29)))
+
+    def test_remite_a_otra_resolucion(self):
+        self.assertEqual(reglas.requisitos_resolucion(self.REMITE)["remite"], "753/2025")
+
+    def test_excluyente_en_la_evaluacion(self):
+        req = reglas.requisitos_resolucion(self.BIBLIOTECA)
+        item = {"ambito": "nodocente", "titulo": "Técnico/a Superior en Biblioteca", "instancia": "abierto",
+                "categoria": 5, "ciudades": ["Comodoro Rivadavia"], "req": req,
+                "titulo_requerido": reglas.titulo_de_excluyentes(req["excluyentes"])}
+        ev = reglas.evaluar(item, CRISTIAN, LOCALES)       # sin títulos cargados: avisa y advierte
+        self.assertEqual(ev["nivel"], "fuerte")
+        self.assertTrue(ev["notas"][0].startswith("Excluyente: Poseer título profesional de bibliotecario"))
+        ev = reglas.evaluar(item, BIANCA, LOCALES)         # sin ese título: solo en la página
+        self.assertEqual(ev["nivel"], "pagina")
+        self.assertEqual(ev["motivo"], "Pide un título excluyente")
+
+
 def aviso(**campos):
     base = {"ambito": "nodocente", "titulo": "Cargo", "ciudades": ["Comodoro Rivadavia"]}
     base.update(campos)

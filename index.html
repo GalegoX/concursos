@@ -104,6 +104,10 @@ section>.explica{color:var(--tenue);font-size:.92rem;margin-top:2px;max-width:58
 .notas li{padding-left:14px;position:relative}
 .notas li+li{margin-top:2px}
 .notas li::before{content:"";position:absolute;left:2px;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--proxima)}
+.notas li.excl::before{background:var(--alerta)}
+.notas li.excl strong{color:var(--alerta);font-weight:620}
+.dato{margin-top:6px;font-size:.86rem;color:var(--tenue);max-width:62ch}
+.dato span{color:var(--tinta);font-weight:600}
 .acciones{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem}
 .acciones a{font-weight:560}
 
@@ -237,7 +241,17 @@ function llamado(c, ev, hoy){
   if (c.ambito === "nodocente" && c.agrupamiento_nombre && !notaAgrup) extras.push("agrupamiento " + c.agrupamiento_nombre);
   if (c.estado_fuente) extras.push(c.estado_fuente.toLowerCase());
   const tipo = esc(ev.motivo.replace(/\.$/, "")) + (extras.length ? ", " + esc(extras.join(", ")) : "") + ".";
-  const notas = (ev.notas || []).map(n => `<li>${esc(n)}</li>`).join("");
+  const notas = (ev.notas || []).map(n => n.startsWith("Excluyente: ")
+    ? `<li class="excl"><strong>Excluyente:</strong> ${esc(n.slice(12))}</li>`
+    : `<li>${esc(n)}</li>`).join("");
+  const req = c.req || {};
+  const datos = [];
+  if (req.lugar && !(c.ciudades || []).some(x => req.lugar === x)) datos.push(["Lugar", req.lugar]);
+  if (req.horario) datos.push(["Horario", req.horario]);
+  if ((req.suman || []).length) datos.push(["Suman", req.suman.join("; ")]);
+  if ((req.otros || []).length) datos.push(["Piden también", req.otros.join("; ")]);
+  if (req.remite) datos.push(["Requisitos", "están en la Res. " + req.remite]);
+  const extra = datos.map(([k, v]) => `<p class="dato"><span>${esc(k)}:</span> ${esc(v)}</p>`).join("");
   const inscribir = c.inscribir && c.inscripcion === "abierta"
     ? `<a href="${esc(c.inscribir)}" target="_blank" rel="noopener">Inscribirme</a>` : "";
   const ajeno = ev.nivel === "seguir" || ev.nivel === "pagina";
@@ -247,6 +261,7 @@ function llamado(c, ev, hoy){
     <p class="tipo">${tipo}</p>
     ${tira(c, hoy)}
     ${notas ? `<ul class="notas">${notas}</ul>` : ""}
+    ${extra}
     <p class="acciones"><a href="${esc(c.url)}" target="_blank" rel="noopener">Ver el llamado</a>${inscribir}</p>
   </article>`;
 }

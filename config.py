@@ -64,6 +64,17 @@ PERSONAS = [
     },
 ]
 
+# Dónde buscar en el digesto la resolución de un llamado, según quién lo hizo
+# (carpetas públicas del SUDOCU). Se usa para leer los requisitos excluyentes.
+CARPETAS_RESOLUCIONES = {
+    "rectorado": [38, 2],          # Resoluciones digitales R/11 y R/10
+    "fcnycs": [22, 21],            # FCNyCS: Decano y Consejo Directivo
+    "humanidades": [29, 30, 28],   # FHyCS: digitales, ad referéndum, Consejo Directivo
+    "ingenieria": [13, 12],        # FI: Decano y Consejo Directivo
+    "economicas": [15, 17],        # FCE: Decano y Consejo Directivo
+    "juridicas": [24, 25, 26],     # FCJ: digitales, ad referéndum, Consejo Directivo
+}
+
 # Páginas que se revisan. "lector" indica cómo se lee cada una (fuentes.py).
 # Si una página se muda de dirección, se cambia la url acá.
 FUENTES = [

@@ -35,7 +35,7 @@ FALLAS_PARA_AVISAR = 3      # revisiones seguidas sin poder leer una fuente
 MAX_AVISOS_SUELTOS = 4      # más que esto en una corrida va en un resumen
 DIAS_VIGENCIA_SIN_FECHA = 45
 
-ESTADO_VACIO = {"vistos": {}, "fuentes": {}, "pdf": {}, "bienvenida": {}, "recordados": {}}
+ESTADO_VACIO = {"vistos": {}, "fuentes": {}, "bienvenida": {}, "recordados": {}}
 
 
 # --------------------------------------------------------------------------
@@ -105,9 +105,22 @@ def lugar_texto(it):
 # Completar y clasificar
 # --------------------------------------------------------------------------
 
+def aplicar_resolucion(it):
+    """Requisitos excluyentes y no excluyentes, desde el texto de la resolución."""
+    req = reglas.requisitos_resolucion(it.get("resolucion_texto"))
+    if not req:
+        return
+    it["req"] = req
+    hay_lista = any(req[k] for k in ("excluyentes", "generales", "suman", "otros"))
+    if it["ambito"] == "nodocente" and hay_lista:
+        # La resolución manda: el título hace falta solo si es requisito excluyente.
+        it["titulo_requerido"] = reglas.titulo_de_excluyentes(req["excluyentes"])
+
+
 def completar(it, fuente, hoy):
     texto = it.get("texto") or it["titulo"]
     anio = it.pop("anio_ref", None) or (fecha(it.get("publicado")) or hoy).year
+    resolucion = it.get("resolucion_texto") or ""
     if not it.get("instancia"):
         it["instancia"] = reglas.detectar_instancia(texto)
     if it["ambito"] == "nodocente":
@@ -126,13 +139,29 @@ def completar(it, fuente, hoy):
                           or ([fuente["ciudad_por_defecto"]] if fuente.get("ciudad_por_defecto") else []))
     if not it.get("desde") and not it.get("hasta"):
         d, h = reglas.fechas_inscripcion(texto, anio)
+        if not (d or h) and resolucion:
+            d, h = reglas.fechas_inscripcion(resolucion, anio)
         it["desde"], it["hasta"] = (d.isoformat() if d else None), (h.isoformat() if h else None)
+    if resolucion:
+        if not it.get("ciudades"):
+            it["ciudades"] = reglas.detectar_ciudades(resolucion[:3000])
+        if it["ambito"] == "nodocente" and not it.get("categoria"):
+            it["categoria"] = reglas.detectar_categoria(resolucion[:3000])
+        aplicar_resolucion(it)
     estado = reglas.estado_inscripcion(fecha(it.get("desde")), fecha(it.get("hasta")), hoy)
     fin = reglas.normalizar(it.get("estado_fuente") or "")
     if re.search(r"finaliz|desiert", fin) and estado != "por_abrir":
         estado = "cerrada"
     it["inscripcion"] = estado
     it["titulo_corto"] = titulo_corto(it)
+
+
+def evaluar_todos(it, personas, locales):
+    it["para"] = {}
+    for p in personas:
+        ev = reglas.evaluar(it, p, locales)
+        if ev:
+            it["para"][p["id"]] = ev
 
 
 def vigente(it, hoy):
@@ -167,12 +196,18 @@ def mensaje_concurso(it, ev):
               + "." + lugar,
               f"Inscripción: {ventana_texto(it)}."]
     lineas += ev.get("notas", [])[:2]
+    horario = (it.get("req") or {}).get("horario")
+    if horario:
+        lineas.append(f"Horario: {horario}.")
     return titulo, "\n".join(lineas)
 
 
-def linea_resumen(it):
+def linea_resumen(it, ev=None):
     cat = f"Cat. {it['categoria']}: " if it.get("categoria") and it["ambito"] == "nodocente" else ""
-    return f"• {cat}{it['titulo_corto']} ({lugar_texto(it)}), {ventana_texto(it)}"
+    linea = f"• {cat}{it['titulo_corto']} ({lugar_texto(it)}), {ventana_texto(it)}"
+    if ev and any(n.startswith("Excluyente") for n in ev.get("notas", [])):
+        linea += ". Ojo: tiene un requisito excluyente"
+    return linea
 
 
 def etiqueta(it):
@@ -189,7 +224,7 @@ def avisar_nuevos(persona, nuevos):
         return True
     if len(nuevos) > MAX_AVISOS_SUELTOS:
         fuerte = any(ev["nivel"] == "fuerte" for _, ev in nuevos)
-        cuerpo = "\n".join(linea_resumen(it) for it, _ in nuevos[:12])
+        cuerpo = "\n".join(linea_resumen(it, ev) for it, ev in nuevos[:12])
         if len(nuevos) > 12:
             cuerpo += f"\n… y {len(nuevos) - 12} más en la página."
         ok, _ = avisos.enviar(persona, f"{len(nuevos)} concursos nuevos para vos", cuerpo,
@@ -239,7 +274,8 @@ def main():
     estado = leer_json(ESTADO, ESTADO_VACIO)
     for k, v in ESTADO_VACIO.items():
         estado.setdefault(k, json.loads(json.dumps(v)))
-    ctx = fuentes.Contexto(hoy, cache_pdf=estado["pdf"])
+    estado.pop("pdf", None)              # textos de resoluciones: solo en memoria
+    ctx = fuentes.Contexto(hoy)
     locales = {config.CIUDAD, *getattr(config, "CERCANAS", [])}
     personas = config.PERSONAS
 
@@ -271,8 +307,6 @@ def main():
         if not ef.get("base"):
             nuevas_fuentes.add(f["id"])
             ef["base"] = True
-        for it in leidos:
-            completar(it, f, hoy)
         items.extend(leidos)
         info_fuentes.append({"id": f["id"], "nombre": f["nombre"], "url": f["url"],
                              "ambito": f["ambito"], "ok": True, "avisos": len(leidos),
@@ -284,12 +318,18 @@ def main():
     for it in items:
         clave = (it.get("dependencia"), it.get("resolucion")) if it["ambito"] == "nodocente" else None
         if clave and clave[1] and clave in claves:
-            claves[clave].setdefault("tambien_en", []).append(it["url"])
+            queda = claves[clave]
+            queda.setdefault("tambien_en", []).append(it["url"])
+            if it.get("resolucion_texto") and not queda.get("resolucion_texto"):
+                queda["resolucion_texto"] = it["resolucion_texto"]
             continue
         if clave and clave[1]:
             claves[clave] = it
         unicos.append(it)
     items = unicos
+    por_id = {f["id"]: f for f in config.FUENTES}
+    for it in items:
+        completar(it, por_id[it["fuente"]], hoy)
 
     # 3) Para quién sirve cada uno --------------------------------------------
     vistos = estado["vistos"]
@@ -297,10 +337,20 @@ def main():
         reg = vistos.setdefault(it["id"], {"desde": hoy.isoformat(), "avisado": []})
         it["visto_desde"] = reg["desde"]
         it["para"] = {}
-        for p in personas:
-            ev = reglas.evaluar(it, p, locales)
-            if ev:
-                it["para"][p["id"]] = ev
+        evaluar_todos(it, personas, locales)
+
+    # Para lo vigente que le importa a alguien, buscar la resolución en el
+    # digesto si todavía no se leyó, y releer los requisitos excluyentes.
+    carpetas = getattr(config, "CARPETAS_RESOLUCIONES", {})
+    for it in items:
+        if (it["ambito"] == "nodocente" and it["para"] and not it.get("req")
+                and vigente(it, hoy) and re.match(r"\d+/\d{4}$", it.get("resolucion") or "")
+                and it.get("dependencia") in carpetas):
+            texto = fuentes.buscar_resolucion(ctx, carpetas[it["dependencia"]], it["resolucion"])
+            if texto:
+                it["resolucion_texto"] = texto
+                aplicar_resolucion(it)
+                evaluar_todos(it, personas, locales)
 
     # 4) Avisos ------------------------------------------------------------------
     resultado_avisos = {}
@@ -326,7 +376,7 @@ def main():
             vig.sort(key=lambda x: (x[1]["nivel"] != "fuerte", x[0].get("hasta") or "9999"))
             if vig:
                 cuerpo = (f"Hoy hay {len(vig)} con inscripción abierta o por abrir que te "
-                          "pueden servir:\n" + "\n".join(linea_resumen(it) for it, _ in vig[:10]))
+                          "pueden servir:\n" + "\n".join(linea_resumen(it, ev) for it, ev in vig[:10]))
             else:
                 cuerpo = "Por ahora no hay nada abierto para vos. Te aviso acá apenas aparezca."
             ok, det = avisos.enviar(p, "Monitor de concursos activado",
@@ -353,7 +403,7 @@ def main():
             for it, _ in nuevos:
                 vistos[it["id"]]["avisado"].append(pid)
         if de_fuente_nueva:
-            cuerpo = "\n".join(linea_resumen(it) for it, _ in de_fuente_nueva[:10])
+            cuerpo = "\n".join(linea_resumen(it, ev) for it, ev in de_fuente_nueva[:10])
             ok, _ = avisos.enviar(p, "Nueva página revisada: hay concursos para vos", cuerpo,
                                   prioridad=3, enlace=pagina_de(p), etiquetas=["bell"])
             if ok:
@@ -395,7 +445,7 @@ def main():
                                  or hoy).toordinal()))
     publicos = []
     for it in items:
-        d = {k: v for k, v in it.items() if k not in ("texto", "inscripcion_texto")}
+        d = {k: v for k, v in it.items() if k not in ("texto", "inscripcion_texto", "resolucion_texto")}
         if d.get("requisitos"):
             d["requisitos"] = d["requisitos"][:700]
         d["fuente_nombre"] = nombre_fuente(it)
@@ -409,8 +459,6 @@ def main():
     activos = {it["id"] for it in items}
     limite = (hoy - timedelta(days=400)).isoformat()
     estado["vistos"] = {k: v for k, v in vistos.items() if k in activos or v["desde"] >= limite}
-    vigentes_pdf = {it.get("pdf") for it in items if it.get("pdf")}
-    estado["pdf"] = {u: t for u, t in ctx.cache_pdf.items() if u in vigentes_pdf}
 
     datos = {
         "personas": [{"id": p["id"], "nombre": p["nombre"], "criterio": criterio(p),
