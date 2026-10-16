@@ -352,6 +352,12 @@ def leer_wordpress(fuente, ctx):
         reciente = publicado and (ctx.hoy - date.fromisoformat(publicado)).days <= 150
         texto_pdf = ctx.texto_pdf(pdfs[0]) if (pdfs and reciente) else ""
         texto = " ".join(x for x in (titulo, cuerpo, texto_pdf[:4000]) if x)
+        # La ciudad, del aviso; si no la dice, solo del artículo que hace el
+        # llamado (el resto del PDF nombra sedes de jurados, por ejemplo).
+        llamado = re.search(r"llamar a concurso.{0,400}?(?:en todos los t[eé]rminos|art\.)",
+                            texto_pdf, re.I | re.S)
+        ciudades = (reglas.detectar_ciudades(titulo + " " + cuerpo)
+                    or (reglas.detectar_ciudades(llamado.group(0)) if llamado else []))
         anio = int(publicado[:4]) if publicado else ctx.hoy.year
         m = re.search(r"\b(\d{1,4})\s*/\s*(\d{4})\b", normalizar(cuerpo + " " + texto_pdf[:800]))
         avisos.append(aviso(
@@ -359,7 +365,7 @@ def leer_wordpress(fuente, ctx):
             dependencia=fuente["dependencia"], publicado=publicado,
             pdf=pdfs[0] if pdfs else None,
             resolucion=f"{int(m.group(1))}/{m.group(2)}" if m else None,
-            anio_ref=anio, resolucion_texto=texto_pdf or cuerpo,
+            anio_ref=anio, resolucion_texto=texto_pdf or cuerpo, ciudades=ciudades,
         ))
     return avisos
 
