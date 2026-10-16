@@ -3,7 +3,7 @@
   {
    "id": "cristian",
    "nombre": "Cristian",
-   "criterio": "Ascensos (categorías 1 a 6) en concursos abiertos, cerrados generales, cerrados por sede de Comodoro Rivadavia y cerrados internos de tu dependencia. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio.",
+   "criterio": "Ascensos (categorías 1 a 6) en concursos abiertos, cerrados generales, cerrados por sede de Comodoro Rivadavia y cerrados internos de tu dependencia, salvo los que exigen un título como requisito excluyente. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio.",
    "nodocente": true
   },
   {
@@ -681,11 +681,10 @@
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
-     "nivel": "fuerte",
-     "motivo": "Abierto al público",
+     "nivel": "pagina",
+     "motivo": "Pide un título excluyente",
      "notas": [
-      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración",
-      "Es de otro agrupamiento (Técnico Profesional \"B\")."
+      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
      ]
     },
     "bianca": {
@@ -4405,12 +4404,10 @@
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
-     "nivel": "fuerte",
-     "motivo": "Tipo de concurso sin identificar",
+     "nivel": "pagina",
+     "motivo": "Pide título terciario o técnico",
      "notas": [
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "Pide título terciario o técnico.",
-      "Es de otro agrupamiento (Técnico Profesional \"B\")."
+      "No se pudo leer si es abierto, general, por sede o interno."
      ]
     }
    },
