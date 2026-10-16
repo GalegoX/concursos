@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concursos</title>
+<meta name="description" content="Concursos nodocentes y judiciales que les sirven a Galego y a su pareja, con las fechas de inscripción.">
+<meta name="theme-color" content="#EDF0F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11161F" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235B3E9E'/%3E%3Crect x='6' y='14' width='20' height='4' rx='2' fill='%23fff'/%3E%3Crect x='13' y='9' width='3' height='14' rx='1.5' fill='%23F2C14E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#EDF0F3; --hoja:#FFFFFF; --tinta:#1A2230; --tenue:#5C6878; --linea:#D2D8DF;
+  --sello:#5B3E9E; --abierta:#1E7A4B; --proxima:#A45F00; --cerrada:#8A94A1; --alerta:#A33B2B;
+  --pista:#DCE1E7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --papel:#11161F; --hoja:#18202B; --tinta:#E5E9EF; --tenue:#98A3B2; --linea:#2A3441;
+    --sello:#A894E8; --abierta:#4DC28B; --proxima:#E9A24A; --cerrada:#6D7886; --alerta:#E57B6A;
+    --pista:#2A3441;
+  }
+}
+:root[data-theme="dark"]{
+  --papel:#11161F; --hoja:#18202B; --tinta:#E5E9EF; --tenue:#98A3B2; --linea:#2A3441;
+  --sello:#A894E8; --abierta:#4DC28B; --proxima:#E9A24A; --cerrada:#6D7886; --alerta:#E57B6A;
+  --pista:#2A3441;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--papel); color:var(--tinta);
+  font-family:"Archivo",system-ui,sans-serif; font-size:16px; line-height:1.5;
+  font-variation-settings:"wdth" 100; font-variant-numeric:tabular-nums;
+}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--sello);outline-offset:3px;border-radius:2px}
+
+.barra{
+  position:sticky; top:0; z-index:5; background:var(--papel);
+  border-bottom:1px solid var(--linea);
+}
+.barra-in{max-width:42rem;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.marca{font-weight:600;font-variation-settings:"wdth" 112;font-size:1rem;letter-spacing:-.005em}
+.quien{display:flex;gap:4px}
+.quien button{
+  font:inherit; font-size:.95rem; color:var(--tenue); background:none; border:0; cursor:pointer;
+  padding:6px 10px; border-radius:6px; font-variation-settings:"wdth" 100;
+}
+.quien button[aria-pressed="true"]{color:var(--hoja);background:var(--sello);font-weight:600}
+
+main{max-width:42rem;margin:0 auto;padding:28px 16px 64px}
+
+.respuesta{
+  font-size:clamp(1.95rem,7.4vw,2.9rem); line-height:1.04; letter-spacing:-.012em;
+  font-weight:760; font-variation-settings:"wdth" 118; max-width:16ch; text-wrap:balance;
+}
+.bajada{margin-top:12px;color:var(--tenue);max-width:52ch}
+.bajada strong{color:var(--tinta);font-weight:600}
+
+.aviso{margin-top:22px;padding:12px 14px;border-radius:8px;background:var(--hoja);border:1px solid var(--linea);font-size:.92rem}
+.aviso.mal{border-color:color-mix(in srgb,var(--alerta) 45%,var(--linea))}
+.aviso p+p,.aviso p+ul{margin-top:4px}
+.aviso ul{margin-left:18px;color:var(--tenue)}
+.aviso .t{color:var(--alerta);font-weight:600}
+
+section{margin-top:40px}
+section>h2{
+  font-size:1.12rem; font-weight:650; font-variation-settings:"wdth" 110; letter-spacing:-.005em;
+}
+section>.explica{color:var(--tenue);font-size:.92rem;margin-top:2px;max-width:58ch}
+.lista{margin-top:12px;display:flex;flex-direction:column;gap:10px}
+
+.llamado{background:var(--hoja);border:1px solid var(--linea);border-radius:10px;padding:14px 15px 13px}
+.cabeza{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.cargo{font-size:1.06rem;line-height:1.3;font-weight:620;font-variation-settings:"wdth" 104}
+.cat{white-space:nowrap;color:var(--sello)}
+.sello{
+  flex:none; font-size:.74rem; line-height:1; color:var(--sello); white-space:nowrap;
+  border:1.5px solid currentColor; border-radius:4px; padding:4px 6px 3px; margin-top:2px;
+  font-variation-settings:"wdth" 88; font-weight:600; transform:rotate(-1.5deg);
+}
+.donde{margin-top:3px;color:var(--tenue);font-size:.93rem}
+.tipo{margin-top:6px;font-size:.93rem}
+
+.tira{margin-top:12px}
+.pista{position:relative;height:8px;border-radius:4px;background:var(--pista)}
+.tramo{position:absolute;top:0;bottom:0;border-radius:4px;background:var(--cerrada);min-width:6px}
+.tira.abierta .tramo{background:var(--abierta)}
+.tira.por_abrir .tramo{background:var(--proxima)}
+.hoy{position:absolute;top:-5px;bottom:-5px;width:2px;margin-left:-1px;background:var(--tinta);border-radius:1px}
+.rotulos{display:flex;justify-content:space-between;gap:10px;margin-top:6px;font-size:.88rem;color:var(--tenue)}
+.rotulos strong{font-weight:620;color:var(--tinta);white-space:nowrap}
+.tira.abierta .rotulos strong{color:var(--abierta)}
+.tira.por_abrir .rotulos strong{color:var(--proxima)}
+.ajeno .tira .tramo{background:var(--cerrada)}
+.ajeno .tira .rotulos strong{color:var(--tinta)}
+.sin-fechas{margin-top:10px;font-size:.88rem;color:var(--tenue)}
+
+.notas{margin-top:10px;list-style:none;font-size:.88rem}
+.notas li{padding-left:14px;position:relative}
+.notas li+li{margin-top:2px}
+.notas li::before{content:"";position:absolute;left:2px;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--proxima)}
+.acciones{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem}
+.acciones a{font-weight:560}
+
+.vacio{margin-top:12px;color:var(--tenue);max-width:56ch}
+details.plegado{margin-top:40px;border-top:1px solid var(--linea)}
+details.plegado>summary{cursor:pointer;padding:14px 0 4px;font-weight:620;font-variation-settings:"wdth" 110;list-style:none}
+details.plegado>summary::-webkit-details-marker{display:none}
+details.plegado>summary::after{content:" +";color:var(--tenue);font-weight:400}
+details.plegado[open]>summary::after{content:" –"}
+details.plegado .explica{color:var(--tenue);font-size:.92rem}
+.compacto .llamado{padding:11px 13px}
+
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--linea);font-size:.9rem;color:var(--tenue)}
+footer h2{font-size:.98rem;color:var(--tinta);font-weight:620;font-variation-settings:"wdth" 108;margin-top:18px}
+footer h2:first-child{margin-top:0}
+footer p{margin-top:4px;max-width:60ch}
+.fuentes{list-style:none;margin-top:6px}
+.fuentes li{padding:5px 0;border-bottom:1px solid var(--linea);display:flex;justify-content:space-between;gap:12px}
+.fuentes li:last-child{border-bottom:0}
+.fuentes .ok{color:var(--tenue);white-space:nowrap}
+.fuentes .mal{color:var(--alerta);text-align:right}
+.cargando{color:var(--tenue)}
+@media (prefers-reduced-motion:no-preference){
+  .lista .llamado{animation:aparece .28s ease-out both}
+  @keyframes aparece{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<header class="barra">
+  <div class="barra-in">
+    <span class="marca">Concursos</span>
+    <nav class="quien" id="quien" aria-label="Ver los concursos de"></nav>
+  </div>
+</header>
+<main id="main">
+  <p class="cargando">Leyendo la última revisión…</p>
+</main>
+
+<script>
+const REPO = "GalegoX/concursos";
+const FUENTES_DATOS = [
+  "https://raw.githubusercontent.com/" + REPO + "/main/data/",
+  "data/"
+];
+const DIA = 86400000;
+const SIN_FECHA_VIGENTE = 45;
+
+function esc(s){
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function fecha(iso){
+  if(!iso) return null;
+  const [a,m,d] = iso.slice(0,10).split("-").map(Number);
+  return new Date(a, m-1, d);
+}
+function hoyLocal(){ const h = new Date(); return new Date(h.getFullYear(), h.getMonth(), h.getDate()); }
+function ddmm(f){ return f ? String(f.getDate()).padStart(2,"0") + "/" + String(f.getMonth()+1).padStart(2,"0") : ""; }
+function dias(a, b){ return Math.round((b - a) / DIA); }
+function plural(n, uno, varios){ return n === 1 ? uno : varios; }
+
+async function traer(nombre){
+  const v = "?v=" + Math.floor(Date.now() / 60000);
+  let ultimo;
+  for (const base of FUENTES_DATOS){
+    try {
+      const r = await fetch(base + nombre + v, {cache: "no-store"});
+      if (r.ok) return await r.json();
+      ultimo = new Error(r.status);
+    } catch (e) { ultimo = e; }
+  }
+  throw ultimo;
+}
+
+function vigente(c, hoy){
+  if (c.inscripcion === "abierta" || c.inscripcion === "por_abrir") return true;
+  if (c.inscripcion === "sin_fecha"){
+    const ref = fecha(c.publicado) || fecha(c.visto_desde) || hoy;
+    return dias(ref, hoy) <= SIN_FECHA_VIGENTE;
+  }
+  return false;
+}
+
+function estadoTexto(c, hoy){
+  const d = fecha(c.desde), h = fecha(c.hasta);
+  if (c.inscripcion === "por_abrir" && d){
+    const n = dias(hoy, d);
+    return n === 1 ? "Abre mañana" : "Abre en " + n + " días";
+  }
+  if (c.inscripcion === "abierta" && h){
+    const n = dias(hoy, h);
+    return n === 0 ? "Cierra hoy" : n === 1 ? "Cierra mañana" : "Cierra en " + n + " días";
+  }
+  if (c.inscripcion === "cerrada" && h) return "Cerró el " + ddmm(h);
+  if (c.inscripcion === "cerrada") return "Inscripción cerrada";
+  return "Sin fechas publicadas";
+}
+
+function tira(c, hoy){
+  const d = fecha(c.desde), h = fecha(c.hasta);
+  if (!d && !h) return `<p class="sin-fechas">${esc(estadoTexto(c, hoy))}. Revisá el llamado.</p>`;
+  const ini = d || new Date(+h - 7*DIA), fin = h || new Date(+d + 7*DIA);
+  const a = Math.min(+hoy, +ini) - 2*DIA, b = Math.max(+hoy, +fin) + 2*DIA;
+  const pos = x => ((+x - a) / (b - a) * 100).toFixed(2);
+  const rango = d && h ? `Inscripción del ${ddmm(d)} al ${ddmm(h)}`
+              : h ? `Inscripción hasta el ${ddmm(h)}` : `Inscripción desde el ${ddmm(d)}`;
+  const est = estadoTexto(c, hoy);
+  return `<div class="tira ${esc(c.inscripcion)}" role="img" aria-label="${esc(rango + ". " + est)}">
+    <div class="pista">
+      <span class="tramo" style="left:${pos(ini)}%;width:${Math.max(pos(fin) - pos(ini), 1.5)}%"></span>
+      <span class="hoy" style="left:${pos(hoy)}%" title="Hoy"></span>
+    </div>
+    <div class="rotulos"><span>${esc(rango)}</span><strong>${esc(est)}</strong></div>
+  </div>`;
+}
+
+function llamado(c, ev, hoy){
+  const cat = c.ambito === "nodocente" && c.categoria ? ` <span class="cat">cat. ${esc(c.categoria)}</span>` : "";
+  const sello = c.resolucion && String(c.resolucion).length < 28
+    ? `<span class="sello">${esc(/^\d/.test(c.resolucion) ? "Res. " + c.resolucion : c.resolucion.replace(/\s*R\.R\.H\.H\.?/i, ""))}</span>` : "";
+  let det = c.detalle && c.detalle.length < 90 ? c.detalle : "";
+  det = det.replace(/\s*\(([^()]+)\)/g, (m, x) => c.fuente_nombre.includes(x) ? "" : m);
+  const detalle = det ? ", " + det : "";
+  const lugar = (c.ciudades || []).join(", ") || "Ciudad sin leer";
+  const sinRepetir = detalle.includes(lugar) ? "" : " " + lugar + ".";
+  const extras = [];
+  const notaAgrup = (ev.notas || []).some(n => n.includes("agrupamiento"));
+  if (c.ambito === "nodocente" && c.agrupamiento_nombre && !notaAgrup) extras.push("agrupamiento " + c.agrupamiento_nombre);
+  if (c.estado_fuente) extras.push(c.estado_fuente.toLowerCase());
+  const tipo = esc(ev.motivo.replace(/\.$/, "")) + (extras.length ? ", " + esc(extras.join(", ")) : "") + ".";
+  const notas = (ev.notas || []).map(n => `<li>${esc(n)}</li>`).join("");
+  const inscribir = c.inscribir && c.inscripcion === "abierta"
+    ? `<a href="${esc(c.inscribir)}" target="_blank" rel="noopener">Inscribirme</a>` : "";
+  const ajeno = ev.nivel === "seguir" || ev.nivel === "pagina";
+  return `<article class="llamado${ajeno ? " ajeno" : ""}">
+    <div class="cabeza"><h3 class="cargo">${esc(c.titulo_corto || c.titulo)}${cat}</h3>${sello}</div>
+    <p class="donde">${esc(c.fuente_nombre + detalle)}.${esc(sinRepetir)}</p>
+    <p class="tipo">${tipo}</p>
+    ${tira(c, hoy)}
+    ${notas ? `<ul class="notas">${notas}</ul>` : ""}
+    <p class="acciones"><a href="${esc(c.url)}" target="_blank" rel="noopener">Ver el llamado</a>${inscribir}</p>
+  </article>`;
+}
+
+function seccion(titulo, explica, lista, hoy, pid, vacio){
+  if (!lista.length && !vacio) return "";
+  return `<section>
+    <h2>${esc(titulo)}</h2>
+    ${explica ? `<p class="explica">${esc(explica)}</p>` : ""}
+    ${lista.length ? `<div class="lista">${lista.map(c => llamado(c, c.para[pid], hoy)).join("")}</div>`
+                   : `<p class="vacio">${esc(vacio)}</p>`}
+  </section>`;
+}
+
+function plegado(titulo, explica, lista, hoy, pid){
+  if (!lista.length) return "";
+  return `<details class="plegado">
+    <summary>${esc(titulo)} (${lista.length})</summary>
+    ${explica ? `<p class="explica">${esc(explica)}</p>` : ""}
+    <div class="lista compacto">${lista.map(c => llamado(c, c.para[pid], hoy)).join("")}</div>
+  </details>`;
+}
+
+function ordenPorFecha(a, b){
+  const orden = {abierta:0, por_abrir:1, sin_fecha:2, cerrada:3};
+  return (orden[a.inscripcion] - orden[b.inscripcion])
+      || ((fecha(a.hasta) || fecha(a.desde) || 0) - (fecha(b.hasta) || fecha(b.desde) || 0));
+}
+
+function render(datos, revision, pid){
+  const hoy = hoyLocal();
+  const persona = datos.personas.find(p => p.id === pid) || datos.personas[0];
+  pid = persona.id;
+  const suyos = datos.concursos.filter(c => c.para && c.para[pid]);
+  const nivel = c => c.para[pid].nivel;
+  const vig = suyos.filter(c => vigente(c, hoy));
+  const anotarte = vig.filter(c => ["fuerte","normal"].includes(nivel(c))).sort(ordenPorFecha);
+  const otras = vig.filter(c => nivel(c) === "suave").sort(ordenPorFecha);
+  const seguir = vig.filter(c => nivel(c) === "seguir").sort(ordenPorFecha);
+  const piden = vig.filter(c => nivel(c) === "pagina").sort(ordenPorFecha);
+  const limite = +hoy - 120*DIA;
+  const anteriores = suyos.filter(c => !vigente(c, hoy) && nivel(c) !== "pagina"
+      && (+(fecha(c.hasta) || fecha(c.publicado) || fecha(c.visto_desde) || 0)) >= limite)
+    .sort((a, b) => (fecha(b.hasta) || fecha(b.publicado) || 0) - (fecha(a.hasta) || fecha(a.publicado) || 0))
+    .slice(0, 25);
+
+  const total = anotarte.length + otras.length;
+  let respuesta, bajada = "";
+  if (total){
+    respuesta = `Hay ${total} ${plural(total, "concurso", "concursos")} para anotarte.`;
+    const todos = anotarte.concat(otras);
+    const abiertas = todos.filter(c => c.inscripcion === "abierta" && c.hasta).sort((a,b) => fecha(a.hasta) - fecha(b.hasta));
+    const proximas = todos.filter(c => c.inscripcion === "por_abrir" && c.desde).sort((a,b) => fecha(a.desde) - fecha(b.desde));
+    if (abiertas.length) bajada = `El primero en cerrar cierra el <strong>${ddmm(fecha(abiertas[0].hasta))}</strong>.`;
+    else if (proximas.length) bajada = `La primera inscripción abre el <strong>${ddmm(fecha(proximas[0].desde))}</strong>.`;
+    if (otras.length && !anotarte.length) bajada += ` Ninguno es en Comodoro.`;
+  } else {
+    respuesta = "Por ahora no hay concursos para vos.";
+    bajada = "Cuando aparezca uno, te llega el aviso al celular.";
+  }
+
+  const rev = revision && revision.revisado ? new Date(revision.revisado) : null;
+  let cuando = "";
+  if (rev){
+    const mismoDia = rev.toDateString() === new Date().toDateString();
+    const hora = rev.toLocaleTimeString("es-AR", {hour:"2-digit", minute:"2-digit", hour12:false});
+    cuando = mismoDia ? `Revisado hoy a las ${hora}.`
+                      : `Revisado el ${rev.toLocaleDateString("es-AR", {day:"numeric", month:"long"})} a las ${hora}.`;
+  }
+
+  const alertas = [];
+  if (rev && (Date.now() - rev) / 3600000 > 14){
+    alertas.push(`<div class="aviso mal"><p class="t">La última revisión fue hace más de 14 horas.</p>
+      <p>Puede que GitHub haya pausado el monitor. En el repositorio, pestaña Actions, elegí “Revisar concursos” y tocá “Run workflow”.</p></div>`);
+  }
+  const caidas = (revision?.fuentes || []).filter(f => !f.ok);
+  if (caidas.length){
+    alertas.push(`<div class="aviso mal"><p class="t">${caidas.length === 1 ? "Una página no se pudo leer" : caidas.length + " páginas no se pudieron leer"} en la última revisión.</p>
+      <ul>${caidas.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>: ${esc(f.error)}</li>`).join("")}</ul>
+      <p>Mientras tanto, conviene mirarlas a mano.</p></div>`);
+  }
+
+  const esNodocente = pid === "galego";
+  const html = `
+    <h1 class="respuesta">${respuesta}</h1>
+    <p class="bajada">${bajada} ${esc(cuando)}</p>
+    ${alertas.join("")}
+    ${seccion("Para anotarte", "", anotarte, hoy, pid, otras.length ? "Nada en Comodoro por ahora." : "Nada por ahora.")}
+    ${seccion("En otras ciudades", "Te sirven, pero no son en Comodoro. Estos avisos te llegan en silencio.", otras, hoy, pid)}
+    ${seccion("Para seguir de cerca", "Son cerrados internos de otras dependencias de Comodoro. Si quedan desiertos, pasan a otra instancia donde podrías anotarte, y ahí te llega el aviso.", seguir, hoy, pid)}
+    ${plegado(esNodocente ? "Abiertos que piden un título" : "Abiertos que piden un título que no tenés",
+              "Están abiertos, pero el cargo exige un título. Los de tu carrera te van a servir cuando te recibas.", piden, hoy, pid)}
+    ${plegado("Anteriores", "Lo que te sirvió en los últimos cuatro meses y ya cerró.", anteriores, hoy, pid)}
+    <footer>
+      <h2>Qué cuenta como “para vos”</h2>
+      <p>${esc(persona.criterio)}</p>
+      <h2>Páginas que se revisan</h2>
+      <ul class="fuentes">${(revision?.fuentes || []).map(f => `<li>
+        <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>
+        ${f.ok ? `<span class="ok">${esc(f.avisos)} ${plural(f.avisos, "aviso", "avisos")}</span>`
+               : `<span class="mal">No se pudo leer</span>`}</li>`).join("")}</ul>
+      <p>Se revisa siete veces por día, de 8 a 20 h. Confirmá siempre los requisitos en el llamado oficial antes de inscribirte.</p>
+    </footer>`;
+  document.getElementById("main").innerHTML = html;
+  document.title = `Concursos de ${persona.nombre}`;
+}
+
+function botones(personas, pid){
+  const nav = document.getElementById("quien");
+  nav.innerHTML = personas.map(p =>
+    `<button type="button" data-id="${esc(p.id)}" aria-pressed="${p.id === pid}">${esc(p.nombre)}</button>`).join("");
+}
+
+function elegida(personas){
+  const hash = location.hash.replace("#", "");
+  if (personas.some(p => p.id === hash)) return hash;
+  try { const g = localStorage.getItem("persona"); if (personas.some(p => p.id === g)) return g; } catch (e) {}
+  return personas[0].id;
+}
+
+(async function(){
+  let datos, revision;
+  try {
+    [datos, revision] = await Promise.all([traer("concursos.json"), traer("revision.json").catch(() => null)]);
+  } catch (e) {
+    document.getElementById("main").innerHTML = `<h1 class="respuesta">Todavía no hay datos.</h1>
+      <p class="bajada">El monitor no corrió todavía o la página no pudo leer sus datos. En el repositorio, pestaña Actions, elegí “Revisar concursos” y tocá “Run workflow”.</p>`;
+    return;
+  }
+  let pid = elegida(datos.personas);
+  const mostrar = id => {
+    pid = id;
+    botones(datos.personas, pid);
+    render(datos, revision, pid);
+    try { localStorage.setItem("persona", pid); } catch (e) {}
+  };
+  document.getElementById("quien").addEventListener("click", e => {
+    const b = e.target.closest("button[data-id]");
+    if (!b) return;
+    history.replaceState(null, "", "#" + b.dataset.id);
+    mostrar(b.dataset.id);
+  });
+  window.addEventListener("hashchange", () => mostrar(elegida(datos.personas)));
+  mostrar(pid);
+})();
+</script>
+</body>
+</html>

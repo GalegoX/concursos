@@ -496,8 +496,7 @@ def evaluar(item, persona, locales):
                     motivo = "Cerrado interno de tu dependencia"
                 elif en_mi_sede or not ciudades:
                     return {"nivel": "seguir",
-                            "motivo": "Cerrado interno de otra dependencia: si queda "
-                                      "desierto, pasa a otra instancia donde podrías entrar.",
+                            "motivo": "Cerrado interno de otra dependencia",
                             "notas": notas}
                 else:
                     return None

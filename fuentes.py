@@ -325,10 +325,17 @@ def leer_wordpress(fuente, ctx):
     return avisos
 
 
-_DIGESTO_LLAMADO = re.compile(r"concurso")
-_DIGESTO_DESCARTAR = re.compile(
-    r"(?<!no )(?<!no)\bdocentes?\b(?!.*no\s*docente)|jurado|dictamen|designa|aprueba el orden|"
-    r"orden de merito|declara desierto|beca|ayudant|investigaci")
+# Un llamado (no una modificación, rectificación, recurso o designación).
+_DIGESTO_LLAMADO = re.compile(
+    r"\b(llam\w*|convoca\w*|autoriz\w* (?:el )?llamado|declar\w* abierta la inscripci\w*|"
+    r"apertura de (?:la )?inscripci\w*)\b.*concurso|concurso.*\bllamad")
+_DIGESTO_NO_ES_LLAMADO = re.compile(
+    r"^(modific|rectific|hacer lugar|aprob|design|sustanci|declar\w* desiert|dej\w* sin efecto|"
+    r"autoriz\w* (?:el )?pago|prorrog|integr)")
+_DIGESTO_DOCENTE = re.compile(
+    r"\bprofesor|\bjtp\b|jefe de trabajos|ayudante|\bayte\b|catedra|asignatura|"
+    r"dedicacion (?:simple|semi|exclusiva)|(?<!no )\bdocentes?\b")
+_DIGESTO_NODOCENTE = re.compile(r"ord\W*cs\W*n\W*186")
 
 
 def leer_digesto(fuente, ctx):
@@ -353,9 +360,10 @@ def leer_digesto(fuente, ctx):
         for d in docs:
             titulo = limpiar(d.get("titulo"))
             n = normalizar(titulo)
-            if not _DIGESTO_LLAMADO.search(n) or _DIGESTO_DESCARTAR.search(n):
+            if (not _DIGESTO_LLAMADO.search(n) or _DIGESTO_NO_ES_LLAMADO.search(n)
+                    or _DIGESTO_DOCENTE.search(n)):
                 continue
-            if not (es_nodocente(n) or re.search(r"llam|convoca", n)):
+            if not (es_nodocente(n) or _DIGESTO_NODOCENTE.search(n)):
                 continue
             nro = d.get("nro") if isinstance(d.get("nro"), dict) else {}
             res = (f"{nro['nro']}/{nro['anio']}" if nro.get("nro") and nro.get("anio") else None)

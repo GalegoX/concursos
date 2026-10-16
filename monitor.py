@@ -90,6 +90,9 @@ def titulo_corto(it):
         m = re.search(r"desempe\w+\s+(?:como\s+)?(?:en\s+)?(.+)", t, re.I)
         if m:
             t = m.group(1)
+    fin = re.search(r"\s*\(([^()]{2,40})\)\s*$", t)
+    if fin and fin.group(1).lower() in t[:fin.start()].lower():
+        t = t[:fin.start()]
     t = t[0].upper() + t[1:] if t else t
     return t if len(t) <= 90 else t[:88].rstrip() + "…"
 
