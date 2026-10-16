@@ -1,14 +1,16 @@
 {
  "personas": [
   {
-   "id": "galego",
-   "nombre": "Galego",
-   "criterio": "Ascensos (categorías 1 a 6) en concursos abiertos, cerrados generales, cerrados por sede de Comodoro Rivadavia y cerrados internos de tu dependencia. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio."
+   "id": "cristian",
+   "nombre": "Cristian",
+   "criterio": "Ascensos (categorías 1 a 6) en concursos abiertos, cerrados generales, cerrados por sede de Comodoro Rivadavia y cerrados internos de tu dependencia. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio.",
+   "nodocente": true
   },
   {
    "id": "bianca",
    "nombre": "Bianca",
-   "criterio": "Concursos nodocentes abiertos al público y concursos judiciales abiertos a la comunidad, siempre que no pidan título o acepten estudiantes. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio."
+   "criterio": "Concursos nodocentes abiertos al público y concursos judiciales abiertos a la comunidad, siempre que no pidan título o acepten estudiantes. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio.",
+   "nodocente": false
   }
  ],
  "concursos": [
@@ -135,7 +137,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -172,7 +174,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -210,7 +212,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -310,7 +312,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -347,7 +349,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -535,7 +537,7 @@
    "titulo_corto": "Técnico/a Superior Especializado en Biblioteca",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "fuerte",
      "motivo": "Abierto al público",
      "notas": [
@@ -758,7 +760,7 @@
    "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -789,7 +791,7 @@
    "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretarí…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -904,7 +906,7 @@
    "titulo_corto": "Cat. 4 AAPP – Area Despacho FHCS",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -937,7 +939,7 @@
    "titulo_corto": "Cat. 5 AAPP – Area Docente FHCS",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "fuerte",
      "motivo": "Cerrado por sede Comodoro Rivadavia",
      "notas": []
@@ -993,7 +995,7 @@
    "titulo_corto": "Llamado Concurso Claustro Nodocente- Cat. 6-Agrupamiento Administrativo-Sec.Extensión",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "normal",
      "motivo": "Tipo de concurso sin identificar",
      "notas": [
@@ -1029,7 +1031,7 @@
    "titulo_corto": "El Departamento de Alumnos – Sede Comodoro Rivadavia",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -1060,7 +1062,7 @@
    "titulo_corto": "Cat.6-Agrupamiento Técnico Profesional \"B\"-Depto.Química",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "normal",
      "motivo": "Cerrado interno de tu dependencia",
      "notas": [
@@ -1096,7 +1098,7 @@
    "titulo_corto": "Cat.6-Agrupamiento Administrativo-Depto.Geología",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "normal",
      "motivo": "Cerrado interno de tu dependencia",
      "notas": [
@@ -1131,7 +1133,7 @@
    "titulo_corto": "CONVOCAR a CONCURSO ABIERTO Auxiliar Administrativo, Agrupamiento Administrativo, Tramo…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "suave",
      "motivo": "Abierto al público",
      "notas": []
@@ -1293,7 +1295,7 @@
    "titulo_corto": "Convocatoria Concurso AA - Cat 6 - Sec, Inv. Sede Trelew",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "suave",
      "motivo": "Tipo de concurso sin identificar",
      "notas": [
@@ -1474,7 +1476,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -1593,7 +1595,7 @@
    ],
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -3101,7 +3103,7 @@
    "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4462,7 +4464,7 @@
    "titulo_corto": "El Departamento de Alumnos – Sede Comodoro Rivadavia",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4521,7 +4523,7 @@
    "titulo_corto": "Para la cobertura de 1 (uno) cargo Categoría 4 dentro del Agrupamiento Administrativo de…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4554,7 +4556,7 @@
    "titulo_corto": "Para la cobertura de 1 (uno) cargo Categoría 5 dentro del Agrupamiento Técnico Profesion…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4693,7 +4695,7 @@
    "titulo_corto": "La Secretaría de Investigación y Posgrado de la Facultad de Ingeniería – Sede Comodoro R…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4726,7 +4728,7 @@
    "titulo_corto": "Director del Departamento de Alumnos de la Facultad de Ingeniería – Sede Comodoro Rivada…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4759,7 +4761,7 @@
    "titulo_corto": "Para cubrir una carga dentro del Agrupamiento Administrativo de Planta Permanente Catego…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "seguir",
      "motivo": "Cerrado interno de otra dependencia",
      "notas": []
@@ -4792,7 +4794,7 @@
    "titulo_corto": "Para cubrir un cargo dentro del Agrupamiento Administrativo de Planta Permanente Categor…",
    "visto_desde": "2026-10-16",
    "para": {
-    "galego": {
+    "cristian": {
      "nivel": "fuerte",
      "motivo": "Cerrado por sede Comodoro Rivadavia",
      "notas": []
