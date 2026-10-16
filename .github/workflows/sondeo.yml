@@ -1,15 +1,16 @@
 name: Sondeo de fuentes (temporal)
 
 # Prueba de lectura: baja las paginas publicas de concursos tal como las ve
-# GitHub y deja el HTML como adjunto de la corrida (se borra solo a los 3 dias).
-# Sirve para programar los lectores sobre la estructura real. Se elimina despues.
+# GitHub y deja el HTML en la rama "sondeo-out" de este mismo repositorio,
+# para programar los lectores sobre la estructura real.
+# Es temporal: la rama y este workflow se borran al terminar las pruebas.
 
 on:
   push:
     branches: [sondeo]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   sondeo:
@@ -27,9 +28,14 @@ jobs:
       - name: Bajar las paginas candidatas
         run: python sondeo/sondeo.py
 
-      - name: Guardar el HTML como adjunto de la corrida
-        uses: actions/upload-artifact@v4
-        with:
-          name: sondeo
-          path: out/
-          retention-days: 3
+      - name: Dejar el resultado en la rama sondeo-out
+        run: |
+          mv out /tmp/out
+          git config user.name "sondeo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan sondeo-out
+          git rm -rf --quiet .
+          cp -r /tmp/out/. .
+          git add -A
+          git commit -m "Sondeo de paginas publicas de concursos (temporal)"
+          git push -f origin sondeo-out
