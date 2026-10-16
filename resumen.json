@@ -1,0 +1,172 @@
+{
+ "dig_640": {
+  "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=640",
+  "status": 200,
+  "final": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=640",
+  "ctype": "application/json; charset=utf-8",
+  "size": 22488,
+  "secs": 2.9,
+  "server": "nginx/1.10.3",
+  "encoding": "utf-8",
+  "apparent": "utf-8",
+  "archivo": "dig_640.json",
+  "historial": [],
+  "headers": {
+   "Server": "nginx/1.10.3",
+   "Content-Type": "application/json; charset=utf-8",
+   "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+   "Set-Cookie": "connect.sid=s%3AcSC06KvBDRAbOoD5xlcy4pjtyWBz2FX1.zYflSq2%2Fn1B2BocH1QKBxBbMya172Wrg7CLp3ykTI5I; Path=/; HttpOnly"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "dig_575": {
+  "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=575",
+  "status": 200,
+  "final": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=575",
+  "ctype": "application/json; charset=utf-8",
+  "size": 24881,
+  "secs": 0.2,
+  "server": "nginx/1.10.3",
+  "encoding": "utf-8",
+  "apparent": "utf-8",
+  "archivo": "dig_575.json",
+  "historial": [],
+  "headers": {
+   "Server": "nginx/1.10.3",
+   "Content-Type": "application/json; charset=utf-8",
+   "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "dig_596": {
+  "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=596",
+  "status": 200,
+  "final": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=596",
+  "ctype": "application/json; charset=utf-8",
+  "size": 26834,
+  "secs": 0.2,
+  "server": "nginx/1.10.3",
+  "encoding": "utf-8",
+  "apparent": "utf-8",
+  "archivo": "dig_596.json",
+  "historial": [],
+  "headers": {
+   "Server": "nginx/1.10.3",
+   "Content-Type": "application/json; charset=utf-8",
+   "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "dig_38_concurso": {
+  "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=60&dir=DESC&txtBusquedaTitulo=concurso",
+  "status": 200,
+  "final": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=60&dir=DESC&txtBusquedaTitulo=concurso",
+  "ctype": "application/json; charset=utf-8",
+  "size": 527276,
+  "secs": 0.8,
+  "server": "nginx/1.10.3",
+  "encoding": "utf-8",
+  "apparent": "utf-8",
+  "archivo": "dig_38_concurso.json",
+  "historial": [],
+  "headers": {
+   "Server": "nginx/1.10.3",
+   "Content-Type": "application/json; charset=utf-8",
+   "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "fhcs_ext_pdf": {
+  "url": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+  "status": 200,
+  "final": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+  "ctype": "application/pdf",
+  "size": 216835,
+  "secs": 3.2,
+  "server": "openresty",
+  "encoding": null,
+  "apparent": "iso8859_16",
+  "archivo": "fhcs_ext_pdf.html",
+  "historial": [],
+  "headers": {
+   "Server": "openresty",
+   "Content-Type": "application/pdf"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "fhcs_sede_pdf": {
+  "url": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf",
+  "status": 200,
+  "final": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf",
+  "ctype": "application/pdf",
+  "size": 192789,
+  "secs": 0.4,
+  "server": "openresty",
+  "encoding": null,
+  "apparent": "ptcp154",
+  "archivo": "fhcs_sede_pdf.html",
+  "historial": [],
+  "headers": {
+   "Server": "openresty",
+   "Content-Type": "application/pdf"
+  },
+  "cookies": [
+   "connect.sid"
+  ]
+ },
+ "out/raw/dig_575_cf768c58_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 294694
+ },
+ "out/raw/dig_38_concurso_97ec4706_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 255723
+ },
+ "out/raw/dig_38_concurso_9288b02a_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 301008
+ },
+ "out/raw/dig_38_concurso_4c5bba0e_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 307488
+ },
+ "out/raw/dig_38_concurso_b76fa944_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 309495
+ },
+ "out/raw/dig_38_concurso_c7610cfb_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 307951
+ },
+ "out/raw/dig_38_concurso_cc20e8c4_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 305730
+ },
+ "out/raw/dig_596_74b3d1b8_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 313060
+ },
+ "out/raw/dig_640_9288b02a_doc": {
+  "status": 200,
+  "ctype": "application/pdf",
+  "size": 301008
+ }
+}
