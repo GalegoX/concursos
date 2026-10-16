@@ -11,13 +11,21 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import config  # noqa: E402
 import reglas  # noqa: E402
 
 D = date
 LOCALES = {"Comodoro Rivadavia", "Rada Tilly"}
-GALEGO = next(p for p in config.PERSONAS if p["id"] == "galego")
-PAREJA = next(p for p in config.PERSONAS if p["id"] == "pareja")
+# Perfiles fijos para las pruebas (independientes de config.py, que puede cambiar).
+GALEGO = {
+    "id": "galego", "judiciales": False, "titulos": None, "otras_ciudades": "suave",
+    "nodocente": {"categoria": 7, "agrupamiento": "administrativo",
+                  "dependencia": "fcnycs", "sede": "Comodoro Rivadavia"},
+}
+PAREJA = {
+    "id": "pareja", "nodocente": None, "judiciales": True, "titulos": [], "otras_ciudades": "suave",
+    "estudios": {"carrera": "Licenciatura en Administración",
+                 "area": ["administracion", "ciencias economicas", "contador", "contable"]},
+}
 
 
 class Fechas(unittest.TestCase):

@@ -227,6 +227,8 @@ function llamado(c, ev, hoy){
     ? `<span class="sello">${esc(/^\d/.test(c.resolucion) ? "Res. " + c.resolucion : c.resolucion.replace(/\s*R\.R\.H\.H\.?/i, ""))}</span>` : "";
   let det = c.detalle && c.detalle.length < 90 ? c.detalle : "";
   det = det.replace(/\s*\(([^()]+)\)/g, (m, x) => c.fuente_nombre.includes(x) ? "" : m);
+  const ultimo = c.fuente_nombre.split(", ").pop();
+  if (det.startsWith(ultimo + " (")) det = det.slice(ultimo.length).trim().replace(/^\((.*)\)$/, "$1");
   const detalle = det ? ", " + det : "";
   const lugar = (c.ciudades || []).join(", ") || "Ciudad sin leer";
   const sinRepetir = detalle.includes(lugar) ? "" : " " + lugar + ".";
@@ -332,7 +334,7 @@ function render(datos, revision, pid){
     <h1 class="respuesta">${respuesta}</h1>
     <p class="bajada">${bajada} ${esc(cuando)}</p>
     ${alertas.join("")}
-    ${seccion("Para anotarte", "", anotarte, hoy, pid, otras.length ? "Nada en Comodoro por ahora." : "Nada por ahora.")}
+    ${total ? seccion("Para anotarte", "", anotarte, hoy, pid, "Nada en Comodoro por ahora.") : ""}
     ${seccion("En otras ciudades", "Te sirven, pero no son en Comodoro. Estos avisos te llegan en silencio.", otras, hoy, pid)}
     ${seccion("Para seguir de cerca", "Son cerrados internos de otras dependencias de Comodoro. Si quedan desiertos, pasan a otra instancia donde podrías anotarte, y ahí te llega el aviso.", seguir, hoy, pid)}
     ${plegado(esNodocente ? "Abiertos que piden un título" : "Abiertos que piden un título que no tenés",
