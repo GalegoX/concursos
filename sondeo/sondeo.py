@@ -15,28 +15,15 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/129.0 Safari/537.36")
 
 URLS = {
-    # Rectorado: variantes para entender la redireccion 307 -> 404
-    "r_nofollow": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-    "r_curl": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-    "r_googlebot": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-    "r_print": "https://www.unp.edu.ar/index.php?option=com_content&view=article&id=4671&tmpl=component&print=1",
-    "r_nosef": "https://www.unp.edu.ar/index.php?option=com_content&view=article&id=4671",
-    "r_cat133": "https://www.unp.edu.ar/index.php/133-concursos",
-    # Economicas, sitio nuevo
-    "fce_nodocentes": "https://www.fce.unp.edu.ar/no-docentes",
-    # Digesto SUDOCU: consulta publica sin usuario
-    "dig_cont": "https://huarpe.unp.edu.ar/sudocu/api/mpd/contenedores/",
-    "dig_cont2": "https://huarpe.unp.edu.ar/sudocu/api/mpd/contenedores/?usuario=&id_area=",
-    "dig_tipos": "https://huarpe.unp.edu.ar/sudocu/api/mpd/tipos",
-    "dig_ver": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/getVersionUnloggedUser",
-    "dig_guest1": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=1&offset=0&limit=10&dir=DESC&orden=nombre_plural",
-    "dig_guest_t": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=1&offset=0&limit=10&dir=DESC&txtBusquedaTitulo=concurso",
+    "dig_640": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=640",
+    "dig_575": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=575",
+    "dig_596": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=5&txtBusquedaNRO=596",
+    "dig_38_concurso": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos?idContenedor=38&offset=0&limit=60&dir=DESC&txtBusquedaTitulo=concurso",
+    "fhcs_ext_pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+    "fhcs_sede_pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf",
 }
 
-VARIANTES_UA = {
-    "_curl": "curl/8.5.0",
-    "_googlebot": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-}
+VARIANTES_UA = {}
 
 
 def bajar(sesion, url, verificar=True, clave=""):
@@ -93,6 +80,29 @@ def main():
         resumen[clave] = info
         print(f"{clave:16} {info.get('status', '---')} {info.get('size', 0):>8} "
               f"{info.get('secs', '')}s {info.get('error', '')}", flush=True)
+
+    import glob
+    from bs4 import BeautifulSoup
+    for ruta in glob.glob("out/raw/dig_*.json"):
+        try:
+            datos = json.load(open(ruta, encoding="utf-8"))
+        except Exception:
+            continue
+        for d in (datos.get("documents") or [])[:6]:
+            base = ruta[:-5] + "_" + d["id"][:8]
+            html = (d.get("atributos") or {}).get("contenido") or ""
+            texto = " ".join(BeautifulSoup(html, "html.parser").get_text(" ").split())
+            open(base + ".txt", "w", encoding="utf-8").write(d.get("titulo", "") + "\n\n" + texto)
+            for nombre, archivo in [("adj_" + a[:8], a) for a in (d.get("archivos_adjuntos") or [])[:3]] + [("doc", d.get("documento"))]:
+                if not archivo:
+                    continue
+                try:
+                    r = s.get("https://huarpe.unp.edu.ar/sudocu/api/archivos/publico/" + archivo,
+                              params={"id_archivo": archivo, "id_documento": d["id"]}, timeout=60)
+                    open(f"{base}_{nombre}.bin", "wb").write(r.content)
+                    resumen[f"{base}_{nombre}"] = {"status": r.status_code, "ctype": r.headers.get("content-type"), "size": len(r.content)}
+                except Exception as e:
+                    resumen[f"{base}_{nombre}"] = {"error": str(e)[:200]}
 
     with open("out/resumen.json", "w", encoding="utf-8") as f:
         json.dump(resumen, f, indent=1, ensure_ascii=False)
