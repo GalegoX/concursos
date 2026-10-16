@@ -1,0 +1,80 @@
+name: Revisar concursos
+
+on:
+  schedule:
+    # 08:17, 10:17, 12:17, 14:17, 16:17, 18:17 y 20:17, hora de Argentina (UTC-3).
+    - cron: "17 11,13,15,17,19,21,23 * * *"
+  # Botón "Run workflow" en la pestaña Actions.
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: "Mandar un aviso de prueba a cada celular"
+        type: boolean
+        default: false
+  # Cuando cambia el programa, se prueba y se corre una vez.
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/monitor.yml"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Probar las reglas (solo cuando cambia el código)
+        if: github.event_name == 'push'
+        run: python -m unittest discover -s tests
+
+      - name: Revisar las páginas y avisar
+        env:
+          NTFY_GALEGO: ${{ secrets.NTFY_GALEGO }}
+          NTFY_PAREJA: ${{ secrets.NTFY_PAREJA }}
+          PRUEBA: ${{ inputs.prueba }}
+        run: python monitor.py
+
+      - name: Guardar los datos para la página
+        if: always()
+        run: |
+          git config user.name "monitor-concursos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git commit -q -m "Revisión del $(TZ=America/Argentina/Buenos_Aires date '+%d/%m %H:%M')"
+          for intento in 1 2 3; do
+            git push -q && exit 0
+            git fetch -q --depth=20 origin main && git rebase -q origin/main
+          done
+          exit 1
+
+      # GitHub pausa las tareas programadas de los repositorios sin actividad
+      # durante 60 días. Esto la reactiva en cada corrida programada.
+      - name: Mantener activa la revisión programada
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/monitor.yml/enable" || true
