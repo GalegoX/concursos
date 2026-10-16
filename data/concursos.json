@@ -6,8 +6,8 @@
    "criterio": "Ascensos (categorías 1 a 6) en concursos abiertos, cerrados generales, cerrados por sede de Comodoro Rivadavia y cerrados internos de tu dependencia. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio."
   },
   {
-   "id": "pareja",
-   "nombre": "Pareja",
+   "id": "bianca",
+   "nombre": "Bianca",
    "criterio": "Concursos nodocentes abiertos al público y concursos judiciales abiertos a la comunidad, siempre que no pidan título o acepten estudiantes. Avisos: los de Comodoro Rivadavia suenan y los de otras ciudades llegan en silencio."
   }
  ],
@@ -35,7 +35,7 @@
    "titulo_corto": "Secretario Relator",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -68,7 +68,7 @@
    "titulo_corto": "Profesional",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -98,7 +98,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -412,7 +412,7 @@
    "titulo_corto": "Profesional",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -442,7 +442,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -472,7 +472,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -543,7 +543,7 @@
       "Es de otro agrupamiento (Técnico Profesional \"B\")."
      ]
     },
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título terciario o técnico",
      "notas": []
@@ -576,7 +576,7 @@
    "titulo_corto": "Profesional Jerárquico",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario de tu carrera",
      "notas": [
@@ -1136,7 +1136,7 @@
      "motivo": "Abierto al público",
      "notas": []
     },
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto al público",
      "notas": []
@@ -1169,7 +1169,7 @@
    "titulo_corto": "Convocar a concurso Abierto (Nodocente) categoria 7 - Deleg. Acad. Comodoro Riv.",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "fuerte",
      "motivo": "Abierto al público",
      "notas": []
@@ -1199,7 +1199,7 @@
    "titulo_corto": "CONVOCAR a CONCURSO ABIERTO para cubrir el cargo de ASISTENTE TÉCNICO INFORMÁTICO, del A…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título terciario o técnico de tu carrera",
      "notas": [
@@ -1233,7 +1233,7 @@
    "titulo_corto": "CONVOCAR a CONCURSO ABIERTO para cubrir el cargo de Auxiliar Administrativo, Agrupamient…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "normal",
      "motivo": "Abierto al público",
      "notas": [
@@ -1381,7 +1381,7 @@
    "titulo_corto": "Categoría 7 AA – Sede Trelew",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto al público",
      "notas": []
@@ -1437,7 +1437,7 @@
    "titulo_corto": "Fiscal General para la Ciudad de Trelew dos (2) cargos",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1526,7 +1526,7 @@
    "titulo_corto": "Profesional A",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -1556,7 +1556,7 @@
    "titulo_corto": "Abogados/as de Fiscalía para la OUMPF Rawson (un cargo) y UFE AyDA Rawson",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1645,7 +1645,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1677,7 +1677,7 @@
    "titulo_corto": "Coordinador Ejecutivo",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1732,7 +1732,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1766,7 +1766,7 @@
    "titulo_corto": "Auxiliar (Dirección de Deportes)",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título terciario o técnico",
      "notas": []
@@ -1801,7 +1801,7 @@
    "titulo_corto": "Auxiliar Técnico",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título terciario o técnico",
      "notas": []
@@ -1832,7 +1832,7 @@
    "titulo_corto": "Funcionario de Fiscalía - OUMPF de Comodoro Rivadavia (un cargo)",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1863,7 +1863,7 @@
    "titulo_corto": "Profesional Abogado/a Mediador/a en el Servicio de Solución Alternativa de Conflictos -T…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -1918,7 +1918,7 @@
    "titulo_corto": "Auxiliar Administrativo para la OUMPF Trelew (un cargo)",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -1999,7 +1999,7 @@
    "titulo_corto": "Auxiliar Letrado",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2054,7 +2054,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2110,7 +2110,7 @@
    "titulo_corto": "Auxiliar Letrado",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2140,7 +2140,7 @@
    "titulo_corto": "Funcionario/a de Fiscalía - Unidad Fiscal Especializada en Delitos Contra la Administrac…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a de tu carrera",
      "notas": [
@@ -2172,7 +2172,7 @@
    "titulo_corto": "Auxiliar Administrativo para la OUMPF (un cargo) y SAVD (un cargo) Comodoro Rivadavia",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "fuerte",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -2202,7 +2202,7 @@
    "titulo_corto": "Funcionario /a UFE Cibercrimen y Evidencia Digital",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2258,7 +2258,7 @@
    "titulo_corto": "Profesional",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2310,7 +2310,7 @@
    "titulo_corto": "Funcionario/a - Esquel (dos cargos)",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2340,7 +2340,7 @@
    "titulo_corto": "Trabajador/a Social",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "fuerte",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -2371,7 +2371,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2401,7 +2401,7 @@
    "titulo_corto": "Funcionario/a de Fiscalía para la UFE en Ambiente y Delitos Contra los Animales (un carg…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2432,7 +2432,7 @@
    "titulo_corto": "Procurador/a de Fiscalía para la OUMPF Rawson (dos cargos), la OUMPF Trelew (un cargo) y…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2464,7 +2464,7 @@
    "titulo_corto": "Profesional",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2517,7 +2517,7 @@
    "titulo_corto": "Secretario Letrado de 1ra.Instancia",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2599,7 +2599,7 @@
    "titulo_corto": "Abogados/as de Fiscalía para las OUMPF de las ciudades de Sarmiento (un cargo), Comodoro…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2629,7 +2629,7 @@
    "titulo_corto": "Auxiliar administrativo - Esquel",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -2753,7 +2753,7 @@
    "titulo_corto": "Profesional - Dirección de Capacitación del MPF.",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2783,7 +2783,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2813,7 +2813,7 @@
    "titulo_corto": "Auxiliar Superior",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "normal",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -2844,7 +2844,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2874,7 +2874,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -2904,7 +2904,7 @@
    "titulo_corto": "Funcionario/a de Fiscalía OUMPF Comodoro Rivadavia",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -2934,7 +2934,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3010,7 +3010,7 @@
    "titulo_corto": "Profesional de Informática",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3066,7 +3066,7 @@
    "titulo_corto": "Funcionario/a de Fiscalía - OUMPF Esquel (un cargo), Trelew (un cargo), Rawson (un cargo…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3153,7 +3153,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3207,7 +3207,7 @@
    "titulo_corto": "Procuradores de Fiscalía- OUMPF Comodoro Riv, Esquel, Lago Puelo, Rawson y UFE Ciberdeli…",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3237,7 +3237,7 @@
    "titulo_corto": "Auxiliar Letrado/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3267,7 +3267,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3297,7 +3297,7 @@
    "titulo_corto": "Profesional A",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3327,7 +3327,7 @@
    "titulo_corto": "Profesional A",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3355,7 +3355,7 @@
    "titulo_corto": "Oficial",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "normal",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -3387,7 +3387,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3417,7 +3417,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3447,7 +3447,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3477,7 +3477,7 @@
    "titulo_corto": "Profesional de Informática",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3555,7 +3555,7 @@
    "titulo_corto": "Auxiliar Administrativo",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -3586,7 +3586,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3616,7 +3616,7 @@
    "titulo_corto": "Profesional de Informática",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3646,7 +3646,7 @@
    "titulo_corto": "Abogados/as Adjuntos/as",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3676,7 +3676,7 @@
    "titulo_corto": "Profesional A",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3706,7 +3706,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3736,7 +3736,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3767,7 +3767,7 @@
    "titulo_corto": "Trabajador/a Social",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -3798,7 +3798,7 @@
    "titulo_corto": "Procurador/a de Fiscalía - OUMPF Rawson y Trelew, UFE DAP y UFE CyED",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3829,7 +3829,7 @@
    "titulo_corto": "Funcionario/a de Fiscalía. OUMPF Pto Madryn, C. Rivadavia y Lago Puelo.",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3859,7 +3859,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -3889,7 +3889,7 @@
    "titulo_corto": "P rofesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -3920,7 +3920,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -3950,7 +3950,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4003,7 +4003,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4033,7 +4033,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -4063,7 +4063,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4093,7 +4093,7 @@
    "titulo_corto": "Profesional B",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título universitario",
      "notas": []
@@ -4123,7 +4123,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4153,7 +4153,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4183,7 +4183,7 @@
    "titulo_corto": "Trabajador/a Social",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -4236,7 +4236,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4290,7 +4290,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4320,7 +4320,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4375,7 +4375,7 @@
    "titulo_corto": "Auxiliar Administrativo",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "suave",
      "motivo": "Abierto a la comunidad",
      "notas": [
@@ -4429,7 +4429,7 @@
    "titulo_corto": "Abogado/a Adjunto/a",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4820,7 +4820,7 @@
    "titulo_corto": "Fiscal General - Rawson",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4848,7 +4848,7 @@
    "titulo_corto": "Fiscal General - Lago Puelo",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
@@ -4876,7 +4876,7 @@
    "titulo_corto": "Fiscal General - Puerto Madryn",
    "visto_desde": "2026-10-16",
    "para": {
-    "pareja": {
+    "bianca": {
      "nivel": "pagina",
      "motivo": "Pide título de abogado/a",
      "notas": []
