@@ -129,12 +129,26 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-09",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título del Nivel Secundario"
+    ],
+    "suman": [
+     "Título en Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Experiencia acreditada en trabajo administrativo, preferentemente área proyectos de investigación, mínimo cinco (5) años"
+    ],
+    "otros": [],
+    "lugar": "Sede Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -166,12 +180,36 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-10",
-   "titulo_requerido": "universitario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Operador/a de Radio",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/8db8b582-94b1-486c-bbbf-b2d90b47e062"
    ],
+   "titulo_requerido": "universitario",
+   "req": {
+    "excluyentes": [
+     "Título Universitario en carreras de grado, Ej: Licenciatura en producción de radio y TV, Lic. en Comunicación Social con orientación en radiofonía, Ing. en Telecomunica…"
+    ],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [],
+    "otros": [
+     "Acreditar experiencia en manejo informático y conocimiento sobre tecnologías de la comunicación",
+     "Actitud de pertenencia y compromiso ético con la Institución",
+     "Predisposición para el trabajo en equipo",
+     "Comunicación cordial y efectiva",
+     "Rapidez y eficiencia en la ejecución de las tareas",
+     "Personalidad proactiva y motivación por la calidad",
+     "Habilidades en las relaciones interpersonales",
+     "Capacidad de gestión de la información",
+     "Creatividad, iniciativa y espíritu emprendedor",
+     "Interés y predisposición en formación y actualización constante"
+    ],
+    "lugar": "Radio Universidad de Comodoro Rivadavia, ubicada en Km 3",
+    "horario": "35 horas semanales con flexibilidad, de acuerdo a las necesidades de la dependencia. PERFIL:",
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Operador/a de Radio",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -204,12 +242,34 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-06",
-   "titulo_requerido": "terciario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Técnico/a Auxiliar (Adm. de Servidores)",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/38b5a631-ded0-48e2-80c7-243438bb7251"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título Secundario Completo"
+    ],
+    "suman": [],
+    "otros": [
+     "Disponibilidad horaria (con disponibilidad para atención de urgencias y/o necesidades operativas)",
+     "Actitud de pertenencia y compromiso con la Institución",
+     "Personalidad proactiva",
+     "Capacidad organizativa",
+     "Capacidad de trabajo en equipo y colaborar en entornos multidisciplinarios",
+     "Habilidades de comunicación y relaciones interpersonales",
+     "Eficacia en las tareas encomendadas",
+     "Capacidad de iniciativa en función del área",
+     "Capacitación continua en temas relacionados al sector",
+     "Disponibilidad y predisposición para atender urgencias"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Técnico/a Auxiliar (Adm. de Servidores)",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -220,8 +280,7 @@
    },
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
+   "agrupamiento_nombre": "Técnico Profesional \"B\""
   },
   {
    "id": "rectorado:580/2026",
@@ -242,12 +301,25 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-09",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Auxiliar (Área de Archivo Central)",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/3d5bab58-6f8d-4a92-a43b-27532d569765"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título secundario completo"
+    ],
+    "suman": [],
+    "otros": [
+     "Conocimiento de los Sistemas SUDOCU y SIAC"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Auxiliar (Área de Archivo Central)",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -273,12 +345,25 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-04",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Personal de Apoyo de Mantenimiento",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/d88205f7-e64c-479c-b65b-26408abc2b62"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [],
+    "otros": [
+     "Carnet de manipulación de alimentos. (CAA)"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Personal de Apoyo de Mantenimiento",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -304,12 +389,33 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-05",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Estadística",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/4e44b2a9-1d11-4320-9df9-39fe8f24d0ae"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Graduado/a en Estadística, Matemática, Administración o Informática"
+    ],
+    "otros": [
+     "Actitud de pertenencia y compromiso etico con la Institución",
+     "Personalidad pro activa y motivación por la calidad",
+     "Habilidades de comunicación y relaciones interpersonales",
+     "Disponibilidad para el trabajo en equipo",
+     "Creatividad, iniciativa y espíritu emprendedor",
+     "Interés y predisposición en formación y actualización constante",
+     "Disponibilidad horaria"
+    ],
+    "lugar": "Comodoro Rivadavia. Dirección General de Planeamiento",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Jefe/a de División de Estadística",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -341,12 +447,24 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-11-05",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de Departamento de Becas",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/ee4bb958-65fb-4c94-9b18-73f1c16e7793"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [],
+    "suman": [],
+    "otros": [
+     "Chubut",
+     "Cumplir con lo dispuesto por el"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Jefe/a de Departamento de Becas",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -378,18 +496,79 @@
    "hasta": "2026-10-20",
    "publicado": "2026-09-22",
    "evaluacion": "2026-10-30",
-   "titulo_requerido": "terciario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Procesos Técnicos y Repositorio",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/74b3d1b8-40b3-4dbb-b888-54f3e9d160b6"
    ],
+   "titulo_requerido": "terciario",
+   "req": {
+    "excluyentes": [
+     "Poseer título profesional de bibliotecario con una duración de 3 años o más"
+    ],
+    "generales": [
+     "Título secundario"
+    ],
+    "suman": [],
+    "otros": [
+     "Presentación de un plan de trabajo conciso para el sector (máximo 5 páginas)"
+    ],
+    "lugar": "Biblioteca \"Geol. Roberto L. M. Viera\" de la Delegación Zonal Sede Esquel",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Jefe/a de División de Procesos Técnicos y Repositorio",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Técnico Profesional \"B\"",
    "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
+   "id": "digesto:4c5bba0e-4680-4cd7-b639-e89ef8c44679",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrativo, Planta Permanente, para desempeñarse como Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretaría de Ciencia y Técnica, en el marco del Decreto PEN Nº 366/06 - Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza Digital Consejo Superior N° 210, y avalar el siguiente cronograma y demás especificaciones a tener en cuenta en todos los llamados.",
+   "url": "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679",
+   "instancia": "interno",
+   "dependencia": "rectorado",
+   "resolucion": "625/2026",
+   "publicado": "2026-09-28",
+   "detalle": "Resoluciones digitales R/11",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título del Nivel Secundario"
+    ],
+    "suman": [
+     "Título en Tecnicatura Universitaria en Gestión y Administración de Universidades"
+    ],
+    "otros": [],
+    "lugar": "Sede Comodoro Rivadavia en el Horario de 8.00 a 15.00 hs",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretarí…",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
   },
   {
    "id": "judicial:976",
@@ -532,7 +711,25 @@
    "hasta": "2026-11-02",
    "publicado": "2026-10-05",
    "evaluacion": "2026-11-16",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/9288b02a-c8e3-4dcd-81c5-0385a718d9a6"
+   ],
    "titulo_requerido": "terciario",
+   "req": {
+    "excluyentes": [
+     "Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
+    ],
+    "generales": [
+     "Poseer titulo secundario completo",
+     "Presentación de un CV ACTUALIZADO con la correspondiente documentación respaldatoria debidamente certificada",
+     "Presentación de Certificado de Antecedentes penales nacionales y provinciales"
+    ],
+    "suman": [],
+    "otros": [],
+    "lugar": "Biblioteca Central \"Dr. Eduardo A. Musacchio\" de la UNPSJB Comodoro Rivadavia",
+    "horario": "lunes a viernes de 14:00 a 21:00 hs",
+    "remite": null
+   },
    "inscripcion": "por_abrir",
    "titulo_corto": "Técnico/a Superior Especializado en Biblioteca",
    "visto_desde": "2026-10-16",
@@ -541,20 +738,161 @@
      "nivel": "fuerte",
      "motivo": "Abierto al público",
      "notas": [
-      "Pide título terciario o técnico.",
+      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración",
       "Es de otro agrupamiento (Técnico Profesional \"B\")."
      ]
     },
     "bianca": {
      "nivel": "pagina",
-     "motivo": "Pide título terciario o técnico",
-     "notas": []
+     "motivo": "Pide un título excluyente",
+     "notas": [
+      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
+     ]
     }
    },
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Abierto al público",
    "agrupamiento_nombre": "Técnico Profesional \"B\"",
    "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
+   "id": "humanidades:28458",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 7 AAPP – Área Económica Financiera FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-7-aapp-area-economica-financiera-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf",
+   "resolucion": "899/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia",
+    "Trelew"
+   ],
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Cat. 7 AAPP – Área Económica Financiera FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:28455",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
+   "resolucion": "902/2026",
+   "instancia": "interno",
+   "categoria": 5,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Puerto Madryn",
+    "Comodoro Rivadavia",
+    "Trelew"
+   ],
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Puerto Madryn, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:28452",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Extensión FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-4-aapp-area-extension-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+   "resolucion": "900/2026",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia",
+    "Trelew"
+   ],
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
   },
   {
    "id": "judicial:979",
@@ -609,12 +947,33 @@
    "hasta": "2026-10-28",
    "publicado": "2026-09-30",
    "evaluacion": "2026-11-10",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar Administrativo/a",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/c7610cfb-d65a-4753-9c40-798cd6db36d0"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título de Nivel Medio"
+    ],
+    "suman": [],
+    "otros": [
+     "Acreditar la Capacitación de la Ley Micaela",
+     "Disponibilidad horaria en función de las actividades del área",
+     "Disponibilidad para viajar cuando las actividades institucionales así lo requieran. PERFIL REQUERIDO:",
+     "Sentido de pertenencia y compromiso ético con la Institución",
+     "Disposición para el trabajo en equipo, colaboración y proactividad en el desarrollo de las tareas asignadas",
+     "Capacidad de organización, autogestión y resolución de tramites e imprevistos administrativos del área",
+     "Excelentes relaciones interpersonales, cordialidad y vocación de servicio en la atención, orientación y recepción de consultas de estudiantes, personal universitario y…",
+     "Capacidad para la atención, orientación y recepción de consultas de estudiantes",
+     "Conocimiento general de las"
+    ],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar Administrativo/a",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -640,12 +999,27 @@
    "hasta": "2026-10-28",
    "publicado": "2026-09-30",
    "evaluacion": "2026-11-10",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar Administrativa/o",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/cc20e8c4-df24-4a72-9c96-790c81573e20"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Titulo secundario"
+    ],
+    "suman": [],
+    "otros": [
+     "Manejo informático de los Sistemas SIU",
+     "PILAGA, SUDOCU",
+     "Manejo de herramientas informáticas (paquete Office, correo electrónico, internet)"
+    ],
+    "lugar": "Comodoro Rivadavia en h orario de 08 a 15 hs. (35hs semanales)",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar Administrativa/o",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -671,12 +1045,33 @@
    "hasta": "2026-10-26",
    "publicado": "2026-09-28",
    "evaluacion": "2026-11-02",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar de Mantenimiento",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/30602d89-ff7f-4bd0-850a-e7012e455d56"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
+    ],
+    "suman": [],
+    "otros": [
+     "Actitud de pertenencia y compromiso con la Institución",
+     "Capacidad y predisposición para el trabajo en equipo",
+     "Buena predisposición y trato cordial en atención al público",
+     "Habilidades de comunicación interpersonal y buen trato con la Comunidad Universitaria",
+     "Disponibilidad horaria, incluidos los fines de semana (35 hs semanales)",
+     "Conocimiento de los Sistema Operativo Windows o Linux, procesador de texto, planilla de cálculo y base de datos (MS Office, Open Office o similar)",
+     "Redacción propia",
+     "Conocimiento de la normativa que rige al personal Nodocente",
+     "Conocimientos básicos en electricidad, albañilería, plomería, carpintería y otras disciplinas que hacen al mantenimiento general edificios y mobiliario en la Universidad"
+    ],
+    "lugar": "Sede Esquel",
+    "horario": "08 a 15 hs. (35hs semanales)",
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar de Mantenimiento",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -709,153 +1104,6 @@
    "instancia_nombre": "Cerrado"
   },
   {
-   "id": "humanidades:28458",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 7 AAPP – Área Económica Financiera FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-7-aapp-area-economica-financiera-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf",
-   "resolucion": "899/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Cat. 7 AAPP – Área Económica Financiera FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "humanidades:28452",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Extensión FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-4-aapp-area-extension-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
-   "resolucion": "900/2026",
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:4c5bba0e-4680-4cd7-b639-e89ef8c44679",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrativo, Planta Permanente, para desempeñarse como Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretaría de Ciencia y Técnica, en el marco del Decreto PEN Nº 366/06 - Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza Digital Consejo Superior N° 210, y avalar el siguiente cronograma y demás especificaciones a tener en cuenta en todos los llamados.",
-   "url": "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679",
-   "dependencia": "rectorado",
-   "resolucion": "625/2026",
-   "publicado": "2026-09-28",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretarí…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:e6e85f9e-cc46-49fc-b58d-6f2482150510",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 7 del Tramo Inicial Agrupamiento Administrativo, de Planta Permanente del Personal No Docente, de la Sede Comodoro Rivadavia, para desempeñarse como Auxiliar en el Área de Alumnos, con una carga horaria de 35 horas semanales, en el marco del Decreto Nº 366/06 -Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza C.S.Nº 186 y reglamentación interna vigente.-",
-   "url": "https://huarpe.unp.edu.ar/e6e85f9e-cc46-49fc-b58d-6f2482150510",
-   "dependencia": "juridicas",
-   "resolucion": "790/2026",
-   "publicado": "2026-09-17",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Auxiliar en el Área de Alumnos, con una carga horaria de 35 horas semanales, en el marco…",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:2d9f4f16-26cc-4fea-adc2-c321b9831532",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 3 del Tramo Mayor Agrupamiento Administrativo, de Planta Permanente del Personal No Docente, de la Sede Trelew, para desempeñarse como Responsable Académico, con una carga horaria de 35 horas semanales, en el marco del Decreto Nº 366/06 -Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza C.S.Nº 186 y reglamentación interna vigente.-",
-   "url": "https://huarpe.unp.edu.ar/2d9f4f16-26cc-4fea-adc2-c321b9831532",
-   "dependencia": "juridicas",
-   "resolucion": "789/2026",
-   "publicado": "2026-09-17",
-   "ciudades": [
-    "Trelew"
-   ],
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": "interno",
-   "categoria": 3,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Responsable Académico, con una carga horaria de 35 horas semanales, en el marco del Decr…",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
    "id": "fcnycs:133",
    "fuente": "fcnycs",
    "ambito": "nodocente",
@@ -864,6 +1112,9 @@
    "dependencia": "fcnycs",
    "publicado": "2026-04-07",
    "resolucion": "532/2026",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/f26664a5-1f23-477b-b696-094b7147c3ef"
+   ],
    "instancia": "interno",
    "categoria": 7,
    "agrupamiento": "tp_b",
@@ -891,15 +1142,11 @@
    "dependencia": "humanidades",
    "publicado": "2026-03-09",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-4-AA-PP-Despacho.pdf",
-   "resolucion": "929/2025",
    "instancia": "interno",
    "categoria": 4,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
+   "ciudades": [],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -925,14 +1172,11 @@
    "dependencia": "humanidades",
    "publicado": "2026-03-09",
    "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf",
-   "resolucion": "945/2025",
    "instancia": "sede",
    "categoria": 5,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
+   "ciudades": [],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -940,72 +1184,16 @@
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
-     "nivel": "fuerte",
-     "motivo": "Cerrado por sede Comodoro Rivadavia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado por sede",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:17582abc-02bf-43a2-af8e-e78c47e48523",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado Concurso Claustro Nodocente- Cat. 7-Agrupamiento Administrativo-Dirección de Alumnos",
-   "url": "https://huarpe.unp.edu.ar/17582abc-02bf-43a2-af8e-e78c47e48523",
-   "dependencia": "fcnycs",
-   "resolucion": "1396/2025",
-   "publicado": "2025-09-22",
-   "detalle": "FCNyCS - Resoluciones Decano",
-   "instancia": null,
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado Concurso Claustro Nodocente- Cat. 7-Agrupamiento Administrativo-Dirección de Alu…",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:2d7ddc65-a917-410f-85b5-f3da630ae2a6",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado Concurso Claustro Nodocente- Cat. 6-Agrupamiento Administrativo-Sec.Extensión",
-   "url": "https://huarpe.unp.edu.ar/2d7ddc65-a917-410f-85b5-f3da630ae2a6",
-   "dependencia": "fcnycs",
-   "resolucion": "1395/2025",
-   "publicado": "2025-09-22",
-   "detalle": "FCNyCS - Resoluciones Decano",
-   "instancia": null,
-   "categoria": 6,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado Concurso Claustro Nodocente- Cat. 6-Agrupamiento Administrativo-Sec.Extensión",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
      "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
+     "motivo": "Cerrado por sede",
      "notas": [
-      "No se pudo leer si es abierto, general, por sede o interno.",
+      "No se pudo leer de qué sede es: puede ser la tuya.",
       "No se pudo leer la ciudad. Revisalo en el llamado."
      ]
     }
    },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar",
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado por sede",
    "agrupamiento_nombre": "Administrativo"
   },
   {
@@ -1038,75 +1226,6 @@
     }
    },
    "fuente_nombre": "UNPSJB, Facultad de Ingeniería",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:954eea09-595a-404a-a189-88a1bef4a7a9",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamar a Concurso Cerrado Interno Cat.6-Agrupamiento Técnico Profesional \"B\"-Depto.Química",
-   "url": "https://huarpe.unp.edu.ar/954eea09-595a-404a-a189-88a1bef4a7a9",
-   "dependencia": "fcnycs",
-   "resolucion": "1063/2025",
-   "publicado": "2025-07-29",
-   "detalle": "FCNyCS - Resoluciones Decano",
-   "instancia": "interno",
-   "categoria": 6,
-   "agrupamiento": "tp_b",
-   "titulo_requerido": "terciario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Cat.6-Agrupamiento Técnico Profesional \"B\"-Depto.Química",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "normal",
-     "motivo": "Cerrado interno de tu dependencia",
-     "notas": [
-      "Pide título terciario o técnico.",
-      "Es de otro agrupamiento (Técnico Profesional \"B\").",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:7a91a955-fc01-4c87-9477-5a9cbcad2bf3",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamar a Concurso Cerrado Interno Cat.6-Agrupamiento Administrativo-Depto.Geología",
-   "url": "https://huarpe.unp.edu.ar/7a91a955-fc01-4c87-9477-5a9cbcad2bf3",
-   "dependencia": "fcnycs",
-   "resolucion": "1059/2025",
-   "publicado": "2025-07-25",
-   "detalle": "FCNyCS - Resoluciones Decano",
-   "instancia": "interno",
-   "categoria": 6,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Cat.6-Agrupamiento Administrativo-Depto.Geología",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "normal",
-     "motivo": "Cerrado interno de tu dependencia",
-     "notas": [
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
   },
@@ -1194,7 +1313,9 @@
    "categoria": 7,
    "agrupamiento": "tp_b",
    "titulo_requerido": "terciario",
-   "ciudades": [],
+   "ciudades": [
+    "Trelew"
+   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -1228,7 +1349,9 @@
    "categoria": 7,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [],
+   "ciudades": [
+    "Trelew"
+   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -1236,11 +1359,9 @@
    "visto_desde": "2026-10-16",
    "para": {
     "bianca": {
-     "nivel": "normal",
+     "nivel": "suave",
      "motivo": "Abierto al público",
-     "notas": [
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
+     "notas": []
     }
    },
    "fuente_nombre": "UNPSJB, Digesto de resoluciones",
@@ -1261,7 +1382,9 @@
    "categoria": 7,
    "agrupamiento": "administrativo",
    "titulo_requerido": null,
-   "ciudades": [],
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
@@ -1450,6 +1573,33 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "digesto:e6e85f9e-cc46-49fc-b58d-6f2482150510",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 7 del Tramo Inicial Agrupamiento Administrativo, de Planta Permanente del Personal No Docente, de la Sede Comodoro Rivadavia, para desempeñarse como Auxiliar en el Área de Alumnos, con una carga horaria de 35 horas semanales, en el marco del Decreto Nº 366/06 -Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza C.S.Nº 186 y reglamentación interna vigente.-",
+   "url": "https://huarpe.unp.edu.ar/e6e85f9e-cc46-49fc-b58d-6f2482150510",
+   "instancia": "interno",
+   "dependencia": "juridicas",
+   "resolucion": "790/2026",
+   "publicado": "2026-09-17",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "detalle": "FCJ - Resoluciones digitales",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-15",
+   "hasta": "2026-10-15",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Auxiliar en el Área de Alumnos, con una carga horaria de 35 horas semanales, en el marco…",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "rectorado:556/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -1468,12 +1618,44 @@
    "hasta": "2026-10-14",
    "publicado": "2026-09-15",
    "evaluacion": "2026-10-26",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Jefe/a de Supervisión",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/bd1bf5a6-84a4-4498-9ba5-86c8f7931bf5"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título secundario completo"
+    ],
+    "suman": [
+     "Título universitario en carreras de pregrado cuyos alcances competa con la gestión y administración universitaria, gestión de contenido editorial y nuevas tecnologías p…",
+     "Título universitario en carrera de grado cuyos alcances competa con la gestión y administración universitaria, gestión de contenido editorial y nuevas tecnologías para…"
+    ],
+    "otros": [
+     "Manejo de programas informáticos",
+     "Disponer de 35 horas semanales por la carga de horario laboral",
+     "Tener flexibilidad horaria de acuerdo a las necesidades de la Editorial",
+     "Estar disponible para viajar a las otras sedes de la Universidad y de participar en distintas ferias de libros y/o actividades para difusión de publicaciones, entre otras",
+     "Formación y/o actualización en el área de la comunicación, como así también en lo vinculado a tareas de redacción y corrección de textos académicos y literarios",
+     "Acreditar capacidad para diseñar e implementar procesos comunicacionales, estableciendo canales y procedimientos que garanticen el acceso adecuado a la información. PER…",
+     "Actitud de pertenencia y compromiso con la Institución",
+     "Competencia para gestionar y administrar contenido editorial",
+     "Interés en el desarrollo de estrategias comunicacionales para la difusión de las acciones de la editorial",
+     "Habilidad en la expresión oral y escrita involucrada en cada formato comunicacional",
+     "Capacidad de colaboración y apoyo profesional en el desarrollo de las actividades editoriales (edición, producción y venta)",
+     "Habilidad de desarrollar pensamiento analítico y capacidad de resolver problemas",
+     "Habilidad interpersonal para el asesoramiento y asistencia a los requerimientos de los docentes, investigadores y autoridades vinculados en los procesos editoriales inv…",
+     "Predisposición para el trabajo en equipo",
+     "Poseer competencias de proactividad y motivación en la tarea",
+     "Contribuir al desarrollo del área",
+     "Poseer capacidad de ventas"
+    ],
+    "lugar": "Editorial Universitaria de la Patagonia, Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Jefe/a de Supervisión",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -1483,6 +1665,46 @@
     }
    },
    "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "digesto:2d9f4f16-26cc-4fea-adc2-c321b9831532",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 3 del Tramo Mayor Agrupamiento Administrativo, de Planta Permanente del Personal No Docente, de la Sede Trelew, para desempeñarse como Responsable Académico, con una carga horaria de 35 horas semanales, en el marco del Decreto Nº 366/06 -Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza C.S.Nº 186 y reglamentación interna vigente.-",
+   "url": "https://huarpe.unp.edu.ar/2d9f4f16-26cc-4fea-adc2-c321b9831532",
+   "instancia": "interno",
+   "dependencia": "juridicas",
+   "resolucion": "789/2026",
+   "publicado": "2026-09-17",
+   "ciudades": [
+    "Trelew"
+   ],
+   "detalle": "FCJ - Resoluciones digitales",
+   "categoria": 3,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-14",
+   "hasta": "2026-10-14",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Ser Nativo o argentino naturalizado con 4 años de ejercicio de la ciudadanía. Titulo Secundario Redacción propia. Manejo de herramientas informáticas. Curriculum Vitae…"
+    ],
+    "suman": [],
+    "otros": [
+     "Decreto 366/06. Conocimiento del Convenio Colectivo de Trabajo del personal Docente de la UUNN Elaboración de proyectos de resoluciones y disposiciones. Comunicación co…"
+    ],
+    "lugar": null,
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Responsable Académico, con una carga horaria de 35 horas semanales, en el marco del Decr…",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
   },
@@ -1587,12 +1809,27 @@
    "hasta": "2026-10-07",
    "publicado": "2026-09-09",
    "evaluacion": "2026-10-20",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Subjefe/a de División de Programas y Proyectos",
    "tambien_en": [
     "https://huarpe.unp.edu.ar/223c9266-c5db-4838-997c-daac13ae4458"
    ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios completos"
+    ],
+    "suman": [
+     "Técnicatura Universitaria en Gestión y Administración de Universidades y/o a fin"
+    ],
+    "otros": [
+     "Capacidad de redacción propia de notas y proyectos de resoluciones"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Subjefe/a de División de Programas y Proyectos",
    "visto_desde": "2026-10-16",
    "para": {
     "cristian": {
@@ -1763,21 +2000,35 @@
    "hasta": "2026-10-02",
    "publicado": "2026-09-04",
    "evaluacion": "2026-10-15",
-   "titulo_requerido": "terciario",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/c8339eb8-835f-4bd4-ac44-f8689d722a2f"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [],
+    "suman": [],
+    "otros": [
+     "Chubut",
+     "Cumplir con tolo lo dispuesto por el"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
    "inscripcion": "cerrada",
    "titulo_corto": "Auxiliar (Dirección de Deportes)",
    "visto_desde": "2026-10-16",
    "para": {
     "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título terciario o técnico",
+     "nivel": "fuerte",
+     "motivo": "Abierto al público",
      "notas": []
     }
    },
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Abierto al público",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
+   "agrupamiento_nombre": "Técnico Profesional \"B\""
   },
   {
    "id": "rectorado:540/2026",
@@ -1798,21 +2049,55 @@
    "hasta": "2026-10-02",
    "publicado": "2026-09-04",
    "evaluacion": "2026-10-15",
-   "titulo_requerido": "terciario",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/88bed904-557b-48a9-a73f-8a05ec5342b5"
+   ],
+   "titulo_requerido": "universitario",
+   "req": {
+    "excluyentes": [
+     "Estudios Universitarios completos con título de Técnico Biotecnólogo, Técnico Químico, Técnico en Alimentos, Técnico en Procesos y Productos, y/u otros títulos afines,…"
+    ],
+    "generales": [],
+    "suman": [
+     "No excluyente: título de Ingeniero o Licenciado afines al llamado del cargo"
+    ],
+    "otros": [
+     "Ser argentino nativo, por opción o naturalizado con cuatro años en ejercicio de la ciudadanía",
+     "Presentación de Curiculum Vitae actualizado",
+     "Predisposición para trabajo en equipo",
+     "Idoneidad para realizar tareas técnico-profesionales",
+     "Disponibilidad respecto a su capacitación permanente",
+     "Capacidad para detectar y comunicar problemas propios de las tareas que desarrolle y proponer soluciones",
+     "Excelente manejo de herramientas informáticas y rápida adaptación al uso de nuevos sistemas",
+     "Personalidad proactiva",
+     "Compromiso de guardar reserva de la información a la que acceda desde su puesto laboral. CONOCIMIENTO Y COMPETENCIA:",
+     "Manejo y conocimiento de técnicas de análisis para aceites esenciales",
+     "Conocimiento teórico y predisposición a capacitarse en las distintas técnicas de obtención de aceites esenciales y afines",
+     "Manejo sistema operativo Windows, Linux, procesador de texto, planillas y bases de datos",
+     "Conocimiento sobre Seguridad e Higiene",
+     "Conocimientos básicos de idioma inglés",
+     "Conocimiento sobre el Estatuto de la UNPSJB, el CCT y reglamento de concursos del personal Nodocente"
+    ],
+    "lugar": "Unidad de Extracción de Aceites Esenciales (dependiente del INBIES), Esquel",
+    "horario": null,
+    "remite": null
+   },
    "inscripcion": "cerrada",
    "titulo_corto": "Auxiliar Técnico",
    "visto_desde": "2026-10-16",
    "para": {
     "bianca": {
      "nivel": "pagina",
-     "motivo": "Pide título terciario o técnico",
-     "notas": []
+     "motivo": "Pide un título excluyente",
+     "notas": [
+      "Excluyente: Estudios Universitarios completos con título de Técnico Biotecnólogo, Técnico Químico, Técnico en Alimentos, Técnico en Procesos y Productos, y/u otros títulos afines,…"
+     ]
     }
    },
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Abierto al público",
    "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
+   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "mpf:llamado-a-concurso-funcionario-de-fiscalia-oumpf-de-comodoro-rivadavia-un-cargo",
@@ -3079,41 +3364,6 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
-   "id": "humanidades:28455",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
-   "resolucion": "902/2026",
-   "instancia": "interno",
-   "categoria": 5,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [
-    "Puerto Madryn",
-    "Comodoro Rivadavia",
-    "Trelew"
-   ],
-   "desde": "2026-04-02",
-   "hasta": "2026-04-02",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
    "id": "mpf:llamado-a-concurso-cerrado-oficial-oumpf-esquel",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -3599,6 +3849,68 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "digesto:17582abc-02bf-43a2-af8e-e78c47e48523",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamado Concurso Claustro Nodocente- Cat. 7-Agrupamiento Administrativo-Dirección de Alumnos",
+   "url": "https://huarpe.unp.edu.ar/17582abc-02bf-43a2-af8e-e78c47e48523",
+   "dependencia": "fcnycs",
+   "resolucion": "1396/2025",
+   "publicado": "2025-09-22",
+   "detalle": "FCNyCS - Resoluciones Decano",
+   "instancia": null,
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2025-10-16",
+   "hasta": "2025-10-22",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Llamado Concurso Claustro Nodocente- Cat. 7-Agrupamiento Administrativo-Dirección de Alu…",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Tipo sin identificar",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "digesto:2d7ddc65-a917-410f-85b5-f3da630ae2a6",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamado Concurso Claustro Nodocente- Cat. 6-Agrupamiento Administrativo-Sec.Extensión",
+   "url": "https://huarpe.unp.edu.ar/2d7ddc65-a917-410f-85b5-f3da630ae2a6",
+   "dependencia": "fcnycs",
+   "resolucion": "1395/2025",
+   "publicado": "2025-09-22",
+   "detalle": "FCNyCS - Resoluciones Decano",
+   "instancia": null,
+   "categoria": 6,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2025-10-16",
+   "hasta": "2025-10-22",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Llamado Concurso Claustro Nodocente- Cat. 6-Agrupamiento Administrativo-Sec.Extensión",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "fuerte",
+     "motivo": "Tipo de concurso sin identificar",
+     "notas": [
+      "No se pudo leer si es abierto, general, por sede o interno."
+     ]
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Tipo sin identificar",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "defensa:29/25",
    "fuente": "defensa",
    "ambito": "judicial",
@@ -3872,6 +4184,88 @@
    "titulo_requerido_nombre": "título universitario"
   },
   {
+   "id": "digesto:954eea09-595a-404a-a189-88a1bef4a7a9",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamar a Concurso Cerrado Interno Cat.6-Agrupamiento Técnico Profesional \"B\"-Depto.Química",
+   "url": "https://huarpe.unp.edu.ar/954eea09-595a-404a-a189-88a1bef4a7a9",
+   "instancia": "interno",
+   "dependencia": "fcnycs",
+   "resolucion": "1063/2025",
+   "publicado": "2025-07-29",
+   "detalle": "FCNyCS - Resoluciones Decano",
+   "categoria": 6,
+   "agrupamiento": "tp_b",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2025-08-21",
+   "hasta": "2025-08-27",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [],
+    "otros": [
+     "Ser argentino/na nativo/va o naturalizado/da con al menos cuatro años en ejercicio de la ciudadanía",
+     "Título habilitante para el cargo o demostración de la idoneidad adecuada para el desempeño de las"
+    ],
+    "lugar": null,
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat.6-Agrupamiento Técnico Profesional \"B\"-Depto.Química",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "fuerte",
+     "motivo": "Cerrado interno de tu dependencia",
+     "notas": [
+      "Es de otro agrupamiento (Técnico Profesional \"B\")."
+     ]
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"B\""
+  },
+  {
+   "id": "digesto:7a91a955-fc01-4c87-9477-5a9cbcad2bf3",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamar a Concurso Cerrado Interno Cat.6-Agrupamiento Administrativo-Depto.Geología",
+   "url": "https://huarpe.unp.edu.ar/7a91a955-fc01-4c87-9477-5a9cbcad2bf3",
+   "instancia": "interno",
+   "dependencia": "fcnycs",
+   "resolucion": "1059/2025",
+   "publicado": "2025-07-25",
+   "detalle": "FCNyCS - Resoluciones Decano",
+   "categoria": 6,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2025-08-21",
+   "hasta": "2025-08-27",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat.6-Agrupamiento Administrativo-Depto.Geología",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "fuerte",
+     "motivo": "Cerrado interno de tu dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "defensa:23/25",
    "fuente": "defensa",
    "ambito": "judicial",
@@ -4074,6 +4468,44 @@
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "digesto:a597d02a-0fe0-4916-a884-253970bab2a8",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Llamar a Concurso Categoría 5 de PP Agrupamiento Técnico Profesional \"B\"-Dirección de Alumnos FCNyCS- Sede: Comodoro Rivadavia",
+   "url": "https://huarpe.unp.edu.ar/a597d02a-0fe0-4916-a884-253970bab2a8",
+   "dependencia": "fcnycs",
+   "resolucion": "757/2025",
+   "publicado": "2025-05-22",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "detalle": "FCNyCS - Resoluciones Decano",
+   "instancia": null,
+   "categoria": 5,
+   "agrupamiento": "tp_b",
+   "titulo_requerido": "terciario",
+   "desde": "2025-06-17",
+   "hasta": "2025-06-24",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Categoría 5 de PP Agrupamiento Técnico Profesional \"B\"-Dirección de Alumnos FCNyCS- Sede…",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "fuerte",
+     "motivo": "Tipo de concurso sin identificar",
+     "notas": [
+      "No se pudo leer si es abierto, general, por sede o interno.",
+      "Pide título terciario o técnico.",
+      "Es de otro agrupamiento (Técnico Profesional \"B\")."
+     ]
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Tipo sin identificar",
+   "agrupamiento_nombre": "Técnico Profesional \"B\"",
+   "titulo_requerido_nombre": "título terciario o técnico"
   },
   {
    "id": "defensa:15/25",
