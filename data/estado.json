@@ -739,53 +739,61 @@
   "defensa:04/25": {
    "desde": "2026-10-16",
    "avisado": []
+  },
+  "digesto:4c5bba0e-4680-4cd7-b639-e89ef8c44679": {
+   "desde": "2026-10-16",
+   "avisado": []
+  },
+  "digesto:d1d4c8da-4f98-436e-b2d7-e23dcfa9427e": {
+   "desde": "2026-10-16",
+   "avisado": []
   }
  },
  "fuentes": {
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "humanidades": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   },
   "defensoria_nacion": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-16T12:11-03:00"
+   "ultima_ok": "2026-10-16T12:17-03:00"
   }
  },
  "pdf": {

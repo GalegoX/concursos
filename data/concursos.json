@@ -130,11 +130,14 @@
    "titulo_requerido": null,
    "inscripcion": "abierta",
    "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213"
+   ],
    "visto_desde": "2026-10-16",
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -171,7 +174,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -209,7 +212,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -309,7 +312,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -339,11 +342,14 @@
    "titulo_requerido": null,
    "inscripcion": "abierta",
    "titulo_corto": "Jefe/a de Departamento de Becas",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/ee4bb958-65fb-4c94-9b18-73f1c16e7793"
+   ],
    "visto_desde": "2026-10-16",
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -526,10 +532,7 @@
    "evaluacion": "2026-11-16",
    "titulo_requerido": "terciario",
    "inscripcion": "por_abrir",
-   "titulo_corto": "Técnico/a Superior Especializado en Biblioteca (Biblioteca)",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/9288b02a-c8e3-4dcd-81c5-0385a718d9a6"
-   ],
+   "titulo_corto": "Técnico/a Superior Especializado en Biblioteca",
    "visto_desde": "2026-10-16",
    "para": {
     "galego": {
@@ -757,11 +760,42 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
    "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "digesto:4c5bba0e-4680-4cd7-b639-e89ef8c44679",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrativo, Planta Permanente, para desempeñarse como Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretaría de Ciencia y Técnica, en el marco del Decreto PEN Nº 366/06 - Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza Digital Consejo Superior N° 210, y avalar el siguiente cronograma y demás especificaciones a tener en cuenta en todos los llamados.",
+   "url": "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679",
+   "dependencia": "rectorado",
+   "resolucion": "625/2026",
+   "publicado": "2026-09-28",
+   "detalle": "Resoluciones digitales R/11",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [],
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación dependiente de la Secretarí…",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "galego": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
   },
@@ -820,522 +854,6 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
-   "id": "digesto:e73b503d-0178-4bfc-b979-0094752a948e",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Concurso de profesores: Llamado a inscripción - Derecho de Familia - cargo profesor titular - dedicación simple - CR",
-   "url": "https://huarpe.unp.edu.ar/e73b503d-0178-4bfc-b979-0094752a948e",
-   "dependencia": "juridicas",
-   "resolucion": "788/2026",
-   "publicado": "2026-09-16",
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "De profesores: Llamado a inscripción - Derecho de Familia - cargo profesor titular - ded…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:1ef5e943-c84b-456e-ab02-96e3da340fb6",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Rectif.Llamado a concurso JTP - SEMI - EXCL- Personas Juridicas Civiles y Comerciales - PMY",
-   "url": "https://huarpe.unp.edu.ar/1ef5e943-c84b-456e-ab02-96e3da340fb6",
-   "dependencia": "juridicas",
-   "resolucion": "247/2026",
-   "publicado": "2026-09-04",
-   "detalle": "FCJ - Resoluciones digitales Ad. Referendum",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Rectif.Llamado a concurso JTP - SEMI - EXCL- Personas Juridicas Civiles y Comerciales -…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:da9f5b8d-e109-4f98-b2cf-f1d922311629",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado a inscripción - Concurso de profesor - Derecho del Consumidor y del Usuario - PMy",
-   "url": "https://huarpe.unp.edu.ar/da9f5b8d-e109-4f98-b2cf-f1d922311629",
-   "dependencia": "juridicas",
-   "resolucion": "720/2026",
-   "publicado": "2026-09-01",
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado a inscripción - Concurso de profesor - Derecho del Consumidor y del Usuario - PMy",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:a02a9954-1fee-4f5e-97be-112739ac01ca",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado a inscripción - Concurso de profesor - Derecho de las Obligaciones - PMy",
-   "url": "https://huarpe.unp.edu.ar/a02a9954-1fee-4f5e-97be-112739ac01ca",
-   "dependencia": "juridicas",
-   "resolucion": "719/2026",
-   "publicado": "2026-09-01",
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado a inscripción - Concurso de profesor - Derecho de las Obligaciones - PMy",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:7af852bf-5c45-4fbf-a1b9-7844df48dc45",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado a inscripción - Concurso de profesor - Derechos Reales - PMy",
-   "url": "https://huarpe.unp.edu.ar/7af852bf-5c45-4fbf-a1b9-7844df48dc45",
-   "dependencia": "juridicas",
-   "resolucion": "718/2026",
-   "publicado": "2026-09-01",
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado a inscripción - Concurso de profesor - Derechos Reales - PMy",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:b01af23c-dc77-4d0d-8e2a-2ca2507abbae",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado a inscripción - Concurso de profesor - Contratos Civiles y Comerciales - PMy",
-   "url": "https://huarpe.unp.edu.ar/b01af23c-dc77-4d0d-8e2a-2ca2507abbae",
-   "dependencia": "juridicas",
-   "resolucion": "717/2026",
-   "publicado": "2026-09-01",
-   "detalle": "FCJ - Resoluciones digitales",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Llamado a inscripción - Concurso de profesor - Contratos Civiles y Comerciales - PMy",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:d00a6d83-a93a-49f1-8f07-e45cc13ed71a",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Hacer lugar al recurso interpuesto por la agente Laura Elisa Cárdenas contra la Resolución Digital R/10 N° 376/2025, referente al Concurso Cerrado para la cobertura de un (1) cargo Categoría 02 - Agrupamiento Administrativo - Director/a de Secretaría Privada de Rectorado, por los fundamentos precedentemente expuestos.",
-   "url": "https://huarpe.unp.edu.ar/d00a6d83-a93a-49f1-8f07-e45cc13ed71a",
-   "dependencia": "rectorado",
-   "resolucion": "528/2026",
-   "publicado": "2026-08-31",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "cerrado",
-   "categoria": 2,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Hacer lugar al recurso interpuesto por la agente Laura Elisa Cárdenas contra la Resoluci…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:a32245fc-59ed-4b45-af8f-b82abfce65c7",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Rectificar parcialmente la Resolución Digital CD FCJ Nº 70 / 2026 en su parte resolutiva: Debe decir llamar a concurso para un (1) Cargo de Profesor: Adjunto Regular con Dedicación Simple - Derecho Digital (A21) FCJ ESQ.-",
-   "url": "https://huarpe.unp.edu.ar/a32245fc-59ed-4b45-af8f-b82abfce65c7",
-   "dependencia": "juridicas",
-   "resolucion": "122/2026",
-   "publicado": "2026-05-18",
-   "detalle": "FCJ - Resoluciones digitales Ad. Referendum",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Rectificar parcialmente la Resolución Digital CD FCJ Nº 70 / 2026 en su parte resolutiva…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:c39979a5-3dab-44c5-a8c6-8228a8b06ccc",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 583/2025, solo en lo que respecta al Cronograma de fechas de la instancia del Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 05; Agrupamiento Técnico Profesional “B”, Planta Permanente, para desempeñarse como Técnico/a Superior Especializado/a en la Biblioteca Central dependiente de la Secretaría Académica (Expediente Digital EXPD DGD - 210/2024), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/c39979a5-3dab-44c5-a8c6-8228a8b06ccc",
-   "dependencia": "rectorado",
-   "resolucion": "224/2026",
-   "publicado": "2026-04-24",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "general",
-   "categoria": 5,
-   "agrupamiento": "tp_b",
-   "titulo_requerido": "terciario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Técnico/a Superior Especializado/a en la Biblioteca Central dependiente de la Secretaría…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Cerrado general",
-     "notas": [
-      "Pide título terciario o técnico.",
-      "Es de otro agrupamiento (Técnico Profesional \"B\").",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado general",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:abd22bbd-ffff-41be-8dbb-773503915def",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 638/2025, solo en lo que respecta al Cronograma de fechas de la instancia del Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Técnico Profesional \"B\", Planta Permanente, para desempeñarse como Auxiliar Técnico en la Unidad de Extracción de Aceites Esenciales (UEAE) dependiente de la Delegación Zonal Sede Esquel (Expediente Digital EXPD DGD - 157/2025), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/abd22bbd-ffff-41be-8dbb-773503915def",
-   "dependencia": "rectorado",
-   "resolucion": "220/2026",
-   "publicado": "2026-04-24",
-   "ciudades": [
-    "Esquel"
-   ],
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "general",
-   "categoria": 6,
-   "agrupamiento": "tp_b",
-   "titulo_requerido": "terciario",
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Auxiliar Técnico en la Unidad de Extracción de Aceites Esenciales (UEAE) dependiente de…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "suave",
-     "motivo": "Cerrado general",
-     "notas": [
-      "Pide título terciario o técnico.",
-      "Es de otro agrupamiento (Técnico Profesional \"B\")."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado general",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:37a806b8-52a5-42cc-92ef-cd2b5307b923",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 666/2025, solo en lo que respecta al Cronograma de fechas de las instancias del Concurso Cerrado por Sede y Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Profesional “B”, Planta Permanente, para desempeñarse como Auxiliar en la Dirección de Deportes dependiente de la Secretaría de Bienestar Universitario (Expediente Digital EXPD DGD - 121/2025), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/37a806b8-52a5-42cc-92ef-cd2b5307b923",
-   "dependencia": "rectorado",
-   "resolucion": "219/2026",
-   "publicado": "2026-04-24",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "sede",
-   "categoria": 7,
-   "agrupamiento": "tp_b",
-   "titulo_requerido": "terciario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Auxiliar en la Dirección de Deportes dependiente de la Secretaría de Bienestar Universit…",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado por sede",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:9dc16dff-1bfb-4e2a-8a23-668951d63771",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 798/2025, solo en lo que respecta al Cronograma de fechas de las instancias del Concurso Cerrado por Sede y Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 03; Agrupamiento Técnico Profesional “A”, Planta Permanente para desempeñarse como Jefe/a de Planificación y Gestión Pedagógica de Propuestas Educativas con Modalidad a Distancia de la Dirección de Educación a Distancia dependiente de Secretaría Académica (Expediente Digital EXPD DGD - 141/2024), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/9dc16dff-1bfb-4e2a-8a23-668951d63771",
-   "dependencia": "rectorado",
-   "resolucion": "218/2026",
-   "publicado": "2026-04-24",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "sede",
-   "categoria": 3,
-   "agrupamiento": "tp_a",
-   "titulo_requerido": "universitario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Jefe/a de Planificación y Gestión Pedagógica de Propuestas Educativas con Modalidad a Di…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Cerrado por sede",
-     "notas": [
-      "No se pudo leer de qué sede es: puede ser la tuya.",
-      "Pide título universitario.",
-      "Es de otro agrupamiento (Técnico Profesional \"A\").",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado por sede",
-   "agrupamiento_nombre": "Técnico Profesional \"A\"",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
-   "id": "digesto:0acc8ac9-a394-4874-8e3d-e2d3a45e34ca",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 662/2025, solo en lo que respecta al Cronograma de fechas de las instancias del Concurso Cerrado por Sede y Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Técnico Profesional “A”, Planta Permanente, para desempeñarse como Jefe/a de División en la Dirección de Acción Social de la Dirección General de Bienestar Universitario dependiente de la Secretaría de Bienestar Universitario (Expediente Digital EXPD DGD - 51/2025), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/0acc8ac9-a394-4874-8e3d-e2d3a45e34ca",
-   "dependencia": "rectorado",
-   "resolucion": "217/2026",
-   "publicado": "2026-04-24",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "sede",
-   "categoria": 4,
-   "agrupamiento": "tp_a",
-   "titulo_requerido": "universitario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Jefe/a de División en la Dirección de Acción Social de la Dirección General de Bienestar…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Cerrado por sede",
-     "notas": [
-      "No se pudo leer de qué sede es: puede ser la tuya.",
-      "Pide título universitario.",
-      "Es de otro agrupamiento (Técnico Profesional \"A\").",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado por sede",
-   "agrupamiento_nombre": "Técnico Profesional \"A\"",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
-   "id": "digesto:45aee625-6453-44dd-aa00-ecf1906e4703",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 584/2025, solo en lo que respecta al Cronograma de fechas de la instancia del Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 05; Agrupamiento Técnico Profesional “B”, Planta Permanente, para desempeñarse como Técnico/a Superior Especializado/a en la Biblioteca Central “II” dependiente de la Secretaría Académica (Expediente Digital EXPD DGD - 7/2025), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/45aee625-6453-44dd-aa00-ecf1906e4703",
-   "dependencia": "rectorado",
-   "resolucion": "216/2026",
-   "publicado": "2026-04-24",
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "general",
-   "categoria": 5,
-   "agrupamiento": "tp_b",
-   "titulo_requerido": "terciario",
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Técnico/a Superior Especializado/a en la Biblioteca Central “II” dependiente de la Secre…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Cerrado general",
-     "notas": [
-      "Pide título terciario o técnico.",
-      "Es de otro agrupamiento (Técnico Profesional \"B\").",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado general",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "digesto:c3af6fd8-a88e-47f4-95e6-270ea583f47e",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar parcialmente la Resolución Digital R/10 Nº 658/2025, solo en lo que respecta al Cronograma de fechas de la instancia del Concurso Cerrado General para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Mantenimiento, Producción y Servicios Generales, Planta Permanente, para desempeñarse como Auxiliar de Mantenimiento, Producción y Servicios Generales dependiente de la Delegación Zonal Sede Puerto Madryn (Expediente Digital EXPD DGD - 164/2025), y avalar el siguiente cronograma.",
-   "url": "https://huarpe.unp.edu.ar/c3af6fd8-a88e-47f4-95e6-270ea583f47e",
-   "dependencia": "rectorado",
-   "resolucion": "215/2026",
-   "publicado": "2026-04-24",
-   "ciudades": [
-    "Puerto Madryn"
-   ],
-   "detalle": "Resoluciones digitales R/11",
-   "instancia": "general",
-   "categoria": 6,
-   "agrupamiento": "mantenimiento",
-   "titulo_requerido": null,
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Auxiliar de Mantenimiento, Producción y Servicios Generales dependiente de la Delegación…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "suave",
-     "motivo": "Cerrado general",
-     "notas": [
-      "Es de otro agrupamiento (Mantenimiento, Producción y Servicios Generales)."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado general",
-   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
-  },
-  {
    "id": "fcnycs:133",
    "fuente": "fcnycs",
    "ambito": "nodocente",
@@ -1388,7 +906,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -1428,40 +946,6 @@
    "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
    "instancia_nombre": "Cerrado por sede",
    "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "digesto:9849a6ab-daee-45aa-9fc6-a7fd83a1f2e0",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 432/2025",
-   "url": "https://huarpe.unp.edu.ar/9849a6ab-daee-45aa-9fc6-a7fd83a1f2e0",
-   "dependencia": "economicas",
-   "resolucion": "595/2025",
-   "publicado": "2025-10-06",
-   "detalle": "FCE - Resoluciones Decano",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
   },
   {
    "id": "digesto:17582abc-02bf-43a2-af8e-e78c47e48523",
@@ -1547,7 +1031,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -1625,177 +1109,42 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
-   "id": "digesto:43176491-44bb-458e-ac8c-92e66e24c202",
+   "id": "digesto:d1d4c8da-4f98-436e-b2d7-e23dcfa9427e",
    "fuente": "digesto",
    "ambito": "nodocente",
-   "titulo": "APROBAR el procedimiento formal de la sustanciación del llamado a Concurso Cerrado Regular, para la promoción del Cr. Fabián César TETTAMANTI, como PROFESOR ADJUNTO, Dedicación semiexclusiva, en el espacio Disciplinar IMPUESTOS, Delegación Académica Esquel, conforme el Expediente LCDR Nº 004/25. Declarar DESIERTO el llamado a concurso regular",
-   "url": "https://huarpe.unp.edu.ar/43176491-44bb-458e-ac8c-92e66e24c202",
+   "titulo": "CONVOCAR a CONCURSO ABIERTO Auxiliar Administrativo, Agrupamiento Administrativo, Tramo Inicial, Categoría 6, Secretaría de Investigación de Sede Trelew FCE UNPSJB",
+   "url": "https://huarpe.unp.edu.ar/d1d4c8da-4f98-436e-b2d7-e23dcfa9427e",
    "dependencia": "economicas",
-   "resolucion": "65/2025",
-   "publicado": "2025-05-08",
+   "resolucion": "204/2024",
+   "publicado": "2024-09-09",
    "ciudades": [
-    "Esquel"
+    "Trelew"
    ],
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": "cerrado",
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "APROBAR el procedimiento formal de la sustanciación del llamado a Concurso Cerrado Regul…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "suave",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "digesto:0583a59f-9b5d-467a-b71b-eb4196ff6704",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "MODIFICAR las fechas y horas de sorteo de temas, oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 342/2024",
-   "url": "https://huarpe.unp.edu.ar/0583a59f-9b5d-467a-b71b-eb4196ff6704",
-   "dependencia": "economicas",
-   "resolucion": "113/2025",
-   "publicado": "2025-03-20",
    "detalle": "FCE - Resoluciones Decano",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "MODIFICAR las fechas y horas de sorteo de temas, oposición y entrevista para el Concurso…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:d658b9d3-8c18-4780-bb80-1a92f9830657",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Autorizar llamado a concurso cargo de Profesor de Formación y Actividades Prácticas Simple Esp. Discip. Area Propedeutica Sede Trelew",
-   "url": "https://huarpe.unp.edu.ar/d658b9d3-8c18-4780-bb80-1a92f9830657",
-   "dependencia": "economicas",
-   "resolucion": "27/2025",
-   "publicado": "2025-03-19",
-   "ciudades": [
-    "Trelew"
-   ],
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
+   "instancia": "abierto",
+   "categoria": 6,
+   "agrupamiento": "administrativo",
    "titulo_requerido": null,
    "desde": null,
    "hasta": null,
    "inscripcion": "sin_fecha",
-   "titulo_corto": "Autorizar llamado a concurso cargo de Profesor de Formación y Actividades Prácticas Simp…",
+   "titulo_corto": "CONVOCAR a CONCURSO ABIERTO Auxiliar Administrativo, Agrupamiento Administrativo, Tramo…",
    "visto_desde": "2026-10-16",
    "para": {
     "galego": {
      "nivel": "suave",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:76d4f79b-ad13-4950-af39-6270d29d7647",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Autorizar llamado a concurso 1 cargo de Profesor de Formación y Actividades Prácticas Semiexclusivo en Administración Básica Sede Trelew.",
-   "url": "https://huarpe.unp.edu.ar/76d4f79b-ad13-4950-af39-6270d29d7647",
-   "dependencia": "economicas",
-   "resolucion": "26/2025",
-   "publicado": "2025-03-19",
-   "ciudades": [
-    "Trelew"
-   ],
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Autorizar llamado a concurso 1 cargo de Profesor de Formación y Actividades Prácticas Se…",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
+     "motivo": "Abierto al público",
+     "notas": []
+    },
+    "pareja": {
      "nivel": "suave",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno."
-     ]
+     "motivo": "Abierto al público",
+     "notas": []
     }
    },
    "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
-  },
-  {
-   "id": "digesto:adf33f77-edd5-4a4f-8f49-ffa69d0e6236",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Autorizar llamado a concurso cerrado Abog. Medina Insua",
-   "url": "https://huarpe.unp.edu.ar/adf33f77-edd5-4a4f-8f49-ffa69d0e6236",
-   "dependencia": "economicas",
-   "resolucion": "103/2024",
-   "publicado": "2024-12-12",
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": "cerrado",
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Autorizar llamado a concurso cerrado Abog. Medina Insua",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado"
+   "instancia_nombre": "Abierto al público",
+   "agrupamiento_nombre": "Administrativo"
   },
   {
    "id": "digesto:00029076-4fe2-4f0a-9359-55952e5816a2",
@@ -1828,74 +1177,6 @@
    },
    "fuente_nombre": "UNPSJB, Digesto de resoluciones",
    "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "digesto:c1503adb-b773-4cfb-8d1a-ebf628fe49f7",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Llamado a concurso cerrado FINLEZ Dirección General CR",
-   "url": "https://huarpe.unp.edu.ar/c1503adb-b773-4cfb-8d1a-ebf628fe49f7",
-   "dependencia": "economicas",
-   "resolucion": "37/2024",
-   "publicado": "2024-08-29",
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": "cerrado",
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "FINLEZ Dirección General CR",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "digesto:a8a894fa-32e9-42e9-a574-6c2d8711b58d",
-   "fuente": "digesto",
-   "ambito": "nodocente",
-   "titulo": "Modificar integración llamado a Concurso Matemática I Com. Riv.",
-   "url": "https://huarpe.unp.edu.ar/a8a894fa-32e9-42e9-a574-6c2d8711b58d",
-   "dependencia": "economicas",
-   "resolucion": "36/2024",
-   "publicado": "2024-08-29",
-   "detalle": "FCE - Resoluciones Consejo Directivo",
-   "instancia": null,
-   "categoria": null,
-   "agrupamiento": null,
-   "titulo_requerido": null,
-   "ciudades": [],
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Modificar integración llamado a Concurso Matemática I Com. Riv.",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "galego": {
-     "nivel": "normal",
-     "motivo": "Tipo de concurso sin identificar",
-     "notas": [
-      "No se pudo leer la categoría.",
-      "No se pudo leer si es abierto, general, por sede o interno.",
-      "No se pudo leer la ciudad. Revisalo en el llamado."
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
-   "instancia_nombre": "Tipo sin identificar"
   },
   {
    "id": "digesto:98058371-fd14-423a-9ebd-033e908b160b",
@@ -2195,7 +1476,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -2272,7 +1553,7 @@
    "estado_fuente": "Inscripción finalizada",
    "titulo_requerido": "abogacia",
    "inscripcion": "cerrada",
-   "titulo_corto": "Abogados/as de Fiscalía para la OUMPF Rawson (un cargo) y UFE AyDA Rawson (un cargo)",
+   "titulo_corto": "Abogados/as de Fiscalía para la OUMPF Rawson (un cargo) y UFE AyDA Rawson",
    "visto_desde": "2026-10-16",
    "para": {
     "pareja": {
@@ -2307,11 +1588,14 @@
    "titulo_requerido": null,
    "inscripcion": "cerrada",
    "titulo_corto": "Subjefe/a de División de Programas y Proyectos",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/223c9266-c5db-4838-997c-daac13ae4458"
+   ],
    "visto_desde": "2026-10-16",
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -2480,9 +1764,6 @@
    "titulo_requerido": "terciario",
    "inscripcion": "cerrada",
    "titulo_corto": "Auxiliar (Dirección de Deportes)",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/c8339eb8-835f-4bd4-ac44-f8689d722a2f"
-   ],
    "visto_desde": "2026-10-16",
    "para": {
     "pareja": {
@@ -2518,9 +1799,6 @@
    "titulo_requerido": "terciario",
    "inscripcion": "cerrada",
    "titulo_corto": "Auxiliar Técnico",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/88bed904-557b-48a9-a73f-8a05ec5342b5"
-   ],
    "visto_desde": "2026-10-16",
    "para": {
     "pareja": {
@@ -3825,7 +3103,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5186,7 +4464,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5245,7 +4523,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5278,7 +4556,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5417,7 +4695,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5450,7 +4728,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
@@ -5483,7 +4761,7 @@
    "para": {
     "galego": {
      "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia: si queda desierto, pasa a otra instancia donde podrías entrar.",
+     "motivo": "Cerrado interno de otra dependencia",
      "notas": []
     }
    },
