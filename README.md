@@ -5,7 +5,7 @@ justicia del Chubut. Cuando aparece un llamado que le sirve a alguno de los
 dos, le manda un aviso al celular **a esa persona**, y lo muestra en una
 página con una vista para cada uno:
 
-- **Galego** (nodocente, cat. 7, administrativo, FCNyCS, Comodoro): ascensos
+- **Cristian** (nodocente, cat. 7, administrativo, FCNyCS, Comodoro): ascensos
   en concursos abiertos, cerrados generales, cerrados por sede de Comodoro y
   cerrados internos de su facultad.
 - **Bianca** (externa): concursos abiertos al público de la universidad y de
@@ -14,7 +14,7 @@ página con una vista para cada uno:
 Lo de Comodoro suena; lo de otras ciudades llega en silencio.
 
 Página: https://galegox.github.io/concursos/
-(con `#galego` o `#bianca` al final abre directo la vista de cada uno).
+(con `#cristian` o `#bianca` al final abre directo la vista de cada uno).
 
 ---
 
@@ -43,7 +43,7 @@ una vez por persona:
 
 | Name | Secret |
 |---|---|
-| `NTFY_GALEGO` | el canal de Galego |
+| `NTFY_CRISTIAN` | el canal de Cristian |
 | `NTFY_BIANCA` | el canal de Bianca |
 
 ### 4. Probar
@@ -89,7 +89,7 @@ No cubre:
 
 - La página dice a qué hora fue la última revisión. Si pasaron más de 14
   horas, lo avisa arriba de todo.
-- Si una página no se puede leer durante tres revisiones seguidas, a Galego
+- Si una página no se puede leer durante tres revisiones seguidas, a Cristian
   le llega un aviso, y la página lo muestra en rojo. Es a propósito: es peor
   un monitor que dice "no hay nada" cuando en realidad dejó de mirar.
 - GitHub pausa las tareas programadas de los repositorios sin actividad
@@ -100,7 +100,7 @@ No cubre:
 ## Si cambia la situación de alguno
 
 Todo está en `config.py`, con comentarios: categoría, agrupamiento,
-dependencia y sede de Galego, títulos y carrera de Bianca, y si los
+dependencia y sede de Cristian, títulos y carrera de Bianca, y si los
 avisos de otras ciudades suenan, llegan en silencio o no llegan. Al
 guardar el cambio, el monitor corre solo y aplica el criterio nuevo.
 

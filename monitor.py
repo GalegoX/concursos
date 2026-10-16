@@ -9,7 +9,7 @@ en data/ para la página web.
     python monitor.py
 
 Variables de entorno:
-    NTFY_GALEGO, NTFY_BIANCA  canales de ntfy (secretos de GitHub)
+    NTFY_CRISTIAN, NTFY_BIANCA  canales de ntfy (secretos de GitHub)
     PRUEBA=true               manda además un aviso de prueba a cada uno
 """
 
@@ -413,8 +413,8 @@ def main():
     estado["pdf"] = {u: t for u, t in ctx.cache_pdf.items() if u in vigentes_pdf}
 
     datos = {
-        "personas": [{"id": p["id"], "nombre": p["nombre"], "criterio": criterio(p)}
-                     for p in personas],
+        "personas": [{"id": p["id"], "nombre": p["nombre"], "criterio": criterio(p),
+                      "nodocente": bool(p.get("nodocente"))} for p in personas],
         "concursos": publicos,
     }
     escribir_json(DATOS, datos)

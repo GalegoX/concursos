@@ -49,8 +49,8 @@ jobs:
 
       - name: Revisar las páginas y avisar
         env:
-          NTFY_GALEGO: ${{ secrets.NTFY_GALEGO }}
-          # Acepta también el nombre anterior del secreto (NTFY_PAREJA).
+          # Aceptan también los nombres anteriores de los secretos.
+          NTFY_CRISTIAN: ${{ secrets.NTFY_CRISTIAN || secrets.NTFY_GALEGO }}
           NTFY_BIANCA: ${{ secrets.NTFY_BIANCA || secrets.NTFY_PAREJA }}
           PRUEBA: ${{ inputs.prueba }}
         run: python monitor.py

@@ -16,8 +16,8 @@ import reglas  # noqa: E402
 D = date
 LOCALES = {"Comodoro Rivadavia", "Rada Tilly"}
 # Perfiles fijos para las pruebas (independientes de config.py, que puede cambiar).
-GALEGO = {
-    "id": "galego", "judiciales": False, "titulos": None, "otras_ciudades": "suave",
+CRISTIAN = {
+    "id": "cristian", "judiciales": False, "titulos": None, "otras_ciudades": "suave",
     "nodocente": {"categoria": 7, "agrupamiento": "administrativo",
                   "dependencia": "fcnycs", "sede": "Comodoro Rivadavia"},
 }
@@ -144,23 +144,23 @@ class ParaQuien(unittest.TestCase):
         ev = reglas.evaluar(item, persona, LOCALES)
         return ev["nivel"] if ev else None
 
-    def test_galego(self):
+    def test_cristian(self):
         # Ascenso en Comodoro en instancias donde puede inscribirse: suena.
         for inst in ("abierto", "general", "sede"):
-            self.assertEqual(self.nivel(aviso(instancia=inst, categoria=5), GALEGO), "fuerte")
+            self.assertEqual(self.nivel(aviso(instancia=inst, categoria=5), CRISTIAN), "fuerte")
         self.assertEqual(self.nivel(aviso(instancia="interno", categoria=4, dependencia="fcnycs"),
-                                    GALEGO), "fuerte")
+                                    CRISTIAN), "fuerte")
         # Cerrado interno de otra dependencia en Comodoro: para seguir, sin aviso.
         self.assertEqual(self.nivel(aviso(instancia="interno", categoria=4, dependencia="rectorado"),
-                                    GALEGO), "seguir")
+                                    CRISTIAN), "seguir")
         # Categoría 7 no es ascenso; por sede de otra ciudad no lo habilita.
-        self.assertIsNone(self.nivel(aviso(instancia="abierto", categoria=7), GALEGO))
-        self.assertIsNone(self.nivel(aviso(instancia="sede", categoria=5, ciudades=["Trelew"]), GALEGO))
+        self.assertIsNone(self.nivel(aviso(instancia="abierto", categoria=7), CRISTIAN))
+        self.assertIsNone(self.nivel(aviso(instancia="sede", categoria=5, ciudades=["Trelew"]), CRISTIAN))
         # Abierto en otra ciudad: aviso silencioso.
-        self.assertEqual(self.nivel(aviso(instancia="abierto", categoria=6, ciudades=["Esquel"]), GALEGO),
+        self.assertEqual(self.nivel(aviso(instancia="abierto", categoria=6, ciudades=["Esquel"]), CRISTIAN),
                          "suave")
         # Lo judicial no le corresponde.
-        self.assertIsNone(self.nivel(aviso(ambito="judicial", instancia="abierto"), GALEGO))
+        self.assertIsNone(self.nivel(aviso(ambito="judicial", instancia="abierto"), CRISTIAN))
 
     def test_bianca(self):
         self.assertEqual(self.nivel(aviso(ambito="judicial", instancia="abierto"), BIANCA), "fuerte")

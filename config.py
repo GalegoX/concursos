@@ -16,10 +16,10 @@ PAGINA = "https://galegox.github.io/concursos/"
 
 PERSONAS = [
     {
-        "id": "galego",
-        "nombre": "Galego",
+        "id": "cristian",
+        "nombre": "Cristian",
         # Nombre del secreto de GitHub donde está su canal de ntfy.
-        "secreto_ntfy": "NTFY_GALEGO",
+        "secreto_ntfy": "NTFY_CRISTIAN",
         # Situación de revista como nodocente de la UNPSJB.
         # None si no es nodocente (entonces solo le sirven los abiertos).
         "nodocente": {

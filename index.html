@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Concursos</title>
-<meta name="description" content="Concursos nodocentes y judiciales que les sirven a Galego y a Bianca, con las fechas de inscripción.">
+<meta name="description" content="Concursos nodocentes y judiciales que les sirven a Cristian y a Bianca, con las fechas de inscripción.">
 <meta name="theme-color" content="#EDF0F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#11161F" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235B3E9E'/%3E%3Crect x='6' y='14' width='20' height='4' rx='2' fill='%23fff'/%3E%3Crect x='13' y='9' width='3' height='14' rx='1.5' fill='%23F2C14E'/%3E%3C/svg%3E">
@@ -329,7 +329,7 @@ function render(datos, revision, pid){
       <p>Mientras tanto, conviene mirarlas a mano.</p></div>`);
   }
 
-  const esNodocente = pid === "galego";
+  const esNodocente = !!persona.nodocente;
   const html = `
     <h1 class="respuesta">${respuesta}</h1>
     <p class="bajada">${bajada} ${esc(cuando)}</p>
@@ -361,7 +361,7 @@ function botones(personas, pid){
 }
 
 function elegida(personas){
-  const alias = {pareja: "bianca"};
+  const alias = {pareja: "bianca", galego: "cristian"};
   let hash = location.hash.replace("#", "");
   hash = alias[hash] || hash;
   if (personas.some(p => p.id === hash)) return hash;
