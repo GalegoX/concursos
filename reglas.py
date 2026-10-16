@@ -451,7 +451,7 @@ def cumple_titulo(titulos, requerido):
 
 _RE_INICIO_REQ = re.compile(r"\brequisitos\b[^:.;]{0,110}:", re.I)
 _RE_FIN_REQ = re.compile(
-    r"\b(perfil del (?:cargo|puesto)|funciones\b|art\.?\s*\d+\s*[°ºo]?\s*\)|art[ií]culo\s+\d|"
+    r"\b(perfil del (?:cargo|puesto)|perfil\s*:|funciones\b|art\.?\s*\d+\s*[°ºo]?\s*\)|art[ií]culo\s+\d|"
     r"aspectos constitutivos|recomendar|temario|bibliograf[ií]a)", re.I)
 _RE_REMITE = re.compile(r"requisitos para postularse.{0,250}?estipulados por la resoluci\w*"
                         r"[^.]{0,80}?n\W{0,4}(\d{1,5}\s*/\s*\d{4})", re.I)

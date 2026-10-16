@@ -331,6 +331,25 @@ def main():
     for it in items:
         completar(it, por_id[it["fuente"]], hoy)
 
+    # El mismo llamado a veces figura con otro número de resolución (por
+    # ejemplo, si se reemplazó): misma dependencia, categoría, cargo y fechas.
+    unicos, vistos_llamado = [], {}
+    for it in items:
+        clave = None
+        if it["ambito"] == "nodocente" and it.get("hasta"):
+            clave = (it.get("dependencia"), it.get("categoria"), it.get("desde"), it["hasta"],
+                     reglas.normalizar(it["titulo_corto"])[:40])
+        if clave and clave in vistos_llamado:
+            queda = vistos_llamado[clave]
+            queda.setdefault("tambien_en", []).append(it["url"])
+            if it.get("req") and not queda.get("req"):
+                queda["req"] = it["req"]
+            continue
+        if clave:
+            vistos_llamado[clave] = it
+        unicos.append(it)
+    items = unicos
+
     # 3) Para quién sirve cada uno --------------------------------------------
     vistos = estado["vistos"]
     for it in items:
