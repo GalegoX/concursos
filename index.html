@@ -352,8 +352,10 @@ function render(datos, revision, pid){
     ${total ? seccion("Para anotarte", "", anotarte, hoy, pid, "Nada en Comodoro por ahora.") : ""}
     ${seccion("En otras ciudades", "Te sirven, pero no son en Comodoro. Estos avisos te llegan en silencio.", otras, hoy, pid)}
     ${seccion("Para seguir de cerca", "Son cerrados internos de otras dependencias de Comodoro. Si quedan desiertos, pasan a otra instancia donde podrías anotarte, y ahí te llega el aviso.", seguir, hoy, pid)}
-    ${plegado(esNodocente ? "Abiertos que piden un título" : "Abiertos que piden un título que no tenés",
-              "Están abiertos, pero el cargo exige un título. Los de tu carrera te van a servir cuando te recibas.", piden, hoy, pid)}
+    ${plegado(esNodocente ? "Piden un título que no tenés" : "Abiertos que piden un título que no tenés",
+              esNodocente ? "Te corresponden por categoría e instancia, pero exigen un título como requisito excluyente."
+                          : "Están abiertos, pero el cargo exige un título. Los de tu carrera te van a servir cuando te recibas.",
+              piden, hoy, pid)}
     ${plegado("Anteriores", "Lo que te sirvió en los últimos cuatro meses y ya cerró.", anteriores, hoy, pid)}
     <footer>
       <h2>Qué cuenta como “para vos”</h2>

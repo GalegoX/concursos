@@ -36,7 +36,8 @@ PERSONAS = [
         #   None  = no filtrar por título (avisa igual, con una nota)
         #   []    = secundario completo
         #   o una lista con "terciario", "universitario" y/o "abogacia".
-        "titulos": None,
+        # Sin título terciario ni universitario (no tiene el de bibliotecario).
+        "titulos": [],
         # Concursos de otras ciudades: "suave" (aviso silencioso),
         # "no" (solo en la página) o "fuerte" (igual que los de acá).
         "otras_ciudades": "suave",

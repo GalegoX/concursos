@@ -256,8 +256,12 @@ def criterio(persona):
         que.append("concursos judiciales abiertos a la comunidad")
     texto = " y ".join(que)
     if persona.get("titulos") == []:
-        texto += (", siempre que no pidan título o acepten estudiantes" if persona.get("estudios")
-                  else ", siempre que no pidan título terciario ni universitario")
+        if persona.get("estudios"):
+            texto += ", siempre que no pidan título o acepten estudiantes"
+        elif nd:
+            texto += ", salvo los que exigen un título como requisito excluyente"
+        else:
+            texto += ", siempre que no pidan título terciario ni universitario"
     lugares = {"suave": f"los de {config.CIUDAD} suenan y los de otras ciudades llegan en silencio",
                "fuerte": "suenan los de cualquier ciudad",
                "no": f"solo avisan los de {config.CIUDAD}"}[persona.get("otras_ciudades", "suave")]
