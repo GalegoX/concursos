@@ -1,5 +1,5 @@
 {
- "revisado": "2026-10-16T21:04-03:00",
+ "revisado": "2026-10-16T22:21-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 1,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "humanidades",
@@ -35,7 +35,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 7,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "digesto",
@@ -44,7 +44,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "judicial",
@@ -53,7 +53,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 21,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "mpf",
@@ -62,7 +62,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "defensa",
@@ -71,7 +71,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 58,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -80,18 +80,16 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 0,
-   "ultima_ok": "2026-10-16T21:04-03:00"
+   "ultima_ok": "2026-10-16T22:21-03:00"
   }
  ],
  "avisos": {
   "cristian": {
    "canal": true,
-   "prueba": "enviado",
    "nuevos": 0
   },
   "bianca": {
    "canal": true,
-   "prueba": "enviado",
    "nuevos": 0
   }
  },
