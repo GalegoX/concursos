@@ -550,66 +550,6 @@
    "titulo_requerido_nombre": "título universitario"
   },
   {
-   "id": "defensa:65/26",
-   "fuente": "defensa",
-   "ambito": "judicial",
-   "titulo": "Abogado/a Adjunto/a",
-   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Abogado-a-Adjunto-a-Penal-CR.pdf",
-   "detalle": "Oficina de la Defensa Penal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "desde": "2026-10-06",
-   "hasta": "2026-10-16",
-   "publicado": "2026-10-01",
-   "resolucion": "DISPOSICIÓN 65/26 R.R.H.H",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "abierta",
-   "titulo_corto": "Abogado/a Adjunto/a",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Defensa Pública del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
-   "id": "defensa:67/26",
-   "fuente": "defensa",
-   "ambito": "judicial",
-   "titulo": "Profesional B",
-   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/profesional-B-Asesoria-trelew.pdf",
-   "detalle": "Asesoría de Familia",
-   "instancia": "abierto",
-   "ciudades": [
-    "Trelew"
-   ],
-   "desde": "2026-10-06",
-   "hasta": "2026-10-16",
-   "publicado": "2026-10-01",
-   "resolucion": "DISPOSICIÓN 67/26 R.R.H.H",
-   "titulo_requerido": "universitario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Profesional B",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Defensa Pública del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
    "id": "rectorado:616/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -1496,6 +1436,66 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "defensa:65/26",
+   "fuente": "defensa",
+   "ambito": "judicial",
+   "titulo": "Abogado/a Adjunto/a",
+   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Abogado-a-Adjunto-a-Penal-CR.pdf",
+   "detalle": "Oficina de la Defensa Penal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2026-10-06",
+   "hasta": "2026-10-16",
+   "publicado": "2026-10-01",
+   "resolucion": "DISPOSICIÓN 65/26 R.R.H.H",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Abogado/a Adjunto/a",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Defensa Pública del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "defensa:67/26",
+   "fuente": "defensa",
+   "ambito": "judicial",
+   "titulo": "Profesional B",
+   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/profesional-B-Asesoria-trelew.pdf",
+   "detalle": "Asesoría de Familia",
+   "instancia": "abierto",
+   "ciudades": [
+    "Trelew"
+   ],
+   "desde": "2026-10-06",
+   "hasta": "2026-10-16",
+   "publicado": "2026-10-01",
+   "resolucion": "DISPOSICIÓN 67/26 R.R.H.H",
+   "titulo_requerido": "universitario",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Profesional B",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título universitario",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Defensa Pública del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "digesto:e6e85f9e-cc46-49fc-b58d-6f2482150510",
