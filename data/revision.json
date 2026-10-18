@@ -1,5 +1,5 @@
 {
- "revisado": "2026-10-18T15:11-03:00",
+ "revisado": "2026-10-18T18:34-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 1,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "humanidades",
@@ -35,7 +35,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 7,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "digesto",
@@ -44,7 +44,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "judicial",
@@ -53,7 +53,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 21,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "mpf",
@@ -62,7 +62,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "defensa",
@@ -71,7 +71,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 58,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -80,7 +80,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 0,
-   "ultima_ok": "2026-10-18T15:11-03:00"
+   "ultima_ok": "2026-10-18T18:34-03:00"
   }
  ],
  "avisos": {
@@ -110,14 +110,14 @@
   },
   "digesto_titulos": {
    "38": [
+    "Declarar DESIERTO el concurso del Programa de Fortalecimiento de la Simulación Clínica en el Sistema Universitario Argen",
     "Modificar la denominación del cargo vacante Categoría 03, Jefe de Departamento, Agrupamiento Técnico Profesional “A”, Tr",
     "Declarar DESIERTOS los llamados a Concursos: Cerrado Interno, Cerrado por Sede y Cerrado General, para la cobertura de u",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrat",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Pro",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Administrat",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Administrat",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Mantenimien",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Técnico Pro"
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Mantenimien"
    ],
    "22": [
     "Declarar abierta la inscripción del Concurso Público Cerrado de antecedentes y oposición para cubrir un cargo de Jefe de",
