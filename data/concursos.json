@@ -517,39 +517,6 @@
    "titulo_requerido_nombre": "título terciario o técnico"
   },
   {
-   "id": "judicial:976",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Profesional",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Equipo Técnico Interdisciplinario - Sarmiento",
-   "instancia": "abierto",
-   "ciudades": [
-    "Sarmiento"
-   ],
-   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Trabajador Social o Lic. en Servicio Social, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-10-09",
-   "hasta": "2026-10-18",
-   "publicado": "2026-09-30",
-   "resolucion": "14300/2026",
-   "inscribir": "https://forms.gle/zg7bZa6Z7qhuuLsW8",
-   "circunscripcion": "Sarmiento",
-   "titulo_requerido": "universitario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Profesional",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
    "id": "rectorado:616/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -1436,6 +1403,38 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "judicial:976",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Profesional",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Equipo Técnico Interdisciplinario - Sarmiento",
+   "instancia": "abierto",
+   "ciudades": [
+    "Sarmiento"
+   ],
+   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Trabajador Social o Lic. en Servicio Social, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-10-09",
+   "hasta": "2026-10-18",
+   "publicado": "2026-09-30",
+   "resolucion": "14300/2026",
+   "circunscripcion": "Sarmiento",
+   "titulo_requerido": "universitario",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Profesional",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título universitario",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "defensa:65/26",
@@ -2399,31 +2398,6 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
-   "id": "judicial:963",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Jefe de Departamento",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Dirección de Recursos Humanos - Superior Tribunal",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Rawson"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirá la vacante, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-08-07",
-   "hasta": "2026-08-09",
-   "publicado": "2026-08-04",
-   "resolucion": "14120/2026",
-   "circunscripcion": "Superior Tribunal",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Jefe de Departamento",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "judicial:960",
