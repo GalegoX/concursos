@@ -620,6 +620,36 @@
    "titulo_requerido_nombre": "título terciario o técnico"
   },
   {
+   "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
+   "fuente": "mpf",
+   "ambito": "judicial",
+   "titulo": "Llamado a concurso Procurador/a de Fiscalía para la OUMPF de Puerto Madryn (un cargo)",
+   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-de-funcionarios/llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
+   "detalle": "Concurso de Funcionario y/o Procurador Fiscal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "desde": "2026-10-29",
+   "hasta": "2026-11-17",
+   "publicado": "2026-10-20",
+   "estado_fuente": "Concurso vigente",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Procurador/a de Fiscalía para la OUMPF de Puerto Madryn (un cargo)",
+   "visto_desde": "2026-10-20",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
    "id": "rectorado:616/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -936,6 +966,36 @@
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
+   "fuente": "mpf",
+   "ambito": "judicial",
+   "titulo": "Llamado a concurso Funcionario/a de Fiscalía para la OUMPF de Puerto Madryn (un cargo)",
+   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-de-funcionarios/llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
+   "detalle": "Concurso de Funcionario y/o Procurador Fiscal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "publicado": "2026-10-20",
+   "estado_fuente": "Concurso vigente",
+   "titulo_requerido": "abogacia",
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Funcionario/a de Fiscalía para la OUMPF de Puerto Madryn (un cargo)",
+   "visto_desde": "2026-10-20",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
   },
   {
    "id": "fcnycs:133",
@@ -3881,67 +3941,6 @@
    },
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-oumpf-rawson-y-trelew-ufe-dap-y-ufe-cyed",
-   "fuente": "mpf",
-   "ambito": "judicial",
-   "titulo": "Llamado a concurso Procurador/a de Fiscalía - OUMPF Rawson y Trelew, UFE DAP y UFE CyED",
-   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-de-funcionarios/llamado-a-concurso-procurador-a-de-fiscalia-oumpf-rawson-y-trelew-ufe-dap-y-ufe-cyed",
-   "detalle": "Concurso de Funcionario y/o Procurador Fiscal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Trelew",
-    "Rawson"
-   ],
-   "desde": "2025-08-22",
-   "hasta": "2025-09-04",
-   "publicado": "2025-08-14",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Procurador/a de Fiscalía - OUMPF Rawson y Trelew, UFE DAP y UFE CyED",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
-   "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-oumpf-pto-madryn-c-rivadavia-y-lago-puelo",
-   "fuente": "mpf",
-   "ambito": "judicial",
-   "titulo": "Llamado a concurso Funcionario/a de Fiscalía. OUMPF Pto Madryn, C. Rivadavia y Lago Puelo.",
-   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-de-funcionarios/llamado-a-concurso-funcionario-a-de-fiscalia-oumpf-pto-madryn-c-rivadavia-y-lago-puelo",
-   "detalle": "Concurso de Funcionario y/o Procurador Fiscal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Puerto Madryn",
-    "Comodoro Rivadavia",
-    "Lago Puelo"
-   ],
-   "desde": "2025-08-22",
-   "hasta": "2025-09-04",
-   "publicado": "2025-08-14",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Funcionario/a de Fiscalía. OUMPF Pto Madryn, C. Rivadavia y Lago Puelo.",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
   },
   {
    "id": "defensa:20/25",

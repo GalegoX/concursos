@@ -796,53 +796,61 @@
   "digesto:a597d02a-0fe0-4916-a884-253970bab2a8": {
    "desde": "2026-10-16",
    "avisado": []
+  },
+  "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo": {
+   "desde": "2026-10-20",
+   "avisado": []
+  },
+  "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo": {
+   "desde": "2026-10-20",
+   "avisado": []
   }
  },
  "fuentes": {
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "humanidades": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   },
   "defensoria_nacion": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-20T12:40-03:00"
+   "ultima_ok": "2026-10-20T17:40-03:00"
   }
  },
  "bienvenida": {
