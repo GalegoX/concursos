@@ -15,6 +15,83 @@
  ],
  "concursos": [
   {
+   "id": "judicial:979",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Profesional Jerárquico",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Dirección Adminstración - Superior Tribunal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado en Ciencias Económicas, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-10-20",
+   "hasta": "2026-10-29",
+   "publicado": "2026-10-08",
+   "resolucion": "14317/2026",
+   "inscribir": "https://forms.gle/qXyBGc7Uv5evEa3U9",
+   "circunscripcion": "Superior Tribunal",
+   "titulo_requerido": "universitario",
+   "inscripcion": "abierta",
+   "titulo_corto": "Profesional Jerárquico",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título universitario de tu carrera",
+     "notas": [
+      "Te va a servir cuando te recibas."
+     ]
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título universitario"
+  },
+  {
+   "id": "rectorado:601/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Auxiliar de Mantenimiento",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Delegación Zonal Esquel (Mantenimiento)",
+   "resolucion": "601/2026",
+   "instancia": "interno",
+   "categoria": 6,
+   "agrupamiento": "mantenimiento",
+   "ciudades": [
+    "Esquel"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-20",
+   "hasta": "2026-10-26",
+   "publicado": "2026-09-28",
+   "evaluacion": "2026-11-02",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/30602d89-ff7f-4bd0-850a-e7012e455d56"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
+    ],
+    "suman": [],
+    "otros": [],
+    "lugar": "Sede Esquel",
+    "horario": "08 a 15 hs. (35hs semanales)",
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Auxiliar de Mantenimiento",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
+  },
+  {
    "id": "judicial:978",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -109,6 +186,32 @@
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "judicial:980",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Oficial",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Juzgado Civil y Comercial - Puerto Madryn",
+   "instancia": "cerrado",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
+   "desde": "2026-10-20",
+   "hasta": "2026-10-22",
+   "publicado": "2026-10-15",
+   "resolucion": "14321/2026",
+   "inscribir": "https://forms.gle/3PLCZWGoDvvQVrnw9",
+   "circunscripcion": "Puerto Madryn",
+   "titulo_requerido": null,
+   "inscripcion": "abierta",
+   "titulo_corto": "Oficial",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Cerrado"
   },
   {
    "id": "rectorado:575/2026",
@@ -737,40 +840,6 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
-   "id": "judicial:979",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Profesional Jerárquico",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Dirección Adminstración - Superior Tribunal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Rawson"
-   ],
-   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado en Ciencias Económicas, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-10-20",
-   "hasta": "2026-10-29",
-   "publicado": "2026-10-08",
-   "resolucion": "14317/2026",
-   "circunscripcion": "Superior Tribunal",
-   "titulo_requerido": "universitario",
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Profesional Jerárquico",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario de tu carrera",
-     "notas": [
-      "Te va a servir cuando te recibas."
-     ]
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
    "id": "rectorado:610/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -867,73 +936,6 @@
    "fuente_nombre": "UNPSJB, Rectorado",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:601/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Auxiliar de Mantenimiento",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Delegación Zonal Esquel (Mantenimiento)",
-   "resolucion": "601/2026",
-   "instancia": "interno",
-   "categoria": 6,
-   "agrupamiento": "mantenimiento",
-   "ciudades": [
-    "Esquel"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-20",
-   "hasta": "2026-10-26",
-   "publicado": "2026-09-28",
-   "evaluacion": "2026-11-02",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/30602d89-ff7f-4bd0-850a-e7012e455d56"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
-    ],
-    "suman": [],
-    "otros": [],
-    "lugar": "Sede Esquel",
-    "horario": "08 a 15 hs. (35hs semanales)",
-    "remite": null
-   },
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar de Mantenimiento",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
-  },
-  {
-   "id": "judicial:980",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Oficial",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado Civil y Comercial - Puerto Madryn",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Puerto Madryn"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-10-20",
-   "hasta": "2026-10-22",
-   "publicado": "2026-10-15",
-   "resolucion": "14321/2026",
-   "circunscripcion": "Puerto Madryn",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Oficial",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "fcnycs:133",
@@ -2252,62 +2254,6 @@
    "titulo_requerido_nombre": "título universitario"
   },
   {
-   "id": "judicial:966",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Prosecretario Administrativo",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Oficina de Notificaciones y Mandamientos Judiciales - Comodoro Rivadavia",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Tener estudios secundarios completos. b) Acreditar no menos de tres (3) años de servicio como Oficial Notificador o realizado tareas como empleado en cualquier dependencia del Poder Judicial. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirá la vacante, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-08-25",
-   "hasta": "2026-08-27",
-   "publicado": "2026-08-20",
-   "resolucion": "14166/2026",
-   "circunscripcion": "Comodoro Rivadavia",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Prosecretario Administrativo",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "judicial:964",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Auxiliar Letrado",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado Laboral N° 1 - Trelew",
-   "instancia": "abierto",
-   "ciudades": [
-    "Trelew"
-   ],
-   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-08-18",
-   "hasta": "2026-08-27",
-   "publicado": "2026-08-06",
-   "circunscripcion": "Trelew",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Auxiliar Letrado",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
    "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-unidad-fiscal-especializada-en-delitos-contra",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -2657,37 +2603,6 @@
    "para": {},
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "judicial:954",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Secretario Letrado de 1ra.Instancia",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado Laboral N° 1 - Comodoro Rivadavia",
-   "instancia": "abierto",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-07-01",
-   "hasta": "2026-07-10",
-   "publicado": "2026-06-22",
-   "circunscripcion": "Comodoro Rivadavia",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Secretario Letrado de 1ra.Instancia",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
   },
   {
    "id": "mpf:llamado-a-concurso-cerrado-prosecretario-administrativo-oumpf-trelew-2",
