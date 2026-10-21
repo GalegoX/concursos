@@ -214,412 +214,6 @@
    "instancia_nombre": "Cerrado"
   },
   {
-   "id": "rectorado:575/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Jefe/a de División de Programas y Proyectos de Investigación",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría de Ciencia y Técnica (Rectorado)",
-   "resolucion": "575/2026",
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-09",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213",
-    "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Título del Nivel Secundario"
-    ],
-    "suman": [
-     "Título en Tecnicatura Universitaria en Gestión y Administración de Universidades",
-     "Experiencia acreditada en trabajo administrativo, preferentemente área proyectos de investigación, mínimo cinco (5) años"
-    ],
-    "otros": [],
-    "lugar": "Sede Comodoro Rivadavia",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:581/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Operador/a de Radio",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Rectorado (Radio Universidad - Km. 3)",
-   "resolucion": "581/2026",
-   "instancia": "interno",
-   "categoria": 5,
-   "agrupamiento": "tp_a",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-10",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/8db8b582-94b1-486c-bbbf-b2d90b47e062"
-   ],
-   "titulo_requerido": "universitario",
-   "req": {
-    "excluyentes": [
-     "Título Universitario en carreras de grado, Ej: Licenciatura en producción de radio y TV, Lic. en Comunicación Social con orientación en radiofonía, Ing. en Telecomunica…"
-    ],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [],
-    "otros": [
-     "Acreditar experiencia en manejo informático y conocimiento sobre tecnologías de la comunicación"
-    ],
-    "lugar": "Radio Universidad de Comodoro Rivadavia, ubicada en Km 3",
-    "horario": "35 horas semanales con flexibilidad, de acuerdo a las necesidades de la dependencia",
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Operador/a de Radio",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"A\"",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
-   "id": "rectorado:570/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Técnico/a Auxiliar (Adm. de Servidores)",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría General (Dirección General de Planeamiento)",
-   "resolucion": "570/2026",
-   "instancia": "interno",
-   "categoria": 6,
-   "agrupamiento": "tp_b",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-06",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/38b5a631-ded0-48e2-80c7-243438bb7251"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Título Secundario Completo"
-    ],
-    "suman": [],
-    "otros": [
-     "Disponibilidad horaria (con disponibilidad para atención de urgencias y/o necesidades operativas)",
-     "Actitud de pertenencia y compromiso con la Institución",
-     "Personalidad proactiva",
-     "Capacidad organizativa",
-     "Capacidad de trabajo en equipo y colaborar en entornos multidisciplinarios",
-     "Habilidades de comunicación y relaciones interpersonales",
-     "Eficacia en las tareas encomendadas",
-     "Capacidad de iniciativa en función del área",
-     "Capacitación continua en temas relacionados al sector",
-     "Disponibilidad y predisposición para atender urgencias"
-    ],
-    "lugar": "Comodoro Rivadavia",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Técnico/a Auxiliar (Adm. de Servidores)",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"B\""
-  },
-  {
-   "id": "rectorado:580/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Auxiliar (Área de Archivo Central)",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría General (Dirección General de Despacho)",
-   "resolucion": "580/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-09",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/3d5bab58-6f8d-4a92-a43b-27532d569765"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Título secundario completo"
-    ],
-    "suman": [],
-    "otros": [
-     "Conocimiento de los Sistemas SUDOCU y SIAC"
-    ],
-    "lugar": "Comodoro Rivadavia",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Auxiliar (Área de Archivo Central)",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:561/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Personal de Apoyo de Mantenimiento",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría General (Área de Maestranza)",
-   "resolucion": "561/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "mantenimiento",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-04",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/d88205f7-e64c-479c-b65b-26408abc2b62"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [],
-    "otros": [
-     "Carnet de manipulación de alimentos. (CAA)"
-    ],
-    "lugar": "Comodoro Rivadavia",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Personal de Apoyo de Mantenimiento",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
-  },
-  {
-   "id": "rectorado:571/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Jefe/a de División de Estadística",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría General (Departamento de Estadística)",
-   "resolucion": "571/2026",
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-05",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/4e44b2a9-1d11-4320-9df9-39fe8f24d0ae"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [
-     "Graduado/a en Estadística, Matemática, Administración o Informática"
-    ],
-    "otros": [
-     "Actitud de pertenencia y compromiso etico con la Institución",
-     "Personalidad pro activa y motivación por la calidad",
-     "Habilidades de comunicación y relaciones interpersonales",
-     "Disponibilidad para el trabajo en equipo",
-     "Creatividad, iniciativa y espíritu emprendedor",
-     "Interés y predisposición en formación y actualización constante",
-     "Disponibilidad horaria"
-    ],
-    "lugar": "Comodoro Rivadavia. Dirección General de Planeamiento",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Estadística",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:564/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Jefe/a de Departamento de Becas",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría de Bienestar Universitario",
-   "resolucion": "564/2026",
-   "instancia": "interno",
-   "categoria": 3,
-   "agrupamiento": "administrativo",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-11-05",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/ee4bb958-65fb-4c94-9b18-73f1c16e7793"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [],
-    "suman": [],
-    "otros": [
-     "Chubut",
-     "Cumplir con lo dispuesto por el"
-    ],
-    "lugar": "Comodoro Rivadavia",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de Departamento de Becas",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:596/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Jefe/a de División de Procesos Técnicos y Repositorio",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Delegación Zonal Esquel (Biblioteca)",
-   "resolucion": "596/2026",
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "tp_b",
-   "ciudades": [
-    "Esquel"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-14",
-   "hasta": "2026-10-20",
-   "publicado": "2026-09-22",
-   "evaluacion": "2026-10-30",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/74b3d1b8-40b3-4dbb-b888-54f3e9d160b6"
-   ],
-   "titulo_requerido": "terciario",
-   "req": {
-    "excluyentes": [
-     "Poseer título profesional de bibliotecario con una duración de 3 años o más"
-    ],
-    "generales": [
-     "Título secundario"
-    ],
-    "suman": [],
-    "otros": [
-     "Presentación de un plan de trabajo conciso para el sector (máximo 5 páginas)"
-    ],
-    "lugar": "Biblioteca \"Geol. Roberto L. M. Viera\" de la Delegación Zonal Sede Esquel",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Jefe/a de División de Procesos Técnicos y Repositorio",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
    "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -1467,6 +1061,412 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "rectorado:575/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Jefe/a de División de Programas y Proyectos de Investigación",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría de Ciencia y Técnica (Rectorado)",
+   "resolucion": "575/2026",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-09",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/cf768c58-44d4-495e-8072-572d02043213",
+    "https://huarpe.unp.edu.ar/4c5bba0e-4680-4cd7-b639-e89ef8c44679"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título del Nivel Secundario"
+    ],
+    "suman": [
+     "Título en Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Experiencia acreditada en trabajo administrativo, preferentemente área proyectos de investigación, mínimo cinco (5) años"
+    ],
+    "otros": [],
+    "lugar": "Sede Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Jefe/a de División de Programas y Proyectos de Investigación",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "rectorado:581/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Operador/a de Radio",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Rectorado (Radio Universidad - Km. 3)",
+   "resolucion": "581/2026",
+   "instancia": "interno",
+   "categoria": 5,
+   "agrupamiento": "tp_a",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-10",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/8db8b582-94b1-486c-bbbf-b2d90b47e062"
+   ],
+   "titulo_requerido": "universitario",
+   "req": {
+    "excluyentes": [
+     "Título Universitario en carreras de grado, Ej: Licenciatura en producción de radio y TV, Lic. en Comunicación Social con orientación en radiofonía, Ing. en Telecomunica…"
+    ],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [],
+    "otros": [
+     "Acreditar experiencia en manejo informático y conocimiento sobre tecnologías de la comunicación"
+    ],
+    "lugar": "Radio Universidad de Comodoro Rivadavia, ubicada en Km 3",
+    "horario": "35 horas semanales con flexibilidad, de acuerdo a las necesidades de la dependencia",
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Operador/a de Radio",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"A\"",
+   "titulo_requerido_nombre": "título universitario"
+  },
+  {
+   "id": "rectorado:570/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Técnico/a Auxiliar (Adm. de Servidores)",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría General (Dirección General de Planeamiento)",
+   "resolucion": "570/2026",
+   "instancia": "interno",
+   "categoria": 6,
+   "agrupamiento": "tp_b",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-06",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/38b5a631-ded0-48e2-80c7-243438bb7251"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título Secundario Completo"
+    ],
+    "suman": [],
+    "otros": [
+     "Disponibilidad horaria (con disponibilidad para atención de urgencias y/o necesidades operativas)",
+     "Actitud de pertenencia y compromiso con la Institución",
+     "Personalidad proactiva",
+     "Capacidad organizativa",
+     "Capacidad de trabajo en equipo y colaborar en entornos multidisciplinarios",
+     "Habilidades de comunicación y relaciones interpersonales",
+     "Eficacia en las tareas encomendadas",
+     "Capacidad de iniciativa en función del área",
+     "Capacitación continua en temas relacionados al sector",
+     "Disponibilidad y predisposición para atender urgencias"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Técnico/a Auxiliar (Adm. de Servidores)",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"B\""
+  },
+  {
+   "id": "rectorado:580/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Auxiliar (Área de Archivo Central)",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría General (Dirección General de Despacho)",
+   "resolucion": "580/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-09",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/3d5bab58-6f8d-4a92-a43b-27532d569765"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título secundario completo"
+    ],
+    "suman": [],
+    "otros": [
+     "Conocimiento de los Sistemas SUDOCU y SIAC"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Auxiliar (Área de Archivo Central)",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "rectorado:561/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Personal de Apoyo de Mantenimiento",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría General (Área de Maestranza)",
+   "resolucion": "561/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "mantenimiento",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-04",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/d88205f7-e64c-479c-b65b-26408abc2b62"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [],
+    "otros": [
+     "Carnet de manipulación de alimentos. (CAA)"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Personal de Apoyo de Mantenimiento",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
+  },
+  {
+   "id": "rectorado:571/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Jefe/a de División de Estadística",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría General (Departamento de Estadística)",
+   "resolucion": "571/2026",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-05",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/4e44b2a9-1d11-4320-9df9-39fe8f24d0ae"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Graduado/a en Estadística, Matemática, Administración o Informática"
+    ],
+    "otros": [
+     "Actitud de pertenencia y compromiso etico con la Institución",
+     "Personalidad pro activa y motivación por la calidad",
+     "Habilidades de comunicación y relaciones interpersonales",
+     "Disponibilidad para el trabajo en equipo",
+     "Creatividad, iniciativa y espíritu emprendedor",
+     "Interés y predisposición en formación y actualización constante",
+     "Disponibilidad horaria"
+    ],
+    "lugar": "Comodoro Rivadavia. Dirección General de Planeamiento",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Jefe/a de División de Estadística",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "rectorado:564/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Jefe/a de Departamento de Becas",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría de Bienestar Universitario",
+   "resolucion": "564/2026",
+   "instancia": "interno",
+   "categoria": 3,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-11-05",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/ee4bb958-65fb-4c94-9b18-73f1c16e7793"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [],
+    "suman": [],
+    "otros": [
+     "Chubut",
+     "Cumplir con lo dispuesto por el"
+    ],
+    "lugar": "Comodoro Rivadavia",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Jefe/a de Departamento de Becas",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "rectorado:596/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Jefe/a de División de Procesos Técnicos y Repositorio",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Delegación Zonal Esquel (Biblioteca)",
+   "resolucion": "596/2026",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "tp_b",
+   "ciudades": [
+    "Esquel"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-14",
+   "hasta": "2026-10-20",
+   "publicado": "2026-09-22",
+   "evaluacion": "2026-10-30",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/74b3d1b8-40b3-4dbb-b888-54f3e9d160b6"
+   ],
+   "titulo_requerido": "terciario",
+   "req": {
+    "excluyentes": [
+     "Poseer título profesional de bibliotecario con una duración de 3 años o más"
+    ],
+    "generales": [
+     "Título secundario"
+    ],
+    "suman": [],
+    "otros": [
+     "Presentación de un plan de trabajo conciso para el sector (máximo 5 páginas)"
+    ],
+    "lugar": "Biblioteca \"Geol. Roberto L. M. Viera\" de la Delegación Zonal Sede Esquel",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Jefe/a de División de Procesos Técnicos y Repositorio",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"B\"",
+   "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
    "id": "judicial:976",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -1697,6 +1697,7 @@
    "desde": "2026-10-13",
    "hasta": "2026-10-14",
    "publicado": "2026-09-22",
+   "estado_fuente": "Inscripción finalizada",
    "titulo_requerido": null,
    "inscripcion": "cerrada",
    "titulo_corto": "Prosecretario Administrativo (un cargo), Oficial Superior (un cargo) y Oficial Administr…",
@@ -1831,6 +1832,7 @@
    "desde": "2026-10-05",
    "hasta": "2026-10-07",
    "publicado": "2026-09-17",
+   "estado_fuente": "Inscripción finalizada",
    "titulo_requerido": null,
    "inscripcion": "cerrada",
    "titulo_corto": "Cargo de Oficial - OUMPF Trelew",

@@ -1,5 +1,5 @@
 {
- "revisado": "2026-10-20T20:57-03:00",
+ "revisado": "2026-10-21T12:59-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 1,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "humanidades",
@@ -35,7 +35,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 7,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "digesto",
@@ -44,7 +44,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "judicial",
@@ -53,7 +53,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "mpf",
@@ -62,7 +62,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "defensa",
@@ -71,7 +71,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 58,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -80,7 +80,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 0,
-   "ultima_ok": "2026-10-20T20:57-03:00"
+   "ultima_ok": "2026-10-21T12:59-03:00"
   }
  ],
  "avisos": {
@@ -120,14 +120,14 @@
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 06; Agrupamiento Mantenimien"
    ],
    "22": [
+    "Apertura de inscripción para el concurso del cargo de Directora ad honorem de la ECQDA",
     "Declarar abierta la inscripción del Concurso Público Cerrado de antecedentes y oposición para cubrir un cargo de Jefe de",
     "Apertura de inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo de Profes",
     "Declarar abierta la inscripción para el Concurso Público Cerrado del cargo de Jefe de Trabajos Prácticos con dedicación ",
     "Apertura de inscripción al Concurso Cerrado para quien ocupa el cargo de Profesora Adjunta de la cátedra Biología Genera",
     "Declarar abierta la inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo d",
     "Declarar abierta inscripción-Concurso Público Cerrado de antecedentes y oposición-cargo Profesor Adjunto, dedicación Sim",
-    "Declarar abierta la inscripción para el Concurso Público Cerrado para el cargo de Director del Laboratorio de Virología ",
-    "Declarar abierta la inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo d"
+    "Declarar abierta la inscripción para el Concurso Público Cerrado para el cargo de Director del Laboratorio de Virología "
    ],
    "15": [
     "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 432/2025",
