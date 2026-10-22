@@ -50,6 +50,104 @@
    "titulo_requerido_nombre": "título universitario"
   },
   {
+   "id": "rectorado:610/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Auxiliar Administrativo/a",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría de Bienestar Universitario (Dirección de Deportes)",
+   "resolucion": "610/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-22",
+   "hasta": "2026-10-28",
+   "publicado": "2026-09-30",
+   "evaluacion": "2026-11-10",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/c7610cfb-d65a-4753-9c40-798cd6db36d0"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Título de Nivel Medio"
+    ],
+    "suman": [],
+    "otros": [
+     "Acreditar la Capacitación de la Ley Micaela",
+     "Disponibilidad horaria en función de las actividades del área",
+     "Disponibilidad para viajar cuando las actividades institucionales así lo requieran. PERFIL REQUERIDO:",
+     "Sentido de pertenencia y compromiso ético con la Institución",
+     "Disposición para el trabajo en equipo, colaboración y proactividad en el desarrollo de las tareas asignadas",
+     "Capacidad de organización, autogestión y resolución de tramites e imprevistos administrativos del área",
+     "Excelentes relaciones interpersonales, cordialidad y vocación de servicio en la atención, orientación y recepción de consultas de estudiantes, personal universitario y…",
+     "Capacidad para la atención, orientación y recepción de consultas de estudiantes",
+     "Conocimiento general de las"
+    ],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Auxiliar Administrativo/a",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "rectorado:608/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Auxiliar Administrativa/o",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría Administrativa ( Dirección de Tesorería)",
+   "resolucion": "608/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-22",
+   "hasta": "2026-10-28",
+   "publicado": "2026-09-30",
+   "evaluacion": "2026-11-10",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/cc20e8c4-df24-4a72-9c96-790c81573e20"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Titulo secundario"
+    ],
+    "suman": [],
+    "otros": [
+     "Manejo informático de los Sistemas SIU",
+     "PILAGA, SUDOCU",
+     "Manejo de herramientas informáticas (paquete Office, correo electrónico, internet)"
+    ],
+    "lugar": "Comodoro Rivadavia en h orario de 08 a 15 hs. (35hs semanales)",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Auxiliar Administrativa/o",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "rectorado:601/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -242,6 +340,29 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
+   "fuente": "mpf",
+   "ambito": "judicial",
+   "titulo": "Llamado a concurso cerrado - Cargo de Oficial - OUMPF Esquel",
+   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-cerrados/llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
+   "detalle": "Concurso Cerrado",
+   "instancia": "cerrado",
+   "ciudades": [
+    "Esquel"
+   ],
+   "desde": "2026-11-12",
+   "hasta": "2026-11-13",
+   "publicado": "2026-10-22",
+   "estado_fuente": "Concurso vigente",
+   "titulo_requerido": null,
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Cargo de Oficial - OUMPF Esquel",
+   "visto_desde": "2026-10-22",
+   "para": {},
+   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Cerrado"
   },
   {
    "id": "rectorado:616/2026",
@@ -464,102 +585,29 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
-   "id": "rectorado:610/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Auxiliar Administrativo/a",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría de Bienestar Universitario (Dirección de Deportes)",
-   "resolucion": "610/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
+   "id": "judicial:981",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Prosecretario Administrativo",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "CR - Oficina de Gestión Unificada del Fuero de Familia - Comodoro Rivadavia",
+   "instancia": "cerrado",
    "ciudades": [
     "Comodoro Rivadavia"
    ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-22",
-   "hasta": "2026-10-28",
-   "publicado": "2026-09-30",
-   "evaluacion": "2026-11-10",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/c7610cfb-d65a-4753-9c40-798cd6db36d0"
-   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
+   "desde": "2026-10-27",
+   "hasta": "2026-10-29",
+   "publicado": "2026-10-22",
+   "resolucion": "14328/2026",
+   "circunscripcion": "Comodoro Rivadavia",
    "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Título de Nivel Medio"
-    ],
-    "suman": [],
-    "otros": [
-     "Acreditar la Capacitación de la Ley Micaela",
-     "Disponibilidad horaria en función de las actividades del área",
-     "Disponibilidad para viajar cuando las actividades institucionales así lo requieran. PERFIL REQUERIDO:",
-     "Sentido de pertenencia y compromiso ético con la Institución",
-     "Disposición para el trabajo en equipo, colaboración y proactividad en el desarrollo de las tareas asignadas",
-     "Capacidad de organización, autogestión y resolución de tramites e imprevistos administrativos del área",
-     "Excelentes relaciones interpersonales, cordialidad y vocación de servicio en la atención, orientación y recepción de consultas de estudiantes, personal universitario y…",
-     "Capacidad para la atención, orientación y recepción de consultas de estudiantes",
-     "Conocimiento general de las"
-    ],
-    "lugar": "Comodoro Rivadavia, Chubut",
-    "horario": null,
-    "remite": null
-   },
    "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar Administrativo/a",
-   "visto_desde": "2026-10-16",
+   "titulo_corto": "Prosecretario Administrativo",
+   "visto_desde": "2026-10-22",
    "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "rectorado:608/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Auxiliar Administrativa/o",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría Administrativa ( Dirección de Tesorería)",
-   "resolucion": "608/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-22",
-   "hasta": "2026-10-28",
-   "publicado": "2026-09-30",
-   "evaluacion": "2026-11-10",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/cc20e8c4-df24-4a72-9c96-790c81573e20"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Titulo secundario"
-    ],
-    "suman": [],
-    "otros": [
-     "Manejo informático de los Sistemas SIU",
-     "PILAGA, SUDOCU",
-     "Manejo de herramientas informáticas (paquete Office, correo electrónico, internet)"
-    ],
-    "lugar": "Comodoro Rivadavia en h orario de 08 a 15 hs. (35hs semanales)",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Auxiliar Administrativa/o",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Cerrado"
   },
   {
    "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
@@ -4416,28 +4464,6 @@
    },
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "mpf:llamado-a-concurso-oficial-superior-oumpf-comodoro-rivadavia",
-   "fuente": "mpf",
-   "ambito": "judicial",
-   "titulo": "Llamado a concurso - Oficial Superior - OUMPF Comodoro Rivadavia",
-   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-cerrados/llamado-a-concurso-oficial-superior-oumpf-comodoro-rivadavia",
-   "detalle": "Concurso Cerrado",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "desde": "2025-06-11",
-   "hasta": "2025-06-12",
-   "publicado": "2025-05-22",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Oficial Superior - OUMPF Comodoro Rivadavia",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "defensa:10/25",
