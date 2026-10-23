@@ -818,47 +818,47 @@
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "humanidades": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   },
   "defensoria_nacion": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-10-22T17:36-03:00"
+   "ultima_ok": "2026-10-22T21:00-03:00"
   }
  },
  "bienvenida": {
