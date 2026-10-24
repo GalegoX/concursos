@@ -385,36 +385,6 @@
    "titulo_requerido_nombre": "título universitario"
   },
   {
-   "id": "defensa:66/26",
-   "fuente": "defensa",
-   "ambito": "judicial",
-   "titulo": "Abogado/a Adjunto/a",
-   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/AA-Civil-Comodoro-Rivadavia.pdf",
-   "detalle": "Oficina de Defensa Civil",
-   "instancia": "abierto",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "desde": "2026-10-09",
-   "hasta": "2026-10-23",
-   "publicado": "2026-10-01",
-   "resolucion": "DISPOSICIÓN 66/26 R.R.H.H",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "abierta",
-   "titulo_corto": "Abogado/a Adjunto/a",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Defensa Pública del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
    "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -1109,6 +1079,36 @@
     }
    },
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "defensa:66/26",
+   "fuente": "defensa",
+   "ambito": "judicial",
+   "titulo": "Abogado/a Adjunto/a",
+   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/AA-Civil-Comodoro-Rivadavia.pdf",
+   "detalle": "Oficina de Defensa Civil",
+   "instancia": "abierto",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2026-10-09",
+   "hasta": "2026-10-23",
+   "publicado": "2026-10-01",
+   "resolucion": "DISPOSICIÓN 66/26 R.R.H.H",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Abogado/a Adjunto/a",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
   },
