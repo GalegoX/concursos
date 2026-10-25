@@ -352,39 +352,6 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
-   "id": "judicial:977",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Profesional",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Dirección de Recursos Humanos - Superior Tribunal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Rawson"
-   ],
-   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Licenciado en Psicología, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-10-15",
-   "hasta": "2026-10-24",
-   "publicado": "2026-10-05",
-   "resolucion": "14314/2026",
-   "inscribir": "https://forms.gle/Pn2fToC5xpheFAoy7",
-   "circunscripcion": "Superior Tribunal",
-   "titulo_requerido": "universitario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Profesional",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
    "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -1081,6 +1048,38 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "judicial:977",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Profesional",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Dirección de Recursos Humanos - Superior Tribunal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Licenciado en Psicología, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-10-15",
+   "hasta": "2026-10-24",
+   "publicado": "2026-10-05",
+   "resolucion": "14314/2026",
+   "circunscripcion": "Superior Tribunal",
+   "titulo_requerido": "universitario",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Profesional",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título universitario",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "defensa:66/26",
