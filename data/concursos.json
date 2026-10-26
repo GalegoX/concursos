@@ -319,39 +319,6 @@
    "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
   },
   {
-   "id": "judicial:978",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Secretario Relator",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Secretaria Civil, Comercial y de Familia - Superior Tribunal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Rawson"
-   ],
-   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-10-16",
-   "hasta": "2026-10-25",
-   "publicado": "2026-10-06",
-   "resolucion": "14315/2026",
-   "inscribir": "https://forms.gle/g8mpMvivdHhBNQt86",
-   "circunscripcion": "Superior Tribunal",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "abierta",
-   "titulo_corto": "Secretario Relator",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
    "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -438,7 +405,7 @@
    "id": "rectorado:616/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
-   "titulo": "Técnico/a Auxiliar Ayudante",
+   "titulo": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
    "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
    "detalle": "Secretaría, Planeamiento, Infraestructura y Servicios (Salud Ocupacional)",
    "resolucion": "616/2026",
@@ -455,7 +422,7 @@
    "evaluacion": "2026-11-13",
    "titulo_requerido": "terciario",
    "inscripcion": "por_abrir",
-   "titulo_corto": "Técnico/a Auxiliar Ayudante",
+   "titulo_corto": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "UNPSJB, Rectorado",
@@ -1046,6 +1013,38 @@
     }
    },
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "judicial:978",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Secretario Relator",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Secretaria Civil, Comercial y de Familia - Superior Tribunal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-10-16",
+   "hasta": "2026-10-25",
+   "publicado": "2026-10-06",
+   "resolucion": "14315/2026",
+   "circunscripcion": "Superior Tribunal",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Secretario Relator",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
   },
