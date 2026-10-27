@@ -15,6 +15,97 @@
  ],
  "concursos": [
   {
+   "id": "rectorado:616/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría, Planeamiento, Infraestructura y Servicios (Salud Ocupacional)",
+   "resolucion": "616/2026",
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "tp_b",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-27",
+   "hasta": "2026-11-02",
+   "publicado": "2026-10-05",
+   "evaluacion": "2026-11-13",
+   "titulo_requerido": "terciario",
+   "inscripcion": "abierta",
+   "titulo_corto": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"B\"",
+   "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
+   "id": "rectorado:640/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Técnico/a Superior Especializado en Biblioteca (Biblioteca)",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Secretaría Académica",
+   "resolucion": "640/2026",
+   "instancia": "abierto",
+   "categoria": 5,
+   "agrupamiento": "tp_b",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-27",
+   "hasta": "2026-11-02",
+   "publicado": "2026-10-05",
+   "evaluacion": "2026-11-16",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/9288b02a-c8e3-4dcd-81c5-0385a718d9a6"
+   ],
+   "titulo_requerido": "terciario",
+   "req": {
+    "excluyentes": [
+     "Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
+    ],
+    "generales": [
+     "Poseer titulo secundario completo",
+     "Presentación de un CV ACTUALIZADO con la correspondiente documentación respaldatoria debidamente certificada",
+     "Presentación de Certificado de Antecedentes penales nacionales y provinciales"
+    ],
+    "suman": [],
+    "otros": [],
+    "lugar": "Biblioteca Central \"Dr. Eduardo A. Musacchio\" de la UNPSJB Comodoro Rivadavia",
+    "horario": "lunes a viernes de 14:00 a 21:00 hs",
+    "remite": null
+   },
+   "inscripcion": "abierta",
+   "titulo_corto": "Técnico/a Superior Especializado en Biblioteca",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "pagina",
+     "motivo": "Pide un título excluyente",
+     "notas": [
+      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
+     ]
+    },
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide un título excluyente",
+     "notas": [
+      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
+     ]
+    }
+   },
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Abierto al público",
+   "agrupamiento_nombre": "Técnico Profesional \"B\"",
+   "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
    "id": "humanidades:28458",
    "fuente": "humanidades",
    "ambito": "nodocente",
@@ -142,6 +233,32 @@
    "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
    "instancia_nombre": "Cerrado interno",
    "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "judicial:981",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Prosecretario Administrativo",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "CR - Oficina de Gestión Unificada del Fuero de Familia - Comodoro Rivadavia",
+   "instancia": "cerrado",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
+   "desde": "2026-10-27",
+   "hasta": "2026-10-29",
+   "publicado": "2026-10-22",
+   "resolucion": "14328/2026",
+   "inscribir": "https://forms.gle/p1eJk9Beqw6NQVfK7",
+   "circunscripcion": "Comodoro Rivadavia",
+   "titulo_requerido": null,
+   "inscripcion": "abierta",
+   "titulo_corto": "Prosecretario Administrativo",
+   "visto_desde": "2026-10-22",
+   "para": {},
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Cerrado"
   },
   {
    "id": "judicial:979",
@@ -277,48 +394,6 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
-   "id": "rectorado:601/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Auxiliar de Mantenimiento",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Delegación Zonal Esquel (Mantenimiento)",
-   "resolucion": "601/2026",
-   "instancia": "interno",
-   "categoria": 6,
-   "agrupamiento": "mantenimiento",
-   "ciudades": [
-    "Esquel"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-20",
-   "hasta": "2026-10-26",
-   "publicado": "2026-09-28",
-   "evaluacion": "2026-11-02",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/30602d89-ff7f-4bd0-850a-e7012e455d56"
-   ],
-   "titulo_requerido": null,
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
-    ],
-    "suman": [],
-    "otros": [],
-    "lugar": "Sede Esquel",
-    "horario": "08 a 15 hs. (35hs semanales)",
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Auxiliar de Mantenimiento",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
-  },
-  {
    "id": "mpf:llamado-a-concurso-procurador-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -372,6 +447,68 @@
    "instancia_nombre": "Cerrado"
   },
   {
+   "id": "judicial:983",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Auxiliar Eviscerador",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Cuerpo Interdisciplinario Forense - Trelew",
+   "instancia": "abierto",
+   "ciudades": [
+    "Trelew"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Ser argentina/o; b) Tener 18 (dieciocho) años cumplidos; c) Poseer título de Técnico Eviscerador o similar de nivel terciario y una antigüedad mínima del mismo de dos (2) años; d) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-11-06",
+   "hasta": "2026-11-08",
+   "publicado": "2026-10-27",
+   "resolucion": "14336/2026",
+   "circunscripcion": "Trelew",
+   "titulo_requerido": null,
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar Eviscerador",
+   "visto_desde": "2026-10-27",
+   "para": {
+    "bianca": {
+     "nivel": "suave",
+     "motivo": "Abierto a la comunidad",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público"
+  },
+  {
+   "id": "judicial:982",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Auxiliar Eviscerador",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Cuerpo Interdisciplinario Forense - Trelew",
+   "instancia": "abierto",
+   "ciudades": [
+    "Trelew"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Ser argentina/o; b) Tener 18 (dieciocho) años cumplidos; c) Poseer título de Técnico Eviscerador o similar de nivel terciario y una antigüedad mínima del mismo de dos (2) años; d) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-11-06",
+   "hasta": "2026-11-08",
+   "publicado": "2026-10-27",
+   "resolucion": "14336/2026",
+   "circunscripcion": "Trelew",
+   "titulo_requerido": null,
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar Eviscerador",
+   "visto_desde": "2026-10-27",
+   "para": {
+    "bianca": {
+     "nivel": "suave",
+     "motivo": "Abierto a la comunidad",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público"
+  },
+  {
    "id": "defensa:68/26",
    "fuente": "defensa",
    "ambito": "judicial",
@@ -400,122 +537,6 @@
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
-   "id": "rectorado:616/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría, Planeamiento, Infraestructura y Servicios (Salud Ocupacional)",
-   "resolucion": "616/2026",
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "tp_b",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-27",
-   "hasta": "2026-11-02",
-   "publicado": "2026-10-05",
-   "evaluacion": "2026-11-13",
-   "titulo_requerido": "terciario",
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Técnico/a Auxiliar Ayudante en Salud Ocupacional",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "rectorado:640/2026",
-   "fuente": "rectorado",
-   "ambito": "nodocente",
-   "titulo": "Técnico/a Superior Especializado en Biblioteca (Biblioteca)",
-   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
-   "detalle": "Secretaría Académica",
-   "resolucion": "640/2026",
-   "instancia": "abierto",
-   "categoria": 5,
-   "agrupamiento": "tp_b",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "dependencia": "rectorado",
-   "desde": "2026-10-27",
-   "hasta": "2026-11-02",
-   "publicado": "2026-10-05",
-   "evaluacion": "2026-11-16",
-   "tambien_en": [
-    "https://huarpe.unp.edu.ar/9288b02a-c8e3-4dcd-81c5-0385a718d9a6"
-   ],
-   "titulo_requerido": "terciario",
-   "req": {
-    "excluyentes": [
-     "Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
-    ],
-    "generales": [
-     "Poseer titulo secundario completo",
-     "Presentación de un CV ACTUALIZADO con la correspondiente documentación respaldatoria debidamente certificada",
-     "Presentación de Certificado de Antecedentes penales nacionales y provinciales"
-    ],
-    "suman": [],
-    "otros": [],
-    "lugar": "Biblioteca Central \"Dr. Eduardo A. Musacchio\" de la UNPSJB Comodoro Rivadavia",
-    "horario": "lunes a viernes de 14:00 a 21:00 hs",
-    "remite": null
-   },
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Técnico/a Superior Especializado en Biblioteca",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "pagina",
-     "motivo": "Pide un título excluyente",
-     "notas": [
-      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
-     ]
-    },
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide un título excluyente",
-     "notas": [
-      "Excluyente: Poseer título profesional de bibliotecario emitido por una institución oficial de nivel superior (terciaria o universitaria) de 3 (tres) años o más de duración"
-     ]
-    }
-   },
-   "fuente_nombre": "UNPSJB, Rectorado",
-   "instancia_nombre": "Abierto al público",
-   "agrupamiento_nombre": "Técnico Profesional \"B\"",
-   "titulo_requerido_nombre": "título terciario o técnico"
-  },
-  {
-   "id": "judicial:981",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Prosecretario Administrativo",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "CR - Oficina de Gestión Unificada del Fuero de Familia - Comodoro Rivadavia",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-10-27",
-   "hasta": "2026-10-29",
-   "publicado": "2026-10-22",
-   "resolucion": "14328/2026",
-   "circunscripcion": "Comodoro Rivadavia",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Prosecretario Administrativo",
-   "visto_desde": "2026-10-22",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
@@ -1015,6 +1036,48 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "rectorado:601/2026",
+   "fuente": "rectorado",
+   "ambito": "nodocente",
+   "titulo": "Auxiliar de Mantenimiento",
+   "url": "https://www.unp.edu.ar/index.php/webmail-2/concursos",
+   "detalle": "Delegación Zonal Esquel (Mantenimiento)",
+   "resolucion": "601/2026",
+   "instancia": "interno",
+   "categoria": 6,
+   "agrupamiento": "mantenimiento",
+   "ciudades": [
+    "Esquel"
+   ],
+   "dependencia": "rectorado",
+   "desde": "2026-10-20",
+   "hasta": "2026-10-26",
+   "publicado": "2026-09-28",
+   "evaluacion": "2026-11-02",
+   "tambien_en": [
+    "https://huarpe.unp.edu.ar/30602d89-ff7f-4bd0-850a-e7012e455d56"
+   ],
+   "titulo_requerido": null,
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios secundarios completos. Se tendrá en cuenta formación especifica o en curso"
+    ],
+    "suman": [],
+    "otros": [],
+    "lugar": "Sede Esquel",
+    "horario": "08 a 15 hs. (35hs semanales)",
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Auxiliar de Mantenimiento",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Rectorado",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Mantenimiento, Producción y Servicios Generales"
   },
   {
    "id": "judicial:978",
@@ -2281,30 +2344,6 @@
    "instancia_nombre": "Cerrado"
   },
   {
-   "id": "judicial:971",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Oficial Superior",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado paz - Gaiman - Juzgado de Paz",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Gaiman"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Estudios Secundarios Completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirá la vacante, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-09-11",
-   "hasta": "2026-09-13",
-   "publicado": "2026-09-08",
-   "circunscripcion": "Juzgado de Paz",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Oficial Superior",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
-  },
-  {
    "id": "judicial:967",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -2875,31 +2914,6 @@
    "visto_desde": "2026-10-16",
    "para": {},
    "fuente_nombre": "Defensa Pública del Chubut",
-   "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "judicial:950",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Prosecretario Administrativo",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Camara de Apelaciones - Puerto Madryn",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Puerto Madryn"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirá la vacante, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-06-11",
-   "hasta": "2026-06-13",
-   "publicado": "2026-06-08",
-   "resolucion": "13970/2026",
-   "circunscripcion": "Puerto Madryn",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Prosecretario Administrativo",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
    "instancia_nombre": "Cerrado"
   },
   {
