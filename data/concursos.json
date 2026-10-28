@@ -15,6 +15,36 @@
  ],
  "concursos": [
   {
+   "id": "defensa:68/26",
+   "fuente": "defensa",
+   "ambito": "judicial",
+   "titulo": "Abogado/a Adjunto/a",
+   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Llamado_AA_DP_Rw68.pdf",
+   "detalle": "Oficina de Defensa Penal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "desde": "2026-10-28",
+   "hasta": "2026-11-08",
+   "publicado": "2026-10-01",
+   "resolucion": "DISPOSICIÓN 68/26 R.R.H.H",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "abierta",
+   "titulo_corto": "Abogado/a Adjunto/a",
+   "visto_desde": "2026-10-23",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Defensa Pública del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
    "id": "rectorado:616/2026",
    "fuente": "rectorado",
    "ambito": "nodocente",
@@ -509,24 +539,22 @@
    "instancia_nombre": "Abierto al público"
   },
   {
-   "id": "defensa:68/26",
-   "fuente": "defensa",
+   "id": "defensoria_nacion:concurso no 228: defensor publico oficial federal del interi",
+   "fuente": "defensoria_nacion",
    "ambito": "judicial",
-   "titulo": "Abogado/a Adjunto/a",
-   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Llamado_AA_DP_Rw68.pdf",
-   "detalle": "Oficina de Defensa Penal",
+   "titulo": "CONCURSO Nº 228: Defensor Público Oficial Federal del interior del país con asiento en la ciudad de Caleta Olivia, provincia de Santa Cruz",
+   "url": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/magistrados/en-tramite/concurso-no-228-defensor-publico-oficial-federal-del-interior-del-pais-con-asiento-en-la-ciudad-de-caleta-olivia-provincia-de-santa-cruz",
+   "detalle": "Concursos De Magistrados (2)",
    "instancia": "abierto",
    "ciudades": [
-    "Rawson"
+    "Caleta Olivia"
    ],
-   "desde": "2026-10-28",
-   "hasta": "2026-11-08",
-   "publicado": "2026-10-01",
-   "resolucion": "DISPOSICIÓN 68/26 R.R.H.H",
    "titulo_requerido": "abogacia",
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Abogado/a Adjunto/a",
-   "visto_desde": "2026-10-23",
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Nº 228: Defensor Público Oficial Federal del interior del país con asiento en la ciudad…",
+   "visto_desde": "2026-10-28",
    "para": {
     "bianca": {
      "nivel": "pagina",
@@ -534,7 +562,7 @@
      "notas": []
     }
    },
-   "fuente_nombre": "Defensa Pública del Chubut",
+   "fuente_nombre": "Defensoría General de la Nación",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
   },
@@ -2344,37 +2372,6 @@
    "instancia_nombre": "Cerrado"
   },
   {
-   "id": "judicial:967",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Auxiliar Letrado",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado Ejecucion Nro. 1 - Puerto Madryn",
-   "instancia": "abierto",
-   "ciudades": [
-    "Puerto Madryn"
-   ],
-   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-09-01",
-   "hasta": "2026-09-10",
-   "publicado": "2026-08-21",
-   "circunscripcion": "Puerto Madryn",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Auxiliar Letrado",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
    "id": "judicial:969",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -3247,31 +3244,6 @@
    "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título universitario"
-  },
-  {
-   "id": "judicial:935",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Oficial",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Juzgado Paz 1a. Categoria Nro. 1 - Lago Puelo",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Lago Puelo"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos.",
-   "desde": "2026-04-14",
-   "hasta": "2026-04-16",
-   "publicado": "2026-04-09",
-   "resolucion": "13797/2026",
-   "circunscripcion": "Lago Puelo",
-   "titulo_requerido": null,
-   "inscripcion": "cerrada",
-   "titulo_corto": "Oficial",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-oumpf-esquel-un-cargo-trelew-un-cargo-rawson-",
