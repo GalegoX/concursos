@@ -166,196 +166,6 @@
    "titulo_requerido_nombre": "título terciario o técnico"
   },
   {
-   "id": "humanidades:28458",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 7 AAPP – Área Económica Financiera FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-7-aapp-area-economica-financiera-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf",
-   "resolucion": "899/2026",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "instancia": "interno",
-   "categoria": 7,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "desde": "2026-10-23",
-   "hasta": "2026-10-29",
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [
-     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
-     "Estudios universitarios/terciarios"
-    ],
-    "otros": [],
-    "lugar": "Comodoro Rivadavia, Chubut",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Cat. 7 AAPP – Área Económica Financiera FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "humanidades:28455",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
-   "resolucion": "902/2026",
-   "ciudades": [
-    "Puerto Madryn"
-   ],
-   "instancia": "interno",
-   "categoria": 5,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "desde": "2026-10-23",
-   "hasta": "2026-10-29",
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [
-     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
-     "Estudios universitarios/terciarios"
-    ],
-    "otros": [],
-    "lugar": "Puerto Madryn, Chubut",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {},
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "humanidades:28452",
-   "fuente": "humanidades",
-   "ambito": "nodocente",
-   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Extensión FHCS",
-   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-4-aapp-area-extension-fhcs/",
-   "dependencia": "humanidades",
-   "publicado": "2026-10-01",
-   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
-   "resolucion": "900/2026",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "instancia": "interno",
-   "categoria": 4,
-   "agrupamiento": "administrativo",
-   "titulo_requerido": null,
-   "desde": "2026-10-23",
-   "hasta": "2026-10-29",
-   "req": {
-    "excluyentes": [],
-    "generales": [
-     "Estudios Secundarios Completos"
-    ],
-    "suman": [
-     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
-     "Estudios universitarios/terciarios"
-    ],
-    "otros": [],
-    "lugar": "Comodoro Rivadavia, Chubut",
-    "horario": null,
-    "remite": null
-   },
-   "inscripcion": "abierta",
-   "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "cristian": {
-     "nivel": "seguir",
-     "motivo": "Cerrado interno de otra dependencia",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
-   "instancia_nombre": "Cerrado interno",
-   "agrupamiento_nombre": "Administrativo"
-  },
-  {
-   "id": "judicial:981",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Prosecretario Administrativo",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "CR - Oficina de Gestión Unificada del Fuero de Familia - Comodoro Rivadavia",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
-   "desde": "2026-10-27",
-   "hasta": "2026-10-29",
-   "publicado": "2026-10-22",
-   "resolucion": "14328/2026",
-   "inscribir": "https://forms.gle/p1eJk9Beqw6NQVfK7",
-   "circunscripcion": "Comodoro Rivadavia",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Prosecretario Administrativo",
-   "visto_desde": "2026-10-22",
-   "para": {},
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Cerrado"
-  },
-  {
-   "id": "judicial:979",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Profesional Jerárquico",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Dirección Adminstración - Superior Tribunal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Rawson"
-   ],
-   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado en Ciencias Económicas, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-10-20",
-   "hasta": "2026-10-29",
-   "publicado": "2026-10-08",
-   "resolucion": "14317/2026",
-   "inscribir": "https://forms.gle/qXyBGc7Uv5evEa3U9",
-   "circunscripcion": "Superior Tribunal",
-   "titulo_requerido": "universitario",
-   "inscripcion": "abierta",
-   "titulo_corto": "Profesional Jerárquico",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario de tu carrera",
-     "notas": [
-      "Te va a servir cuando te recibas."
-     ]
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
-  },
-  {
    "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -966,6 +776,194 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "humanidades:28458",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 7 AAPP – Área Económica Financiera FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-7-aapp-area-economica-financiera-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-7-Eco-Fin.pdf",
+   "resolucion": "899/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat. 7 AAPP – Área Económica Financiera FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:28455",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
+   "resolucion": "902/2026",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "instancia": "interno",
+   "categoria": 5,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Puerto Madryn, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:28452",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Extensión FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-4-aapp-area-extension-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+   "resolucion": "900/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "judicial:981",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Prosecretario Administrativo",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "CR - Oficina de Gestión Unificada del Fuero de Familia - Comodoro Rivadavia",
+   "instancia": "cerrado",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Poseer estabilidad superior a un año en el empleo judicial en la Provincia de Chubut. b) Tener estudios secundarios completos. c) Pertenecer a los Tribunales u Organismos Judiciales de la Circunscripción en que se cubrirán las vacantes, o haber solicitado con carácter fehaciente, previo y por razones personales su traslado a dicha Circunscripción Judicial.",
+   "desde": "2026-10-27",
+   "hasta": "2026-10-29",
+   "publicado": "2026-10-22",
+   "resolucion": "14328/2026",
+   "circunscripcion": "Comodoro Rivadavia",
+   "titulo_requerido": null,
+   "inscripcion": "cerrada",
+   "titulo_corto": "Prosecretario Administrativo",
+   "visto_desde": "2026-10-22",
+   "para": {},
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Cerrado"
+  },
+  {
+   "id": "judicial:979",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Profesional Jerárquico",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Dirección Adminstración - Superior Tribunal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "requisitos": "serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado en Ciencias Económicas, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-10-20",
+   "hasta": "2026-10-29",
+   "publicado": "2026-10-08",
+   "resolucion": "14317/2026",
+   "circunscripcion": "Superior Tribunal",
+   "titulo_requerido": "universitario",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Profesional Jerárquico",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título universitario de tu carrera",
+     "notas": [
+      "Te va a servir cuando te recibas."
+     ]
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "rectorado:610/2026",
