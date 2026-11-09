@@ -45,68 +45,6 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
-   "id": "judicial:983",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Auxiliar Eviscerador",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Cuerpo Interdisciplinario Forense - Trelew",
-   "instancia": "abierto",
-   "ciudades": [
-    "Trelew"
-   ],
-   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Ser argentina/o; b) Tener 18 (dieciocho) años cumplidos; c) Poseer título de Técnico Eviscerador o similar de nivel terciario y una antigüedad mínima del mismo de dos (2) años; d) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-11-06",
-   "hasta": "2026-11-08",
-   "publicado": "2026-10-27",
-   "resolucion": "14336/2026",
-   "inscribir": "https://forms.gle/gwLpZXLcRibtSJWXA",
-   "circunscripcion": "Trelew",
-   "titulo_requerido": null,
-   "inscripcion": "abierta",
-   "titulo_corto": "Auxiliar Eviscerador",
-   "visto_desde": "2026-10-27",
-   "para": {
-    "bianca": {
-     "nivel": "suave",
-     "motivo": "Abierto a la comunidad",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "defensa:68/26",
-   "fuente": "defensa",
-   "ambito": "judicial",
-   "titulo": "Abogado/a Adjunto/a",
-   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Llamado_AA_DP_Rw68.pdf",
-   "detalle": "Oficina de Defensa Penal",
-   "instancia": "abierto",
-   "ciudades": [
-    "Rawson"
-   ],
-   "desde": "2026-10-28",
-   "hasta": "2026-11-08",
-   "publicado": "2026-10-01",
-   "resolucion": "DISPOSICIÓN 68/26 R.R.H.H",
-   "titulo_requerido": "abogacia",
-   "inscripcion": "abierta",
-   "titulo_corto": "Abogado/a Adjunto/a",
-   "visto_desde": "2026-10-23",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Defensa Pública del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
    "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -650,6 +588,67 @@
     }
    },
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
+   "id": "judicial:983",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Auxiliar Eviscerador",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Cuerpo Interdisciplinario Forense - Trelew",
+   "instancia": "abierto",
+   "ciudades": [
+    "Trelew"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Ser argentina/o; b) Tener 18 (dieciocho) años cumplidos; c) Poseer título de Técnico Eviscerador o similar de nivel terciario y una antigüedad mínima del mismo de dos (2) años; d) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-11-06",
+   "hasta": "2026-11-08",
+   "publicado": "2026-10-27",
+   "resolucion": "14336/2026",
+   "circunscripcion": "Trelew",
+   "titulo_requerido": null,
+   "inscripcion": "cerrada",
+   "titulo_corto": "Auxiliar Eviscerador",
+   "visto_desde": "2026-10-27",
+   "para": {
+    "bianca": {
+     "nivel": "suave",
+     "motivo": "Abierto a la comunidad",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público"
+  },
+  {
+   "id": "defensa:68/26",
+   "fuente": "defensa",
+   "ambito": "judicial",
+   "titulo": "Abogado/a Adjunto/a",
+   "url": "https://www.defensachubut.gov.ar/wp-content/uploads/2026/10/Llamado_AA_DP_Rw68.pdf",
+   "detalle": "Oficina de Defensa Penal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "desde": "2026-10-28",
+   "hasta": "2026-11-08",
+   "publicado": "2026-10-01",
+   "resolucion": "DISPOSICIÓN 68/26 R.R.H.H",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "cerrada",
+   "titulo_corto": "Abogado/a Adjunto/a",
+   "visto_desde": "2026-10-23",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Defensa Pública del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
   },
