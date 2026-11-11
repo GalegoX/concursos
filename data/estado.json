@@ -832,53 +832,59 @@
   "defensoria_nacion:concurso no 228: defensor publico oficial federal del interi": {
    "desde": "2026-10-28",
    "avisado": []
+  },
+  "judicial:984": {
+   "desde": "2026-11-11",
+   "avisado": [
+    "bianca"
+   ]
   }
  },
  "fuentes": {
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "humanidades": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   },
   "defensoria_nacion": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-10T21:05-03:00"
+   "ultima_ok": "2026-11-11T15:44-03:00"
   }
  },
  "bienvenida": {

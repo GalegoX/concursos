@@ -45,6 +45,37 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "judicial:984",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Oficial",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Juzgado Familia Nro. 1 - Puerto Madryn",
+   "instancia": "abierto",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "requisitos": "Requisitos de inscripción: Serán requisitos para presentarse a este concurso: a) Ser argentina/o; b) Tener 18 (dieciocho) años cumplidos; c) Certificar estudios secundarios completos o del periodo de polimodal de enseñanza media; Importante: dicha acreditación debe hacerse mediante la presentación del Título completo; aquellos emitidos durante el período que va desde el 01/01/2010 al 30/10/2016, bajo el Sistema Federal de Títulos, se componen tanto del analítico como del diploma, y ambos, en conjunto representan el título. Quienes acrediten Trayectos Técnicos Profesionales (TTP) deberán, de igual manera, acreditar estudios secundarios completos. La presentación del Libro Matriz por sí solo c",
+   "desde": "2026-11-24",
+   "hasta": "2026-11-26",
+   "publicado": "2026-11-11",
+   "resolucion": "14356/2026",
+   "circunscripcion": "Puerto Madryn",
+   "titulo_requerido": null,
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Oficial",
+   "visto_desde": "2026-11-11",
+   "para": {
+    "bianca": {
+     "nivel": "suave",
+     "motivo": "Abierto a la comunidad",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público"
+  },
+  {
    "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
    "fuente": "mpf",
    "ambito": "judicial",
