@@ -45,6 +45,29 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
+   "fuente": "mpf",
+   "ambito": "judicial",
+   "titulo": "Llamado a concurso cerrado - Cargo de Oficial - OUMPF Esquel",
+   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-cerrados/llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
+   "detalle": "Concurso Cerrado",
+   "instancia": "cerrado",
+   "ciudades": [
+    "Esquel"
+   ],
+   "desde": "2026-11-12",
+   "hasta": "2026-11-13",
+   "publicado": "2026-10-22",
+   "estado_fuente": "Concurso vigente",
+   "titulo_requerido": null,
+   "inscripcion": "abierta",
+   "titulo_corto": "Cargo de Oficial - OUMPF Esquel",
+   "visto_desde": "2026-10-22",
+   "para": {},
+   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
+   "instancia_nombre": "Cerrado"
+  },
+  {
    "id": "judicial:984",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -74,29 +97,6 @@
    },
    "fuente_nombre": "Poder Judicial del Chubut",
    "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "mpf:llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
-   "fuente": "mpf",
-   "ambito": "judicial",
-   "titulo": "Llamado a concurso cerrado - Cargo de Oficial - OUMPF Esquel",
-   "url": "https://www.mpfchubut.gov.ar/concursos/concursos-cerrados/llamado-a-concurso-cerrado-cargo-de-oficial-oumpf-esquel",
-   "detalle": "Concurso Cerrado",
-   "instancia": "cerrado",
-   "ciudades": [
-    "Esquel"
-   ],
-   "desde": "2026-11-12",
-   "hasta": "2026-11-13",
-   "publicado": "2026-10-22",
-   "estado_fuente": "Concurso vigente",
-   "titulo_requerido": null,
-   "inscripcion": "por_abrir",
-   "titulo_corto": "Cargo de Oficial - OUMPF Esquel",
-   "visto_desde": "2026-10-22",
-   "para": {},
-   "fuente_nombre": "Ministerio Público Fiscal del Chubut",
-   "instancia_nombre": "Cerrado"
   },
   {
    "id": "defensoria_nacion:concurso no 228: defensor publico oficial federal del interi",
