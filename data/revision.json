@@ -1,5 +1,5 @@
 {
- "revisado": "2026-11-12T21:32-03:00",
+ "revisado": "2026-11-13T15:35-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 1,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "humanidades",
@@ -35,7 +35,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 6,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "digesto",
@@ -44,7 +44,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 32,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "judicial",
@@ -53,7 +53,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "mpf",
@@ -62,7 +62,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "defensa",
@@ -71,15 +71,16 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 59,
-   "ultima_ok": "2026-11-12T21:32-03:00"
+   "ultima_ok": "2026-11-13T15:35-03:00"
   },
   {
    "id": "defensoria_nacion",
    "nombre": "Defensoría General de la Nación",
    "url": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes",
    "ambito": "judicial",
-   "ok": true,
-   "avisos": 1,
+   "ok": false,
+   "error": "No respondió (ConnectionError)",
+   "fallas": 1,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
  ],
@@ -104,8 +105,7 @@
    "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos": "monitor",
    "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx": "monitor",
    "https://www.mpfchubut.gov.ar/ciudadano/concursos": "monitor",
-   "https://www.defensachubut.gov.ar/?page_id=11595": "monitor",
-   "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes": "monitor"
+   "https://www.defensachubut.gov.ar/?page_id=11595": "monitor"
   },
   "digesto_titulos": {
    "38": [

@@ -68,6 +68,38 @@
    "instancia_nombre": "Cerrado"
   },
   {
+   "id": "judicial:985",
+   "fuente": "judicial",
+   "ambito": "judicial",
+   "titulo": "Auxiliar Letrado",
+   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
+   "detalle": "Dirección Adminstración - Superior Tribunal",
+   "instancia": "abierto",
+   "ciudades": [
+    "Rawson"
+   ],
+   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Abogado/a, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior; b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut; c) Aquellos interesados que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
+   "desde": "2026-11-26",
+   "hasta": "2026-12-05",
+   "publicado": "2026-11-13",
+   "resolucion": "14358/2026",
+   "circunscripcion": "Superior Tribunal",
+   "titulo_requerido": "abogacia",
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Auxiliar Letrado",
+   "visto_desde": "2026-11-13",
+   "para": {
+    "bianca": {
+     "nivel": "pagina",
+     "motivo": "Pide título de abogado/a",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "Poder Judicial del Chubut",
+   "instancia_nombre": "Abierto al público",
+   "titulo_requerido_nombre": "título de abogado/a"
+  },
+  {
    "id": "judicial:984",
    "fuente": "judicial",
    "ambito": "judicial",
@@ -97,34 +129,6 @@
    },
    "fuente_nombre": "Poder Judicial del Chubut",
    "instancia_nombre": "Abierto al público"
-  },
-  {
-   "id": "defensoria_nacion:concurso no 228: defensor publico oficial federal del interi",
-   "fuente": "defensoria_nacion",
-   "ambito": "judicial",
-   "titulo": "CONCURSO Nº 228: Defensor Público Oficial Federal del interior del país con asiento en la ciudad de Caleta Olivia, provincia de Santa Cruz",
-   "url": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/magistrados/en-tramite/concurso-no-228-defensor-publico-oficial-federal-del-interior-del-pais-con-asiento-en-la-ciudad-de-caleta-olivia-provincia-de-santa-cruz",
-   "detalle": "Concursos De Magistrados (2)",
-   "instancia": "abierto",
-   "ciudades": [
-    "Caleta Olivia"
-   ],
-   "titulo_requerido": "abogacia",
-   "desde": null,
-   "hasta": null,
-   "inscripcion": "sin_fecha",
-   "titulo_corto": "Nº 228: Defensor Público Oficial Federal del interior del país con asiento en la ciudad…",
-   "visto_desde": "2026-10-28",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título de abogado/a",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Defensoría General de la Nación",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título de abogado/a"
   },
   {
    "id": "mpf:llamado-a-concurso-funcionario-a-de-fiscalia-para-la-oumpf-de-puerto-madryn-un-cargo",
@@ -2421,37 +2425,6 @@
    "fuente_nombre": "Ministerio Público Fiscal del Chubut",
    "instancia_nombre": "Abierto al público",
    "titulo_requerido_nombre": "título de abogado/a"
-  },
-  {
-   "id": "judicial:960",
-   "fuente": "judicial",
-   "ambito": "judicial",
-   "titulo": "Profesional",
-   "url": "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx",
-   "detalle": "Equipo Técnico Interdisciplinario - Comodoro Rivadavia",
-   "instancia": "abierto",
-   "ciudades": [
-    "Comodoro Rivadavia"
-   ],
-   "requisitos": "Requisitos de inscripción: serán requisitos para presentarse a este concurso: a) Poseer título universitario de grado de Psicólogo, legalizado por el Ministerio de Educación de la Nación. Si el título fue emitido con anterioridad al 1° de enero del año 2012, es necesario que también cuente con la legalización del Ministerio del Interior. b) Contar con al menos una antigüedad de dos (2) años desde la aprobación de la última materia del título habilitante, o con diez (10) años de antigüedad como agente en el Poder Judicial de Chubut. c) Aquellos/as interesados/as que posean Certificado Único de Discapacidad (CUD) vigente, presentarlo al momento de la inscripción.",
-   "desde": "2026-07-29",
-   "hasta": "2026-08-07",
-   "publicado": "2026-07-17",
-   "circunscripcion": "Comodoro Rivadavia",
-   "titulo_requerido": "universitario",
-   "inscripcion": "cerrada",
-   "titulo_corto": "Profesional",
-   "visto_desde": "2026-10-16",
-   "para": {
-    "bianca": {
-     "nivel": "pagina",
-     "motivo": "Pide título universitario",
-     "notas": []
-    }
-   },
-   "fuente_nombre": "Poder Judicial del Chubut",
-   "instancia_nombre": "Abierto al público",
-   "titulo_requerido_nombre": "título universitario"
   },
   {
    "id": "mpf:llamado-a-concurso-cerrado-oficial-superior-y-un-1-cargo-de-prosecretario-administrativo-u",
