@@ -45,6 +45,50 @@
    "titulo_requerido_nombre": "título de abogado/a"
   },
   {
+   "id": "digesto:0c1860aa-4722-40cb-a23e-f5383aae198a",
+   "fuente": "digesto",
+   "ambito": "nodocente",
+   "titulo": "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 03; Agrupamiento Técnico Profesional “A”, Planta Permanente, para desempeñarse como Jefe/a de Departamento de Administración Académica y Comunicación en la Dirección General de Servicios Académicos dependiente de la Secretaría Académica, en el marco del Decreto PEN Nº 366/06 - Convenio Colectivo de Trabajo para el Sector Nodocente de las Instituciones Universitarias Nacionales, Ordenanza Digital Consejo Superior N° 210, y avalar el siguiente cronograma y demás especificaciones a tener en cuenta en todos los llamados.",
+   "url": "https://huarpe.unp.edu.ar/0c1860aa-4722-40cb-a23e-f5383aae198a",
+   "instancia": "interno",
+   "dependencia": "rectorado",
+   "resolucion": "727/2026",
+   "publicado": "2026-10-27",
+   "detalle": "Resoluciones digitales R/11",
+   "categoria": 3,
+   "agrupamiento": "tp_a",
+   "titulo_requerido": null,
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "desde": "2027-03-22",
+   "hasta": "2027-03-30",
+   "req": {
+    "excluyentes": [],
+    "generales": [],
+    "suman": [],
+    "otros": [
+     "Cumplir con lo dispuesto por el"
+    ],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "por_abrir",
+   "titulo_corto": "Jefe/a de Departamento de Administración Académica y Comunicación en la Dirección Genera…",
+   "visto_desde": "2026-11-17",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Digesto de resoluciones",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"A\""
+  },
+  {
    "id": "judicial:985",
    "fuente": "judicial",
    "ambito": "judicial",
