@@ -1,5 +1,5 @@
 {
- "revisado": "2026-11-19T23:23-03:00",
+ "revisado": "2026-11-20T16:08-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,17 +17,16 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "fcnycs",
    "nombre": "UNPSJB, Facultad de Cs. Naturales y Cs. de la Salud",
    "url": "https://www.fcn.unp.edu.ar/",
    "ambito": "nodocente",
-   "ok": false,
-   "error": "No respondió (ConnectionError)",
-   "fallas": 1,
-   "ultima_ok": "2026-11-19T16:30-03:00"
+   "ok": true,
+   "avisos": 1,
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "humanidades",
@@ -36,7 +35,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 6,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "digesto",
@@ -45,7 +44,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "judicial",
@@ -54,7 +53,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "mpf",
@@ -63,7 +62,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "defensa",
@@ -72,7 +71,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 59,
-   "ultima_ok": "2026-11-19T23:23-03:00"
+   "ultima_ok": "2026-11-20T16:08-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -80,8 +79,8 @@
    "url": "https://www.mpd.gov.ar/index.php/secretaria-de-concursos-n/inscripciones-vigentes",
    "ambito": "judicial",
    "ok": false,
-   "error": "No respondió (ConnectionError)",
-   "fallas": 12,
+   "error": "No respondió en 45 segundos",
+   "fallas": 13,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
  ],
@@ -99,6 +98,7 @@
   "identificacion": {
    "https://www.unp.edu.ar/index.php/webmail-2/concursos": "navegador",
    "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos": "monitor",
+   "https://www.fcn.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
    "https://www.fhcs.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
    "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf": "monitor",
    "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf": "monitor",
@@ -109,24 +109,24 @@
   },
   "digesto_titulos": {
    "38": [
+    "Declarar DESIERTO el llamado a Concurso Cerrado Interno para la cobertura de un cargo Categoría 05; Agrupamiento Adminis",
     "Autorizar la modalidad de Contratación Directa por Adjudicación Simple por Especialidad para el pago del servicio de eva",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 03; Agrupamiento Técnico Pro",
     "Declarar DESIERTO el concurso del Programa de Fortalecimiento de la Simulación Clínica en el Sistema Universitario Argen",
     "Modificar la denominación del cargo vacante Categoría 03, Jefe de Departamento, Agrupamiento Técnico Profesional “A”, Tr",
     "Declarar DESIERTOS los llamados a Concursos: Cerrado Interno, Cerrado por Sede y Cerrado General, para la cobertura de u",
     "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrat",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Pro",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Administrat"
+    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Pro"
    ],
    "22": [
+    "Declarar abierta la inscripción para el Concurso Público Cerrado para el cargo sin renta de Director del Laboratorio de ",
     "VIATICOS SOLICITUD-VOLONTIERI/BESI/PIUNCA- 2 (DOS) DÍAS (Concursos)(F.11)",
     "Dar por avalada la Actividad \"Concurso y Elección- Creación de la Bandera\"",
     "Apertura de inscripción para el concurso del cargo de Directora ad honorem de la ECQDA",
     "Declarar abierta la inscripción del Concurso Público Cerrado de antecedentes y oposición para cubrir un cargo de Jefe de",
     "Apertura de inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo de Profes",
     "Declarar abierta la inscripción para el Concurso Público Cerrado del cargo de Jefe de Trabajos Prácticos con dedicación ",
-    "Apertura de inscripción al Concurso Cerrado para quien ocupa el cargo de Profesora Adjunta de la cátedra Biología Genera",
-    "Declarar abierta la inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo d"
+    "Apertura de inscripción al Concurso Cerrado para quien ocupa el cargo de Profesora Adjunta de la cátedra Biología Genera"
    ],
    "15": [
     "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 432/2025",
