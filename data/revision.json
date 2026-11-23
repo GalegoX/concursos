@@ -1,5 +1,5 @@
 {
- "revisado": "2026-11-22T15:34-03:00",
+ "revisado": "2026-11-22T21:21-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": false,
    "error": "La página no existe (error 404): puede haberse mudado",
-   "fallas": 2,
+   "fallas": 3,
    "ultima_ok": "2026-11-21T15:03-03:00"
   },
   {
@@ -36,7 +36,7 @@
    "ambito": "nodocente",
    "ok": false,
    "error": "La página no existe (error 404): puede haberse mudado",
-   "fallas": 2,
+   "fallas": 3,
    "ultima_ok": "2026-11-21T15:03-03:00"
   },
   {
@@ -46,7 +46,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "judicial",
@@ -55,7 +55,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "mpf",
@@ -64,7 +64,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "defensa",
@@ -73,7 +73,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 59,
-   "ultima_ok": "2026-11-22T15:34-03:00"
+   "ultima_ok": "2026-11-22T21:21-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -82,7 +82,7 @@
    "ambito": "judicial",
    "ok": false,
    "error": "No respondió en 45 segundos",
-   "fallas": 16,
+   "fallas": 17,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
  ],
