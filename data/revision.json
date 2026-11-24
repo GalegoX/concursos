@@ -1,5 +1,5 @@
 {
- "revisado": "2026-11-23T19:43-03:00",
+ "revisado": "2026-11-24T03:58-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-23T19:43-03:00"
+   "ultima_ok": "2026-11-24T03:58-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,7 +17,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-23T19:43-03:00"
+   "ultima_ok": "2026-11-24T03:58-03:00"
   },
   {
    "id": "fcnycs",
@@ -26,7 +26,7 @@
    "ambito": "nodocente",
    "ok": false,
    "error": "La página no existe (error 404): puede haberse mudado",
-   "fallas": 4,
+   "fallas": 5,
    "ultima_ok": "2026-11-21T15:03-03:00"
   },
   {
@@ -36,7 +36,7 @@
    "ambito": "nodocente",
    "ok": false,
    "error": "La página no existe (error 404): puede haberse mudado",
-   "fallas": 4,
+   "fallas": 5,
    "ultima_ok": "2026-11-21T15:03-03:00"
   },
   {
@@ -44,8 +44,9 @@
    "nombre": "UNPSJB, Digesto de resoluciones",
    "url": "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos",
    "ambito": "nodocente",
-   "ok": true,
-   "avisos": 33,
+   "ok": false,
+   "error": "No respondió ninguna carpeta del digesto. carpeta 38: No respondió (ConnectionError); carpeta 22: No respondió (ConnectionError)",
+   "fallas": 1,
    "ultima_ok": "2026-11-23T19:43-03:00"
   },
   {
@@ -55,7 +56,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-23T19:43-03:00"
+   "ultima_ok": "2026-11-24T03:58-03:00"
   },
   {
    "id": "mpf",
@@ -64,7 +65,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-11-23T19:43-03:00"
+   "ultima_ok": "2026-11-24T03:58-03:00"
   },
   {
    "id": "defensa",
@@ -73,7 +74,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 59,
-   "ultima_ok": "2026-11-23T19:43-03:00"
+   "ultima_ok": "2026-11-24T03:58-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -82,7 +83,7 @@
    "ambito": "judicial",
    "ok": false,
    "error": "No respondió en 45 segundos",
-   "fallas": 18,
+   "fallas": 19,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
  ],
@@ -100,73 +101,9 @@
   "identificacion": {
    "https://www.unp.edu.ar/index.php/webmail-2/concursos": "navegador",
    "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos": "monitor",
-   "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos": "monitor",
    "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx": "monitor",
    "https://www.mpfchubut.gov.ar/ciudadano/concursos": "monitor",
    "https://www.defensachubut.gov.ar/?page_id=11595": "monitor"
-  },
-  "digesto_titulos": {
-   "38": [
-    "Declarar DESIERTO el llamado a Concurso Cerrado Interno para la cobertura de un cargo Categoría 05; Agrupamiento Adminis",
-    "Autorizar la modalidad de Contratación Directa por Adjudicación Simple por Especialidad para el pago del servicio de eva",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 03; Agrupamiento Técnico Pro",
-    "Declarar DESIERTO el concurso del Programa de Fortalecimiento de la Simulación Clínica en el Sistema Universitario Argen",
-    "Modificar la denominación del cargo vacante Categoría 03, Jefe de Departamento, Agrupamiento Técnico Profesional “A”, Tr",
-    "Declarar DESIERTOS los llamados a Concursos: Cerrado Interno, Cerrado por Sede y Cerrado General, para la cobertura de u",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 04; Agrupamiento Administrat",
-    "Autorizar el llamado a CONCURSO CERRADO INTERNO para la cobertura de 1 (un) cargo Categoría 07; Agrupamiento Técnico Pro"
-   ],
-   "22": [
-    "Declarar abierta la inscripción para el Concurso Público Cerrado para el cargo sin renta de Director del Laboratorio de ",
-    "VIATICOS SOLICITUD-VOLONTIERI/BESI/PIUNCA- 2 (DOS) DÍAS (Concursos)(F.11)",
-    "Dar por avalada la Actividad \"Concurso y Elección- Creación de la Bandera\"",
-    "Apertura de inscripción para el concurso del cargo de Directora ad honorem de la ECQDA",
-    "Declarar abierta la inscripción del Concurso Público Cerrado de antecedentes y oposición para cubrir un cargo de Jefe de",
-    "Apertura de inscripción para el Concurso Público Cerrado de antecedentes y oposición para quién ocupa el cargo de Profes",
-    "Declarar abierta la inscripción para el Concurso Público Cerrado del cargo de Jefe de Trabajos Prácticos con dedicación ",
-    "Apertura de inscripción al Concurso Cerrado para quien ocupa el cargo de Profesora Adjunta de la cátedra Biología Genera"
-   ],
-   "15": [
-    "MODIFICAR el horario de oposición y entrevista para el Concurso convocado por Resolución Digital DFCE N° 432/2025",
-    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
-    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
-    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Profesor de Formación y Actividades Prácticas, dedicació",
-    "AUTORIZAR, que los siguientes concursos sean realizados con la participación de la totalidad de los miembros del jurado ",
-    "CONVOCAR a CONCURSO ABIERTO Auxiliar Administrativo, Agrupamiento Administrativo, Tramo Inicial, Categoría 6, Secretaría",
-    "Convocar a concurso Abierto (Nodocente) categoria 7 - Deleg. Acad. Comodoro Riv.",
-    "SUSTANCIAR el Concurso Abierto regular, para cubrir un cargo de Ayudante de Segunda (Alumno), dedicación Simple, con una"
-   ],
-   "17": [
-    "APROBAR el procedimiento formal de la sustanciación del Concurso abierto Regular para el cubrir 1 (un) cargo de PROFESOR",
-    "Autorizar llamado a concurso cerrado Abog. Medina Insua",
-    "APROBAR el procedimiento formal de la sustanciación del Concurso abierto Regular para el cubrir 1 (un) cargo de PROFESOR",
-    "Sustanciación concurso Ayte. de 2° regular Estadistica Tw. desig. Sr. Joaquin Caballero",
-    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción de la Cra. ",
-    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción del Cr. Mar",
-    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción y regulariz",
-    "APROBAR el procedimiento formal de la sustanciación del llamado a concurso público cerrado para la promoción del Cr. Lui"
-   ],
-   "24": [
-    "Autorizar el Pago a proveedor FCJ - SAPM - 3045/2026; a nombre de Fleitas Raúl Fernando CUIT 20-315688591, Factura C 000",
-    "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 7 del Tra",
-    "Llamar a concurso Cerrado Interno (Art. 7ª inc. a 1a, Ord. CS N° 186) a los fines de cubrir un Cargo Categoría 3 del Tra",
-    "Concurso de profesores: Llamado a inscripción - Derecho de Familia - cargo profesor titular - dedicación simple - CR",
-    "Llamado a inscripción - Concurso docente JTP - Personas Jurídicas Civiles y Comerciales - PMy",
-    "Llamado a inscripción - Concurso de profesor - Derecho del Consumidor y del Usuario - PMy",
-    "Llamado a inscripción - Concurso de profesor - Derecho de las Obligaciones - PMy",
-    "Llamado a inscripción - Concurso de profesor - Derechos Reales - PMy"
-   ],
-   "25": [
-    "Rectif.Llamado a concurso JTP - SEMI - EXCL- Personas Juridicas Civiles y Comerciales - PMY",
-    "Designar como docentes para las carreras de posgrado de la Facultad de Ciencias Jurídicas - Sede Trelew Especialización ",
-    "Designar a la Dra. Luciana Paula CAPONE DNI 27.407.790 como Coordinadora de la Licenciatura en Criminalística, a partir ",
-    "Designar a la Dra. Luciana Paula CAPONE DNI 27.407.790 como Coordinadora de la Licenciatura en Criminalística, a partir ",
-    "Rectificar parcialmente la Resolución Digital CD FCJ Nº 70 / 2026 en su parte resolutiva: Debe decir llamar a concurso p"
-   ],
-   "33": [],
-   "36": [],
-   "34": [],
-   "35": []
   }
  }
 }
