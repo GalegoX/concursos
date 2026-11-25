@@ -252,6 +252,96 @@
    "instancia_nombre": "Abierto al público"
   },
   {
+   "id": "fcnycs:133",
+   "fuente": "fcnycs",
+   "ambito": "nodocente",
+   "titulo": "Llamado a concurso – Claustro No docente – Categoría 7 – Abril 2026",
+   "url": "https://www.fcn.unp.edu.ar/2026/04/07/llamado-a-concurso-claustro-no-docente-categoria-7-abril-2026/",
+   "dependencia": "fcnycs",
+   "publicado": "2026-04-07",
+   "resolucion": "532/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "tp_b",
+   "titulo_requerido": "terciario",
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Claustro No docente – Categoría 7 – Abril 2026",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Cs. Naturales y Cs. de la Salud",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Técnico Profesional \"B\"",
+   "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
+   "id": "humanidades:26239",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Despacho FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-cat-4-aapp-area-despacho-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-03-09",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-4-AA-PP-Despacho.pdf",
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [],
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Cat. 4 AAPP – Area Despacho FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:26236",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado por sede cat. 5 AAPP – Area Docente FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-por-sede-cat-5-aapp-area-docente-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-03-09",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/03/Concurso-Cat-5-AA-PP-por-sede-Docentes.pdf",
+   "instancia": "sede",
+   "categoria": 5,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "ciudades": [],
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Cat. 5 AAPP – Area Docente FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "normal",
+     "motivo": "Cerrado por sede",
+     "notas": [
+      "No se pudo leer de qué sede es: puede ser la tuya.",
+      "No se pudo leer la ciudad. Revisalo en el llamado."
+     ]
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado por sede",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "ingenieria:1127/2025",
    "fuente": "ingenieria",
    "ambito": "nodocente",
@@ -539,6 +629,66 @@
    "agrupamiento_nombre": "Administrativo"
   },
   {
+   "id": "humanidades:21262",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso Nodocente Abierto- Categoría 7 AA – Sede Trelew",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-nodocente-cerrado-interno-general-categoria-7-aa-sede-trelew/",
+   "dependencia": "humanidades",
+   "publicado": "2024-02-28",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2024/01/RES-D12-060-2024.pdf",
+   "resolucion": "60/2024",
+   "ciudades": [
+    "Trelew"
+   ],
+   "instancia": "abierto",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Categoría 7 AA – Sede Trelew",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "bianca": {
+     "nivel": "suave",
+     "motivo": "Abierto al público",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Abierto al público",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:20141",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso Nodocente cerrado interno por sede Categoría 7 AA sede Trelew",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-nodocente-cerrado-categoria-7-aa-sede-trelew/",
+   "dependencia": "humanidades",
+   "publicado": "2023-08-08",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2023/06/D12-541-2023.pdf",
+   "resolucion": "541/2023",
+   "ciudades": [
+    "Trelew"
+   ],
+   "instancia": "interno",
+   "categoria": 7,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": null,
+   "hasta": null,
+   "inscripcion": "sin_fecha",
+   "titulo_corto": "Por sede Categoría 7 AA sede Trelew",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
    "id": "mpf:fiscal-general-para-la-ciudad-de-trelew-dos-2-cargos",
    "fuente": "mpf",
    "ambito": "judicial",
@@ -771,6 +921,94 @@
    "instancia_nombre": "Abierto al público",
    "agrupamiento_nombre": "Técnico Profesional \"B\"",
    "titulo_requerido_nombre": "título terciario o técnico"
+  },
+  {
+   "id": "humanidades:28455",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-5-aapp-area-administrativa-puerto-madryn-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf",
+   "resolucion": "902/2026",
+   "ciudades": [
+    "Puerto Madryn"
+   ],
+   "instancia": "interno",
+   "categoria": 5,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Puerto Madryn, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat. 5 AAPP – Area Administrativa Puerto Madryn FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {},
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
+  },
+  {
+   "id": "humanidades:28452",
+   "fuente": "humanidades",
+   "ambito": "nodocente",
+   "titulo": "Concurso cerrado interno cat. 4 AAPP – Area Extensión FHCS",
+   "url": "https://www.fhcs.unp.edu.ar/concurso-cerrado-interno-cat-4-aapp-area-extension-fhcs/",
+   "dependencia": "humanidades",
+   "publicado": "2026-10-01",
+   "pdf": "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf",
+   "resolucion": "900/2026",
+   "ciudades": [
+    "Comodoro Rivadavia"
+   ],
+   "instancia": "interno",
+   "categoria": 4,
+   "agrupamiento": "administrativo",
+   "titulo_requerido": null,
+   "desde": "2026-10-23",
+   "hasta": "2026-10-29",
+   "req": {
+    "excluyentes": [],
+    "generales": [
+     "Estudios Secundarios Completos"
+    ],
+    "suman": [
+     "Tecnicatura Universitaria en Gestión y Administración de Universidades",
+     "Estudios universitarios/terciarios"
+    ],
+    "otros": [],
+    "lugar": "Comodoro Rivadavia, Chubut",
+    "horario": null,
+    "remite": null
+   },
+   "inscripcion": "cerrada",
+   "titulo_corto": "Cat. 4 AAPP – Area Extensión FHCS",
+   "visto_desde": "2026-10-16",
+   "para": {
+    "cristian": {
+     "nivel": "seguir",
+     "motivo": "Cerrado interno de otra dependencia",
+     "notas": []
+    }
+   },
+   "fuente_nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
+   "instancia_nombre": "Cerrado interno",
+   "agrupamiento_nombre": "Administrativo"
   },
   {
    "id": "judicial:981",
