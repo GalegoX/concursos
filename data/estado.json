@@ -864,51 +864,55 @@
   "judicial:989": {
    "desde": "2026-11-24",
    "avisado": []
+  },
+  "judicial:990": {
+   "desde": "2026-11-26",
+   "avisado": []
   }
  },
  "fuentes": {
   "rectorado": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "ingenieria": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "fcnycs": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "humanidades": {
-   "fallas": 1,
+   "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-25T17:30-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "digesto": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "judicial": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "mpf": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "defensa": {
    "fallas": 0,
    "base": true,
-   "ultima_ok": "2026-11-26T00:38-03:00"
+   "ultima_ok": "2026-11-26T17:15-03:00"
   },
   "defensoria_nacion": {
-   "fallas": 23,
+   "fallas": 24,
    "base": true,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
