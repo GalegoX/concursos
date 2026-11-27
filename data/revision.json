@@ -1,5 +1,5 @@
 {
- "revisado": "2026-11-26T17:15-03:00",
+ "revisado": "2026-11-27T00:40-03:00",
  "fuentes": [
   {
    "id": "rectorado",
@@ -8,7 +8,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 17,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "ingenieria",
@@ -17,15 +17,16 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 14,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "fcnycs",
    "nombre": "UNPSJB, Facultad de Cs. Naturales y Cs. de la Salud",
    "url": "https://www.fcn.unp.edu.ar/",
    "ambito": "nodocente",
-   "ok": true,
-   "avisos": 1,
+   "ok": false,
+   "error": "No respondió en 45 segundos",
+   "fallas": 1,
    "ultima_ok": "2026-11-26T17:15-03:00"
   },
   {
@@ -33,8 +34,9 @@
    "nombre": "UNPSJB, Facultad de Humanidades y Cs. Sociales",
    "url": "https://www.fhcs.unp.edu.ar/",
    "ambito": "nodocente",
-   "ok": true,
-   "avisos": 6,
+   "ok": false,
+   "error": "No respondió en 45 segundos",
+   "fallas": 1,
    "ultima_ok": "2026-11-26T17:15-03:00"
   },
   {
@@ -44,7 +46,7 @@
    "ambito": "nodocente",
    "ok": true,
    "avisos": 33,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "judicial",
@@ -53,7 +55,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 18,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "mpf",
@@ -62,7 +64,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 31,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "defensa",
@@ -71,7 +73,7 @@
    "ambito": "judicial",
    "ok": true,
    "avisos": 59,
-   "ultima_ok": "2026-11-26T17:15-03:00"
+   "ultima_ok": "2026-11-27T00:40-03:00"
   },
   {
    "id": "defensoria_nacion",
@@ -80,7 +82,7 @@
    "ambito": "judicial",
    "ok": false,
    "error": "No respondió en 45 segundos",
-   "fallas": 24,
+   "fallas": 25,
    "ultima_ok": "2026-11-12T21:32-03:00"
   }
  ],
@@ -98,10 +100,6 @@
   "identificacion": {
    "https://www.unp.edu.ar/index.php/webmail-2/concursos": "navegador",
    "https://www.unp.edu.ar/ingenieria/index.php/es/nodocentes/342-personal-nodocente-concursos": "monitor",
-   "https://www.fcn.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
-   "https://www.fhcs.unp.edu.ar/wp-json/wp/v2/posts": "monitor",
-   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-5-Pto-Madryn.pdf": "monitor",
-   "https://www.fhcs.unp.edu.ar/wp-content/uploads/2026/10/AA-4-Sec-Ext.pdf": "monitor",
    "https://huarpe.unp.edu.ar/sudocu/api/mpd/guest/documentos": "monitor",
    "https://apps1cloud.juschubut.gov.ar/concursos/pages/listadoconcursos.aspx": "monitor",
    "https://www.mpfchubut.gov.ar/ciudadano/concursos": "monitor",
